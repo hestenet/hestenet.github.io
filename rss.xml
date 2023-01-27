@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://hestenet.github.io/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="http://hestenet.github.io/">
   <channel>
     <title>Fog &amp; Fireflies - An author site for TH Lehnen</title>
-    <link>https://hestenet.github.io/</link>
+    <link>http://hestenet.github.io/</link>
     <description/>
     <language>en</language>
     
     <item>
   <title>About</title>
-  <link>https://hestenet.github.io/about</link>
+  <link>http://hestenet.github.io/about</link>
   <description>&lt;span&gt;About&lt;/span&gt;
 &lt;span&gt;&lt;span lang="" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Anonymous (not verified)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 01/27/2023 - 23:01&lt;/span&gt;
@@ -24,11 +24,11 @@
       </description>
   <pubDate>Fri, 27 Jan 2023 23:01:59 +0000</pubDate>
     <dc:creator>Anonymous</dc:creator>
-    <guid isPermaLink="false">5 at https://hestenet.github.io</guid>
+    <guid isPermaLink="false">5 at http://hestenet.github.io</guid>
     </item>
 <item>
   <title>Learning to ride moose</title>
-  <link>https://hestenet.github.io/blog/learning-ride-moose</link>
+  <link>http://hestenet.github.io/blog/learning-ride-moose</link>
   <description>&lt;span&gt;Learning to ride moose&lt;/span&gt;
 &lt;span&gt;&lt;span lang="" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Anonymous (not verified)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 01/27/2023 - 23:01&lt;/span&gt;
@@ -44,16 +44,16 @@
       
   &lt;div&gt;
     &lt;div&gt;Image&lt;/div&gt;
-              &lt;div&gt;  &lt;img loading="lazy" src="https://hestenet.github.io/sites/default/files/madhu-shesharam-YvQ2--lOghs-unsplash.jpg" width="1920" height="1095" alt="A moose in the forest." typeof="foaf:Image" /&gt;&lt;/div&gt;
+              &lt;div&gt;  &lt;img loading="lazy" src="http://hestenet.github.io/sites/default/files/madhu-shesharam-YvQ2--lOghs-unsplash.jpg" width="1920" height="1095" alt="A moose in the forest." typeof="foaf:Image" /&gt;&lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 27 Jan 2023 23:01:58 +0000</pubDate>
     <dc:creator>Anonymous</dc:creator>
-    <guid isPermaLink="false">4 at https://hestenet.github.io</guid>
+    <guid isPermaLink="false">4 at http://hestenet.github.io</guid>
     </item>
 <item>
   <title>If monkeys can take baths, so can you</title>
-  <link>https://hestenet.github.io/blog/if-monkeys-can-take-baths-so-can-you</link>
+  <link>http://hestenet.github.io/blog/if-monkeys-can-take-baths-so-can-you</link>
   <description>&lt;span&gt;If monkeys can take baths, so can you&lt;/span&gt;
 &lt;span&gt;&lt;span lang="" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Anonymous (not verified)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 01/27/2023 - 23:01&lt;/span&gt;
@@ -69,16 +69,16 @@
       
   &lt;div&gt;
     &lt;div&gt;Image&lt;/div&gt;
-              &lt;div&gt;  &lt;img loading="lazy" src="https://hestenet.github.io/sites/default/files/steven-diaz-Shuj-9LqHwk-unsplash.jpg" width="1920" height="1280" alt="A monkey in a Japanese hot springs." typeof="foaf:Image" /&gt;&lt;/div&gt;
+              &lt;div&gt;  &lt;img loading="lazy" src="http://hestenet.github.io/sites/default/files/steven-diaz-Shuj-9LqHwk-unsplash.jpg" width="1920" height="1280" alt="A monkey in a Japanese hot springs." typeof="foaf:Image" /&gt;&lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 27 Jan 2023 23:01:57 +0000</pubDate>
     <dc:creator>Anonymous</dc:creator>
-    <guid isPermaLink="false">3 at https://hestenet.github.io</guid>
+    <guid isPermaLink="false">3 at http://hestenet.github.io</guid>
     </item>
 <item>
   <title>A day at the Japanese Garden</title>
-  <link>https://hestenet.github.io/blog/day-japanese-garden</link>
+  <link>http://hestenet.github.io/blog/day-japanese-garden</link>
   <description>&lt;span&gt;A day at the Japanese Garden&lt;/span&gt;
 &lt;span&gt;&lt;span lang="" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Anonymous (not verified)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 01/27/2023 - 23:01&lt;/span&gt;
@@ -94,16 +94,16 @@
       
   &lt;div&gt;
     &lt;div&gt;Image&lt;/div&gt;
-              &lt;div&gt;  &lt;img loading="lazy" src="https://hestenet.github.io/sites/default/files/jeremy-bezanger-71lJHZqXJ6I-unsplash.jpg" width="1920" height="1280" alt="A trail at the Japanese Garden in Portland, Oregon." typeof="foaf:Image" /&gt;&lt;/div&gt;
+              &lt;div&gt;  &lt;img loading="lazy" src="http://hestenet.github.io/sites/default/files/jeremy-bezanger-71lJHZqXJ6I-unsplash.jpg" width="1920" height="1280" alt="A trail at the Japanese Garden in Portland, Oregon." typeof="foaf:Image" /&gt;&lt;/div&gt;
           &lt;/div&gt;
 </description>
   <pubDate>Fri, 27 Jan 2023 23:01:56 +0000</pubDate>
     <dc:creator>Anonymous</dc:creator>
-    <guid isPermaLink="false">2 at https://hestenet.github.io</guid>
+    <guid isPermaLink="false">2 at http://hestenet.github.io</guid>
     </item>
 <item>
   <title>Images just can't describe it</title>
-  <link>https://hestenet.github.io/blog/images-just-cant-describe-it</link>
+  <link>http://hestenet.github.io/blog/images-just-cant-describe-it</link>
   <description>&lt;span&gt;Images just can't describe it&lt;/span&gt;
 &lt;span&gt;&lt;span lang="" typeof="schema:Person" property="schema:name" datatype="" xml:lang=""&gt;Anonymous (not verified)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;Fri, 01/27/2023 - 23:01&lt;/span&gt;
@@ -119,7 +119,7 @@
       </description>
   <pubDate>Fri, 27 Jan 2023 23:01:55 +0000</pubDate>
     <dc:creator>Anonymous</dc:creator>
-    <guid isPermaLink="false">1 at https://hestenet.github.io</guid>
+    <guid isPermaLink="false">1 at http://hestenet.github.io</guid>
     </item>
 
   </channel>
