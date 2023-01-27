@@ -1,0 +1,88 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for the theme.
+ */
+
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function bookish_theme_preprocess_html(&$variables) {
+  $color_mode = theme_get_setting('bookish_color_mode');
+  if ($color_mode === 'light' || $color_mode === 'dark') {
+    $variables['attributes']['class'][] = $color_mode;
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function bookish_theme_preprocess_block(&$variables) {
+  $variables['attributes']['class'][] = 'block-' . Html::cleanCssIdentifier($variables['plugin_id']);
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for block templates.
+ */
+function bookish_theme_theme_suggestions_block_alter(array &$suggestions, array $variables) {
+  if (isset($variables['elements']['content']['#block_content'])) {
+    array_splice($suggestions, 1, 0, 'block__bundle__' . $variables['elements']['content']['#block_content']->bundle());
+  }
+}
+
+/**
+ * Implements hook_form_system_theme_settings_alter().
+ */
+function bookish_theme_form_system_theme_settings_alter(&$form, FormStateInterface $form_state, $form_id = NULL) {
+  if (isset($form_id)) {
+    return;
+  }
+
+  $form['bookish_copyright_name'] = [
+    '#type' => 'textfield',
+    '#title' => t('Copyright name'),
+    '#default_value' => theme_get_setting('bookish_copyright_name'),
+    '#description' => t('The name displayed in the footer next to the copyright date.'),
+  ];
+
+  $form['bookish_color_mode'] = [
+    '#type' => 'select',
+    '#options' => [
+      'none' => t('User preference'),
+      'dark' => t('Always dark'),
+      'light' => t('Always light'),
+    ],
+    '#title' => t('Color mode'),
+    '#default_value' => theme_get_setting('bookish_color_mode'),
+    '#description' => t('Overrides user/browser preferences for light/dark mode.'),
+  ];
+}
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function bookish_theme_library_info_alter(&$libraries, $extension) {
+  if ($extension === 'system' && isset($libraries['base']['dependencies'])) {
+    foreach ($libraries['base']['dependencies'] as $key => $library) {
+      if ($library === 'ckeditor5/ie11.user.warnings') {
+        unset($libraries['base']['dependencies'][$key]);
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function bookish_theme_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  $is_contact_form = strpos($form_id, 'contact_message') === 0;
+  $is_user_form = strpos($form_id, 'user_') === 0;
+  if ($is_contact_form || $is_user_form) {
+    $form['#attributes']['class'][] = 'container';
+    $form['#attributes']['class'][] = 'container--no-grid';
+  }
+}

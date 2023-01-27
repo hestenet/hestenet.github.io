@@ -1,0 +1,29 @@
+uuid: 6c1ac4e6-565b-4428-9313-39a81422797f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bookish_theme
+_core:
+  default_config_hash: LqY-27X0l5OJf7GpSlXPeFFjy2cUPRfu7EOOZ3eVflI
+id: homepagecallout
+theme: bookish_theme
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:9d7ae167-dad8-46fd-b69d-9a6f353c7613'
+settings:
+  id: 'block_content:9d7ae167-dad8-46fd-b69d-9a6f353c7613'
+  label: 'Homepage callout'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - bookish_image
+_core:
+  default_config_hash: WudK_VgZ6uu1FL3GRVrOJmYzNrkzJFp4ctmULXj3N78
+name: blog_large
+label: 'Blog large'
+effects:
+  9cc59540-eb8b-4f0a-abdd-bf1bde46f644:
+    uuid: 9cc59540-eb8b-4f0a-abdd-bf1bde46f644
+    id: bookish_image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 500
+  0e3c7793-78b0-4592-aba5-b04ff7da24b0:
+    uuid: 0e3c7793-78b0-4592-aba5-b04ff7da24b0
+    id: bookish_image_effect
+    weight: 2
+    data: {  }

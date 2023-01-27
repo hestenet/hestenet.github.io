@@ -1,0 +1,27 @@
+sfc_dev.library:
+  path: '/sfc/library'
+  defaults:
+    _controller: '\Drupal\sfc_dev\Controller\ComponentDevController:library'
+    _title: 'Single File Component Library'
+  requirements:
+    _permission: 'use sfc dev'
+sfc_dev.library_preview:
+  path: '/sfc/library/preview/{plugin_id}'
+  defaults:
+    _controller: '\Drupal\sfc_dev\Controller\ComponentDevController:libraryPreview'
+  requirements:
+    _permission: 'use sfc dev'
+    _csrf_token: 'TRUE'
+sfc_dev.should_write_assets:
+  path: '/sfc/library/should-write-assets/{plugin_id}'
+  defaults:
+    _controller: '\Drupal\sfc_dev\Controller\ComponentDevController:shouldWriteAssets'
+  requirements:
+    _permission: 'use sfc dev'
+sfc_dev.view_template:
+  path: '/sfc/library/view-template/{plugin_id}'
+  defaults:
+    _controller: '\Drupal\sfc_dev\Controller\ComponentDevController:viewTemplate'
+    _title_callback: '\Drupal\sfc_dev\Controller\ComponentDevController:viewTemplateTitle'
+  requirements:
+    _permission: 'use sfc dev'

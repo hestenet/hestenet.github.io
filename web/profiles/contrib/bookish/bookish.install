@@ -1,0 +1,294 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Bookish installation profile.
+ */
+
+use Drupal\block_content\Entity\BlockContent;
+use Drupal\Core\File\FileSystemInterface;
+use Drupal\menu_link_content\Entity\MenuLinkContent;
+use Drupal\node\Entity\Node;
+use Drupal\user\Entity\User;
+use Drupal\shortcut\Entity\Shortcut;
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_install().
+ */
+function bookish_install() {
+  $user = User::load(1);
+  $user->roles[] = 'administrator';
+  $user->save();
+
+  $weight = 0;
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Admin'),
+    'link' => ['uri' => 'internal:/admin'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Content'),
+    'link' => ['uri' => 'internal:/admin/content'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Create Blog'),
+    'link' => ['uri' => 'internal:/node/add/blog'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Create Page'),
+    'link' => ['uri' => 'internal:/node/add/page'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Tome Static'),
+    'link' => ['uri' => 'internal:/admin/config/tome/static'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Tome Sync'),
+    'link' => ['uri' => 'internal:/admin/config/tome/sync'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Lunr Search'),
+    'link' => ['uri' => 'internal:/admin/config/lunr_search'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $shortcut = Shortcut::create([
+    'shortcut_set' => 'default',
+    'title' => t('Help'),
+    'link' => ['uri' => 'internal:/admin/help/topic/bookish_help.profile'],
+    'weight' => $weight += 1,
+  ]);
+  $shortcut->save();
+
+  $menu_link = MenuLinkContent::create([
+    'enabled' => TRUE,
+    'title' => t('blog'),
+    'menu_name' => 'main',
+    'link' => ['uri' => 'internal:/blog/'],
+    'weight' => 0,
+  ]);
+  $menu_link->save();
+
+  $menu_link = MenuLinkContent::create([
+    'enabled' => TRUE,
+    'title' => t('about'),
+    'menu_name' => 'main',
+    'link' => ['uri' => 'internal:/about/'],
+    'weight' => 10,
+  ]);
+  $menu_link->save();
+
+  $menu_link = MenuLinkContent::create([
+    'enabled' => TRUE,
+    'title' => t('search'),
+    'menu_name' => 'main',
+    'link' => ['uri' => 'internal:/search/'],
+    'weight' => 20,
+  ]);
+  $menu_link->save();
+
+  $body = <<<EOT
+  <p>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial. Cloud bread fanny pack street art fam, 90's flexitarian ugh snackwave biodiesel slow-carb ramps squid venmo.</p>
+  <pre><code class="language-php">&lt;?php
+  echo "You can embed code snippets";
+  if (TRUE) {
+    echo "They're automatically highlighted!";
+  }</code></pre>
+  <h2>Headings automatically have anchor links</h2>
+  <p>Brunch fashion axe helvetica affogato blue bottle, fixie shoreditch venmo. Post-ironic hexagon truffaut vegan crucifix, waistcoat ugh chillwave flannel. Deep v pop-up iPhone chia, live-edge blog pork belly etsy PBR&B. Vape disrupt air plant XOXO wayfarers coloring book banh mi knausgaard. Roof party fanny pack forage raw denim poutine humblebrag. Semiotics swag tumblr, vaporware truffaut bushwick tote bag poutine fam enamel pin salvia affogato.</p>
+  EOT;
+
+  $nodes = [
+    [
+      'title' => 'Images just can\'t describe it',
+      'type' => 'blog',
+    ],
+    [
+      'title' => 'A day at the Japanese Garden',
+      'type' => 'blog',
+      'tags' => ['nature', 'hiking'],
+      'file' => [
+        'filename' => 'jeremy-bezanger-71lJHZqXJ6I-unsplash.jpg',
+        'alt' => 'A trail at the Japanese Garden in Portland, Oregon.',
+        'bookish_image_data' => [
+          'brightness' => -28,
+          'contrast' => 0,
+          'saturation' => -31,
+          'blur' => 0,
+          'grayscale' => 0,
+          'hue' => 0,
+          'red' => 42,
+          'green' => 23,
+          'blue' => 0,
+          'focal_point' => [734, 632],
+        ],
+      ],
+    ],
+    [
+      'title' => 'If monkeys can take baths, so can you',
+      'type' => 'blog',
+      'file' => [
+        'filename' => 'steven-diaz-Shuj-9LqHwk-unsplash.jpg',
+        'alt' => 'A monkey in a Japanese hot springs.',
+        'bookish_image_data' => [
+          'brightness' => 7,
+          'contrast' => -7,
+          'saturation' => 13,
+          'blur' => 0,
+          'grayscale' => 0,
+          'hue' => 0,
+          'red' => 0,
+          'green' => 0,
+          'blue' => -7,
+          'focal_point' => [888, 860],
+        ],
+      ],
+    ],
+    [
+      'title' => 'Learning to ride moose',
+      'type' => 'blog',
+      'tags' => ['nature', 'wildlife', 'forest'],
+      'file' => [
+        'filename' => 'madhu-shesharam-YvQ2--lOghs-unsplash.jpg',
+        'alt' => 'A moose in the forest.',
+        'bookish_image_data' => [
+          'brightness' => 23,
+          'contrast' => -15,
+          'saturation' => 0,
+          'blur' => 0,
+          'grayscale' => 0,
+          'hue' => 0,
+          'red' => 1,
+          'green' => 12,
+          'blue' => 15,
+          'focal_point' => [1086, 658],
+        ],
+      ],
+    ],
+    [
+      'title' => 'About',
+      'type' => 'page',
+    ],
+    [
+      'title' => 'social_node',
+      'type' => 'page',
+      'status' => 0,
+      'body' => '<p>An example Bookish site, built using Tome and Drupal!</p>',
+      'file' => [
+        'filename' => 'jim-basio-tCW4f8-FTUs-unsplash.jpg',
+        'alt' => 'The Oregon coast.',
+        'bookish_image_data' => [
+          'brightness' => 0,
+          'contrast' => 0,
+          'saturation' => 0,
+          'blur' => 0,
+          'grayscale' => 0,
+          'hue' => 0,
+          'red' => 0,
+          'green' => 0,
+          'blue' => 0,
+          'focal_point' => [427, 652],
+        ],
+      ],
+    ],
+  ];
+
+  $i = 0;
+  $tag_map = [];
+  /** @var \Drupal\file\FileRepositoryInterface $fileRepository */
+  $fileRepository = \Drupal::service('file.repository');
+  foreach ($nodes as $values) {
+    $node = Node::create([
+      'title' => $values['title'],
+      'type' => $values['type'],
+      'created' => time() + ++$i,
+      'body' => [
+        'value' => $values['body'] ?? $body,
+        'format' => 'rich_text',
+      ],
+      'status' => $values['status'] ?? 1,
+      'promote' => 1,
+      'sticky' => 0,
+    ]);
+    if (isset($values['file'])) {
+      $file_src = __DIR__ . "/assets/{$values['file']['filename']}";
+      $file_dest = "public://{$values['file']['filename']}";
+      _bookish_image_flush_image_styles($file_dest);
+      $file = $fileRepository->writeData(file_get_contents($file_src), $file_dest, FileSystemInterface::EXISTS_REPLACE);
+      $file->setPermanent();
+      $file->bookish_image_data = json_encode($values['file']['bookish_image_data']);
+      $file->save();
+      $node->field_image = [
+        'target_id' => $file->id(),
+        'alt' => $values['file']['alt'],
+      ];
+    }
+    if (isset($values['tags'])) {
+      $field_tags = [];
+      foreach ($values['tags'] as $tag) {
+        if (!isset($tag_map[$tag])) {
+          $term = Term::create([
+            'name' => $tag,
+            'vid' => 'tags',
+          ]);
+          $term->save();
+          $tag_map[$tag] = $term->id();
+        }
+        $field_tags[] = ['target_id' => $tag_map[$tag]];
+      }
+      $node->field_tags = $field_tags;
+    }
+    $node->save();
+  }
+
+  $filename = 'cristofer-maximilian-V1YPvfNzvtw-unsplash.jpg';
+  $alt = 'A bridge in front of a waterfall.';
+  $bookish_image_data = [];
+  $file_src = __DIR__ . "/assets/$filename";
+  $file_dest = "public://$filename";
+  _bookish_image_flush_image_styles($file_dest);
+  $file = $fileRepository->writeData(file_get_contents($file_src), $file_dest, FileSystemInterface::EXISTS_REPLACE);
+  $file->setPermanent();
+  $file->bookish_image_data = json_encode($bookish_image_data);
+  $file->save();
+  BlockContent::create([
+    'uuid' => '9d7ae167-dad8-46fd-b69d-9a6f353c7613',
+    'type' => 'bookish_callout',
+    'info' => 'Homepage callout',
+    'body' => [
+      'value' => '<h2>Welcome!</h2><p>To get started, log in and click "Help" in the toolbar to browse documentation.</p>',
+      'format' => 'callout_text',
+    ],
+    'field_image' => [
+      'target_id' => $file->id(),
+      'alt' => $alt,
+    ],
+  ])->save();
+}

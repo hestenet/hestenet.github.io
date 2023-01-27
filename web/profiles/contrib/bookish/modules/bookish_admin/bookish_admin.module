@@ -1,0 +1,102 @@
+<?php
+
+/**
+ * @file
+ * Hook implementations for bookish_admin.
+ */
+
+use Drupal\Core\Render\BubbleableMetadata;
+use Drupal\lunr\LunrSearchInterface;
+use Drupal\taxonomy\Entity\Term;
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function bookish_admin_form_node_form_alter(&$form, &$form_state, $form_id) {
+  $form['#attached']['library'][] = 'bookish_admin/node_form';
+}
+
+/**
+ * Implements hook_lunr_search_page_alter().
+ */
+function bookish_admin_lunr_search_page_alter(array &$build, LunrSearchInterface $lunr_search) {
+  if ($lunr_search->id() === 'default') {
+    $terms = Term::loadMultiple();
+    $build['form']['tags_container'] = [
+      '#type' => 'container',
+      '#attributes' => ['class' => ['bookish-search-tags']],
+      '#attached' => [
+        'drupalSettings' => [
+          'lunrOperators' => ['field_tags' => 'OR'],
+        ],
+      ],
+      '#weight' => 2,
+      'label' => [
+        '#markup' => '<div class="bookish-search-tags-label">' . t('Tags') . '</div>',
+      ],
+    ];
+    foreach ($terms as $id => $term) {
+      $build['form']['tags_container']['tags'][$term->label()] = [
+        '#type' => 'checkbox',
+        '#title' => $term->label(),
+        '#return_value' => $term->label(),
+        '#attributes' => [
+          'data-lunr-search-field' => 'field_tags',
+          'data-lunr-auto-submit' => 1,
+          'class' => ['visually-hidden'],
+        ],
+        '#id' => 'bookish-search-tag-' . $id,
+      ];
+    }
+    ksort($build['form']['tags_container']['tags']);
+  }
+  $build['results']['#attributes']['class'][] = 'container';
+  $build['results']['#attributes']['class'][] = 'container--no-grid';
+  $build['form']['#attributes']['class'][] = 'container';
+  $build['form']['#attributes']['class'][] = 'container--no-grid';
+}
+
+/**
+ * Implements hook_token_info().
+ */
+function bookish_admin_token_info() {
+  $info = [];
+
+  $info['types']['bookish'] = [
+    'name' => t('Bookish'),
+    'description' => t('Bookish tokens'),
+  ];
+
+  $info['tokens']['bookish']['social_node'] = [
+    'name' => t('Default social node'),
+    'description' => t('The node ("social_node") that contains the default site description and image.'),
+    'type' => 'node',
+  ];
+
+  return $info;
+}
+
+/**
+ * Implements hook_tokens().
+ */
+function bookish_admin_tokens($type, $tokens, array $data, array $options, BubbleableMetadata $bubbleable_metadata) {
+  $replacements = [];
+
+  if ($type !== 'bookish') {
+    return $replacements;
+  }
+
+  if ($tokens = \Drupal::token()->findWithPrefix($tokens, 'social_node')) {
+    $nodes = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties([
+      'title' => 'social_node',
+    ]);
+    if (empty($nodes)) {
+      return $replacements;
+    }
+    $node = reset($nodes);
+    $replacements += \Drupal::token()->generate('node', $tokens, ['node' => $node], $options, $bubbleable_metadata);
+  }
+
+  return $replacements;
+
+}

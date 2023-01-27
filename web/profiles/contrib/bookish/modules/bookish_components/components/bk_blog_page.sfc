@@ -1,0 +1,95 @@
+<template>
+  <div class="bk-blog-page container container--margin">
+    {% include 'sfc--bk-blog-title.html.twig' with {'title': 'Blog' | t} %}
+    <div class="bk-blog-page__blogs">
+      {% for node in nodes %}
+        {% set tags = [] %}
+        {% for tag in node.field_tags %}
+          {% if tag.entity.bundle() == "tags" %}
+            {% set tags = tags|merge([tag.entity.label()]) %}
+            {{ sfc_cache(tag.entity) }}
+          {% endif %}
+        {% endfor %}
+        {% include 'sfc--bk-blog-teaser.html.twig' with {
+          'title': node.label(),
+          'time': node.created.value,
+          'link': path('entity.node.canonical', {'node': node.id}),
+          'text': node.body|view({
+            'label': 'hidden',
+            'type': 'bookish_summary',
+            'settings': {'trim_length': 250},
+          }),
+          'image': node.field_image|view({
+            'label': 'hidden',
+            'type': 'bookish_image',
+            'settings': {'image_style': 'blog_teaser'}
+          }),
+          'tags': tags,
+        }%}
+      {% endfor %}
+      {{ sfc_cache(nodes) }}
+      {{ sfc_cache('node_list') }}
+    </div>
+  </div>
+</template>
+
+<style>
+  .bk-blog-page__blogs {
+    grid-row: 5;
+    grid-column: 2 / 10;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-row-gap: var(--spacer-3);
+    grid-column-gap: var(--spacer-3);
+    margin: var(--spacer-3) 0;
+  }
+  .bk-blog-page .bk-blog-title {
+    grid-column: 1 / 11;
+  }
+  @media screen and (max-width: 1300px) {
+    .bk-blog-page__blogs {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .bk-blog-page__blogs .bk-blog-teaser__tag:not(:first-child) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .bk-blog-page__blogs {
+      grid-row-gap: var(--spacer-2);
+      grid-column-gap: var(--spacer-2);
+    }
+  }
+  @media screen and (max-width: 660px) {
+    .bk-blog-page__blogs {
+      grid-template-columns: 1fr;
+      grid-column: 2 / 10;
+    }
+    .bk-blog-page__blogs .bk-blog-teaser__tag:not(:first-child) {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .bk-blog-page__blogs {
+      grid-column: 1 / 11;
+    }
+  }
+</style>
+
+<?php
+
+$prepareContext = function(&$context) {
+  $ids = \Drupal::entityQuery('node')
+    ->condition('type', 'blog')
+    ->condition('status', 1)
+    ->condition('created', time(), '<=')
+    ->sort('sticky', 'DESC')
+    ->sort('created', 'DESC')
+    ->accessCheck()
+    ->execute();
+  $context['nodes'] = \Drupal::entityTypeManager()
+    ->getStorage('node')
+    ->loadMultiple($ids);
+};

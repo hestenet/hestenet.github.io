@@ -1,0 +1,12 @@
+name: 'Coffee Extras'
+type: module
+description: 'Adds a bunch of useful commands for the Coffee module'
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - coffee:coffee
+
+# Information added by Drupal.org packaging script on 2020-09-11
+version: '8.x-1.5'
+project: 'coffee_extras'
+datestamp: 1599855473

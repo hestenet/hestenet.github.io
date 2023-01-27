@@ -1,0 +1,18 @@
+name: Bookish
+type: theme
+base theme: stable
+description: 'A theme suitable for blogs.'
+core_version_requirement: '^9'
+libraries:
+  - core/normalize
+  - bookish_theme/main
+libraries-extend:
+  lunr/search:
+    - bookish_theme/lunr
+  highlight_php/main:
+    - bookish_theme/highlight_php
+  bookish_speed/main:
+    - bookish_theme/speed
+regions:
+  before: Before
+  content: Content

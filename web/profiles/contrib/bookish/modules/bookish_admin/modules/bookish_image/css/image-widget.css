@@ -1,0 +1,187 @@
+.bookish-image-reset {
+  background-image: url(../assets/reset.svg);
+  color: transparent;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-size: contain;
+  margin-left: 5px;
+  vertical-align: top;
+  border-radius: 9px;
+  transition: background-color .2s;
+}
+
+.bookish-image-reset:hover {
+  background-color: #f2f2f3;
+}
+
+.bookish-image-container {
+  flex: 1;
+  flex-basis: 200px;
+  max-width: 600px;
+}
+
+.bookish-image-data-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookish-image-data-container > .form-item {
+  flex-basis: 100%;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.bookish-image-container input[type="range"] {
+  width: calc(100% - 50px);
+}
+
+.bookish-image-preview img {
+  background: none !important;
+  display: block;
+}
+
+.bookish-image-focal-point-container {
+  position: relative;
+}
+
+.ui-button:hover,
+.ui-button:focus {
+  font-weight: bold;
+}
+
+.bookish-image-focal-point-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: rgb(0, 117, 255);
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -5px;
+  margin-top: -5px;
+  pointer-events: none;
+}
+
+div.field--widget-bookish-image .form-managed-file,
+div.field--widget-bookish-image .form-managed-file.has-value.is-multiple,
+.bookish-image-image-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.field--widget-bookish-image .form-managed-file__main {
+  flex-basis: 100%;
+}
+
+.bookish-image-image-form [id*=edit-preview-wrapper],
+div.field--widget-bookish-image .form-managed-file__meta-wrapper {
+  margin-right: 50px;
+  align-self: flex-start;
+}
+
+.bookish-image-image-form .form-item--image-style {
+  flex-basis: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+div.field--widget-bookish-image .form-managed-file__meta {
+  flex-direction: column;
+}
+
+div.field--widget-bookish-image .form-managed-file__meta-items,
+.bookish-image-image-form .form-managed-file__meta-items {
+  flex: 1;
+}
+
+.bookish-image-tabs .form-radios {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bookish-image-tabs .form-radios > * {
+  margin-left: 0;
+}
+
+div.bookish-image-tabs label,
+div.bookish-image-tabs .form-item__label.option {
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+div.bookish-image-tabs input {
+  height: 0px;
+  width: 0px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  opacity: 0;
+}
+
+div.bookish-image-tabs input + label {
+  border-bottom: 2px solid transparent;
+  transition: border-color .2s;
+}
+
+div.bookish-image-tabs input:hover + label {
+  border-bottom-color: #c9c9c9;
+}
+
+div.bookish-image-tabs input:checked + label {
+  border-bottom-color: #82bcff;
+}
+
+div.bookish-image-tabs input:focus + label {
+  border-bottom-color: #003e85;
+}
+
+.bookish-image-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bookish-image-filter {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e6;
+  padding: 10px 5px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  transition: background-color .2s;
+  cursor: pointer;
+}
+
+.bookish-image-filter:hover {
+  background-color: #e9e9e9;
+}
+
+a.bookish-image-filter-name,
+a.bookish-image-filter-name:hover,
+a.bookish-image-filter-name:focus {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #232429;
+  text-decoration: none;
+  text-align: center;
+}
+
+input.bookish-image-re-render {
+  display: none;
+}
+
+.bookish-image-form-actions {
+  flex-basis: 100%;
+}
+
+.ui-dialog {
+  max-width: 92% !important;
+}
+
+.ui-dialog .ui-dialog-content {
+  max-height: calc(100vh - 200px) !important;
+}

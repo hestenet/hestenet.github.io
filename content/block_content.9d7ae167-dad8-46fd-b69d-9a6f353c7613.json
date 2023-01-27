@@ -1,0 +1,75 @@
+{
+    "uuid": [
+        {
+            "value": "9d7ae167-dad8-46fd-b69d-9a6f353c7613"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "bookish_callout",
+            "target_type": "block_content_type",
+            "target_uuid": "ffc189a3-21c3-4c8b-9324-6f237601ffde"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-01-27T00:58:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Homepage callout"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-01-27T00:58:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>Welcome!<\/h2><p>To get started, log in and click \"Help\" in the toolbar to browse documentation.<\/p>",
+            "format": "callout_text",
+            "summary": null
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "A bridge in front of a waterfall.",
+            "title": null,
+            "width": 1920,
+            "height": 1280,
+            "target_type": "file",
+            "target_uuid": "b602b8a9-c2fc-4cd9-b3ca-5fd5aa1df791"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "drupal-tome/bookish",
+  "description": "A starter profile for Tome blogs.",
+  "type": "drupal-profile",
+  "authors": [
+      {
+          "name": "Sam Mortenson",
+          "email": "samuel@mortenson.coffee"
+      }
+  ],
+  "license": "GPL-2.0-or-later",
+  "repositories": [
+      {
+          "type": "composer",
+          "url": "https://packages.drupal.org/8"
+      },
+      {
+          "type": "composer",
+          "url": "https://asset-packagist.org"
+      }
+  ],
+  "scripts": {
+    "remove-uuid": "cd config/install && sed -i.bak '/^uuid: /d' ./* && rm *.bak",
+    "check-style": "./vendor/bin/phpcs --standard=Drupal,phpcs.xml ."
+  },
+  "require": {
+      "drupal/core": "^9",
+      "drupal/tome": "^1",
+      "drupal/tome_netlify": "^1",
+      "drupal-tome/tome_drush": "dev-master",
+      "drupal/lunr": "^1",
+      "drupal/sfc": "^1",
+      "drupal/twig_tweak": "^3",
+      "drupal/metatag": "^1",
+      "drupal/pathauto": "^1",
+      "drupal/simple_sitemap": "^4",
+      "drupal/highlight_php": "^1",
+      "drupal/coffee": "^1",
+      "drupal/coffee_extras": "^1",
+      "drupal/allowed_formats": "^1"
+    }
+}

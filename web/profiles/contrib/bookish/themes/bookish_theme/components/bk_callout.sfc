@@ -1,0 +1,91 @@
+<template>
+  <article class="bk-callout container">
+    <div class="bk-callout__image">
+      {{ image }}
+    </div>
+    <div class="bk-callout__text bk-text">
+      {{ text }}
+    </div>
+  </article>
+</template>
+
+<style>
+  .bk-callout.container {
+    margin-top: var(--spacer-3);
+    margin-bottom: var(--spacer-3);
+    grid-template-rows: 1fr 6fr 1fr;
+  }
+  .bk-callout__image {
+    grid-column: 1 / 6;
+    grid-row: 1 / 4;
+  }
+  .bk-callout__image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .bk-callout__text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-column: 5 / 10;
+    grid-row: 2 / 3;
+    padding: var(--spacer-3);
+    background: var(--background-color);
+    border: 2px solid var(--border-color);
+  }
+  .bk-callout__text::after {
+    position: absolute;
+    content: " ";
+    width: 40px;
+    height: 35px;
+    right: -20px;
+    bottom: -18px;
+    transform: rotate(45deg);
+    background: linear-gradient(to bottom, var(--accent-color-2) 0%, var(--accent-color-2) 40%, transparent 0%, transparent 60%, var(--accent-color-2) 0%);
+  }
+  .bk-callout__text > div > *:first-child {
+    margin-top: 0;
+  }
+  .bk-callout__text > div > *:last-child {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 1200px) {
+    .bk-callout.container {
+      grid-template-rows: 1fr 10fr 1fr;
+    }
+    .bk-callout__image {
+      grid-column: 1 / 7;
+      grid-row: 1 / 4;
+    }
+    .bk-callout__text {
+      grid-column: 5 / 11;
+      grid-row: 2 / 3;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .bk-callout.container {
+      grid-template-rows: none;
+      grid-row: 1 / 4;
+    }
+    .bk-callout__image {
+      grid-column: 2 / 9;
+    }
+    .bk-callout__text {
+      grid-column: 3 / 10;
+      grid-row: 2;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .bk-callout.container {
+      margin-bottom: var(--spacer-4);
+    }
+    .bk-callout__image {
+      display: none;
+    }
+    .bk-callout__text {
+      grid-column: 1 / 11;
+      padding: var(--spacer-3) var(--spacer-2);
+    }
+  }
+</style>

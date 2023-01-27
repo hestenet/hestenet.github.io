@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bookish_callout
+label: 'Bookish callout'
+revision: 1
+description: ''

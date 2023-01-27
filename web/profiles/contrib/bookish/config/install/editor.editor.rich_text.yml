@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.rich_text
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: cpqmJjk1IUTWoxanXfujjiWmdPwAjW2E-40X7qW37zg
+format: rich_text
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - underline
+      - strikethrough
+      - removeFormat
+      - alignment
+      - indent
+      - outdent
+      - link
+      - horizontalLine
+      - bulletedList
+      - numberedList
+      - blockQuote
+      - uploadImage
+      - insertTable
+      - codeBlock
+      - mediaEmbed
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: 0
+    height: 0

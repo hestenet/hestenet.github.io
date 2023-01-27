@@ -1,0 +1,11 @@
+name: Example Single File Components
+type: module
+description: Contains example single file components for just about every use case.
+core_version_requirement: ^9 || ^10
+dependencies:
+  - sfc:sfc
+
+# Information added by Drupal.org packaging script on 2022-12-14
+version: '8.x-1.10'
+project: 'sfc'
+datestamp: 1671034113

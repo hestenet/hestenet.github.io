@@ -1,0 +1,48 @@
+<template>
+  <footer class="bk-footer container">
+    <div class="bk-footer__copyright">©{{ 'now'|date('Y') }} {{ user }}</div>
+    <a class="bk-footer__rss" href="/feed.xml">
+      <span class="visually-hidden">RSS Feed</span>
+      <img alt="RSS feed icon" width="16px" height="16px" src="/core/misc/feed.svg" />
+    </a>
+  </footer>
+</template>
+
+<style>
+  .bk-footer__copyright {
+    grid-column: 1 / 11;
+    font-size: 0.75rem;
+    margin-top: var(--spacer-2);
+  }
+  .bk-footer__rss {
+    grid-column: 1 / 11;
+    width: 16px;
+    height: 16px;
+    margin-top: var(--spacer-1);
+  }
+  @media screen and (max-width: 800px) {
+    .bk-footer__menu {
+      grid-column: 9 / 11;
+    }
+  }
+  @media screen and (max-width: 630px) {
+    .bk-footer__menu {
+      grid-column: 1 / 11;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      padding-left: 0;
+      border-left: none;
+      border-top: 2px solid var(--font-color);
+    }
+    .bk-footer__menu li {
+      margin-right: var(--spacer-1);
+    }
+  }
+</style>
+
+<?php
+
+$prepareContext = function (&$context) {
+  $context['user'] = theme_get_setting('bookish_copyright_name') ?? t('Your Name');
+};

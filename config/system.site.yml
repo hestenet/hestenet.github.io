@@ -1,14 +1,14 @@
 _core:
-  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+  default_config_hash: RePADAH4yHzDAKh-gEsDxPFK9hQe32l4p4t8Cqryww8
 langcode: en
-uuid: fc01e5d0-cc41-42bf-80bf-72d0a5f6b889
+uuid: 075ee5a0-6e36-4901-af7f-a17b0a3c7876
 name: 'Fog & Fireflies'
 mail: admin@fogandfireflies.com
-slogan: 'My slogan'
+slogan: 'An author site for TH Lehnen'
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /403
+  404: /404
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

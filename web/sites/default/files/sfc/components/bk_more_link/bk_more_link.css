@@ -1,0 +1,24 @@
+
+  .bk-more-link {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--font-weight-semibold);
+    font-size: 1rem;
+    letter-spacing: 3px;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 2px solid transparent;
+  }
+  .bk-more-link svg {
+    fill: var(--font-color);
+    transition: transform .2s;
+    margin-left: 4px;
+  }
+  .bk-more-link:hover,
+  .bk-more-link:focus {
+    text-decoration: underline;
+  }
+  .bk-more-link:hover svg,
+  .bk-more-link:focus svg {
+    transform: translateX(4px);
+  }

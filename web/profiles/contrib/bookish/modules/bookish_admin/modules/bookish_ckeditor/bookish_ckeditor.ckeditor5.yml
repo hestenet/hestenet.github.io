@@ -1,0 +1,35 @@
+bookish_ckeditor_codeblock:
+  ckeditor5:
+    plugins:
+      - codeBlock.CodeBlock
+  drupal:
+    label: Code Block
+    library: bookish_ckeditor/codeblock
+    admin_library: bookish_ckeditor/codeblock.admin
+    toolbar_items:
+      codeBlock:
+        label: Code Block
+    elements:
+      - <code class>
+      - <pre>
+
+bookish_ckeditor_mediaembed:
+  ckeditor5:
+    plugins:
+      - mediaEmbed.MediaEmbed
+    config:
+      mediaEmbed:
+        previewsInData: true
+        removeProviders: [ 'instagram', 'googleMaps', 'facebook' ]
+  drupal:
+    label: Media Embed
+    library: bookish_ckeditor/mediaEmbed
+    admin_library: bookish_ckeditor/mediaEmbed.admin
+    toolbar_items:
+      mediaEmbed:
+        label: Media Embed
+    elements:
+      - <iframe srcdoc sandbox src style frameborder allow allowfullscreen width height>
+      - <div class style data-oembed-url>
+      - <figure class>
+      - <oembed url>

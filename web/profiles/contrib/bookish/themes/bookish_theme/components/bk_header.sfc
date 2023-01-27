@@ -1,0 +1,57 @@
+<template>
+  <div class="bk-header">
+    <header class="container">
+      {% if is_front %}
+        <h1 class="bk-header__name">
+      {% else %}
+        <a href="/" class="bk-header__name">
+      {% endif %}
+          {{ site_name }}
+      {% if is_front %}
+        </h1>
+      {% else %}
+        </a>
+      {% endif %}
+    </header>
+  </div>
+</template>
+
+<style>
+  .bk-header {
+    margin-top: var(--spacer-3);
+  }
+  .bk-header__name {
+    font-size: 3.8rem;
+    line-height: 3.8rem;
+    font-weight: var(--font-weight-black);
+    grid-column: 1 / 11;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--font-color);
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  a.bk-header__name:hover,
+  a.bk-header__name:focus {
+    color: var(--font-color);
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 800px) {
+    .bk-header__name {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+  }
+  @media screen and (max-width: 560px) {
+    .bk-header__name {
+      text-align: right;
+    }
+  }
+</style>
+
+<?php
+
+$prepareContext = function(&$context) {
+  $context['site_name'] = \Drupal::config('system.site')->get('name');
+};

@@ -1,0 +1,11 @@
+name: Single File Components Development Tools
+type: module
+description: Contains useful development tools for SFC. Do not enable in production.
+core_version_requirement: ^9 || ^10
+dependencies:
+- sfc:sfc
+
+# Information added by Drupal.org packaging script on 2022-12-14
+version: '8.x-1.10'
+project: 'sfc'
+datestamp: 1671034113

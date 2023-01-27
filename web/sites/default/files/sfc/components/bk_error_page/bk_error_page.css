@@ -1,0 +1,11 @@
+
+  .bk-error-page__text,
+  .bk-error-page__title {
+    grid-column: 1 / 11;
+  }
+  .bk-error-page__title {
+    margin-top: 0;
+    margin-bottom: var(--spacer-1);
+    font-size: 3.125rem;
+    line-height: 4rem;
+  }

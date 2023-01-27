@@ -1,0 +1,22 @@
+{% set tags = [] %}
+{% for key,tag in node.field_tags %}
+  {% if tag.entity.bundle() == "tags" %}
+    {% set tags = tags|merge([tag.entity.label()]) %}
+    {{ sfc_cache(tag.entity) }}
+  {% endif %}
+{% endfor %}
+{% include 'sfc--bk-blog.html.twig' with {
+  'title': node.label(),
+  'time': node.created.value,
+  'text': node.body|view({
+    'label': 'hidden',
+    'type': 'text_default',
+  }),
+  'image': node.field_image|view({
+    'label': 'hidden',
+    'type': 'bookish_image',
+    'settings': {'image_style': 'blog_large'}
+  }),
+  'tags': tags,
+} %}
+{{ sfc_cache(node) }}

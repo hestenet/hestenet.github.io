@@ -1,0 +1,32 @@
+<template>
+  <a class="bk-more-link" href="{{ link }}">
+    {{ text }}
+    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"/></svg>
+  </a>
+</template>
+
+<style>
+  .bk-more-link {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--font-weight-semibold);
+    font-size: 1rem;
+    letter-spacing: 3px;
+    align-items: center;
+    margin: 0 auto;
+    border-bottom: 2px solid transparent;
+  }
+  .bk-more-link svg {
+    fill: var(--font-color);
+    transition: transform .2s;
+    margin-left: 4px;
+  }
+  .bk-more-link:hover,
+  .bk-more-link:focus {
+    text-decoration: underline;
+  }
+  .bk-more-link:hover svg,
+  .bk-more-link:focus svg {
+    transform: translateX(4px);
+  }
+</style>
