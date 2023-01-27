@@ -1,0 +1,118 @@
+{
+    "uuid": [
+        {
+            "value": "e27ab671-7fb5-4c66-a25d-70b0b6fc3c0b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "blog",
+            "target_type": "node_type",
+            "target_uuid": "8010b43f-54b4-4550-9f0a-0a9d7841ce7b"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-01-27T23:01:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "8cfbedba-bc3c-464a-9316-3f4dc6834c84"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "8cfbedba-bc3c-464a-9316-3f4dc6834c84"
+        }
+    ],
+    "title": [
+        {
+            "value": "Learning to ride moose"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-27T23:01:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-01-27T23:01:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/blog\/learning-ride-moose",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Bitters brunch selvage celiac migas cred salvia flannel ethical gluten-free pop-up. Succulents photo booth authentic, skateboard tousled vinyl hell of single-origin coffee aesthetic chia farm-to-table gentrify pop-up affogato tattooed. Readymade lo-fi 90's asymmetrical hoodie, yr intelligentsia synth unicorn single-origin coffee edison bulb put a bird on it next level. Neutra godard master cleanse whatever tilde, copper mug before they sold out photo booth shoreditch pinterest next level snackwave sartorial. Cloud bread fanny pack street art fam, 90's flexitarian ugh snackwave biodiesel slow-carb ramps squid venmo.<\/p>\n<pre><code class=\"language-php\">&lt;?php\necho \"You can embed code snippets\";\nif (TRUE) {\n  echo \"They're automatically highlighted!\";\n}<\/code><\/pre>\n<h2>Headings automatically have anchor links<\/h2>\n<p>Brunch fashion axe helvetica affogato blue bottle, fixie shoreditch venmo. Post-ironic hexagon truffaut vegan crucifix, waistcoat ugh chillwave flannel. Deep v pop-up iPhone chia, live-edge blog pork belly etsy PBR&B. Vape disrupt air plant XOXO wayfarers coloring book banh mi knausgaard. Roof party fanny pack forage raw denim poutine humblebrag. Semiotics swag tumblr, vaporware truffaut bushwick tote bag poutine fam enamel pin salvia affogato.<\/p>",
+            "format": "rich_text",
+            "summary": null
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "A moose in the forest.",
+            "title": null,
+            "width": 1920,
+            "height": 1095,
+            "target_type": "file",
+            "target_uuid": "3b472fa8-f4db-40e3-9bbe-9700e910d75b"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "eb187d8b-7279-4a5c-ad8e-ea1d89d5a71d"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "0f68e45a-e8fd-4ddc-8c29-dfa84b9a4cf6"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "dca427ef-a0b0-4fc8-bacc-abcd273bf7e8"
+        }
+    ]
+}

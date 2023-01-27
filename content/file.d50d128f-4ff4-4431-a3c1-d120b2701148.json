@@ -1,0 +1,60 @@
+{
+    "uuid": [
+        {
+            "value": "d50d128f-4ff4-4431-a3c1-d120b2701148"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "8cfbedba-bc3c-464a-9316-3f4dc6834c84"
+        }
+    ],
+    "filename": [
+        {
+            "value": "jim-basio-tCW4f8-FTUs-unsplash.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/jim-basio-tCW4f8-FTUs-unsplash.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 613397
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-27T23:01:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-01-27T23:01:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "bookish_image_data": [
+        {
+            "value": "{\"brightness\":0,\"contrast\":0,\"saturation\":0,\"blur\":0,\"grayscale\":0,\"hue\":0,\"red\":0,\"green\":0,\"blue\":0,\"focal_point\":[427,652]}"
+        }
+    ]
+}

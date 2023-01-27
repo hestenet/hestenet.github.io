@@ -1,0 +1,60 @@
+{
+    "uuid": [
+        {
+            "value": "5d51d5d3-10e8-4854-803b-2f996bc70b0c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "8cfbedba-bc3c-464a-9316-3f4dc6834c84"
+        }
+    ],
+    "filename": [
+        {
+            "value": "cristofer-maximilian-V1YPvfNzvtw-unsplash.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/cristofer-maximilian-V1YPvfNzvtw-unsplash.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 483745
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-01-27T23:01:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-01-27T23:01:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "bookish_image_data": [
+        {
+            "value": "[]"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "b64732b2-7cfa-4dfd-8c77-73b4649388d6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/7a838c99-b2e1-47f2-b265-016b6cf73a04"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/day-japanese-garden"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
