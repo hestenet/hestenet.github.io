@@ -2,6 +2,11 @@
 #
 # earlier versions of Drupal are tracked in `community/PHP/`
 
+#Ignore Mac files
+/.DS_Store
+/gh-pages
+/gh-pages/*
+
 # Ignore configuration files that may contain sensitive information
 /sites/*/*settings*.php
 /sites/*/*services*.yml

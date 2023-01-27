@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: fc01e5d0-cc41-42bf-80bf-72d0a5f6b889
+name: 'Fog & Fireflies'
+mail: admin@fogandfireflies.com
+slogan: 'My slogan'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
