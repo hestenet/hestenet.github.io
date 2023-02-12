@@ -1,0 +1,56 @@
+{
+    "uuid": [
+        {
+            "value": "c64d4f24-cc66-4feb-a59e-0c6f8dc3e224"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "531d1308-dcf0-4cc9-a37f-58234b1f87f7"
+        }
+    ],
+    "filename": [
+        {
+            "value": "themesettings-dxpr_theme.css"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/dxpr_theme\/css\/themesettings-dxpr_theme.css"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "text\/css"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 7835
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-02-12T21:46:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-02-12T21:46:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "bookish_image_data": []
+}
