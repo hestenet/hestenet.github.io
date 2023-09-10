@@ -32,7 +32,7 @@
     ],
     "timezone": [
         {
-            "value": "UTC"
+            "value": "America\/Los_Angeles"
         }
     ],
     "status": [
@@ -48,11 +48,16 @@
     ],
     "changed": [
         {
-            "value": "2023-09-10T16:24:35+00:00",
+            "value": "2023-09-10T16:26:39+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "roles": [
+        {
+            "target_id": "content_editor",
+            "target_type": "user_role",
+            "target_uuid": "a5c5ac61-bdb4-4f0b-b53f-97b414735799"
+        },
         {
             "target_id": "administrator",
             "target_type": "user_role",

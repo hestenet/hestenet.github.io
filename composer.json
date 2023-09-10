@@ -28,7 +28,6 @@
         "webflo/drupal-finder": "^1.2",
         "drupal/dxpr_theme": "^5.1",
         "drupal/responsive_preview": "^2.1",
-        "drupal/dxpr_builder": "^2.3",
         "drupal-tome/bookish": "^1.0"
     },
     "scripts": {
