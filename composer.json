@@ -1,0 +1,66 @@
+{
+    "name": "drupal-tome/tome-project",
+    "description": "A starter project for Tome.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Mortenson",
+            "email": "samuel@mortenson.coffee"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.9",
+        "drupal/core-composer-scaffold": "^9.1",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/core": "^9",
+        "drush/drush": "^10.3",
+        "drupal/tome": "^1.0",
+        "drupal-tome/tome_drush": "dev-master",
+        "webflo/drupal-finder": "^1.2",
+        "drupal/dxpr_theme": "^5.1",
+        "drupal/responsive_preview": "^2.1",
+        "drupal/dxpr_builder": "^2.3",
+        "drupal-tome/bookish": "^1.0"
+    },
+    "scripts": {
+        "symlink": "./scripts/symlink.sh",
+        "post-install-cmd": [
+            "@symlink"
+        ],
+        "post-update-cmd": [
+            "@symlink"
+        ]
+    },
+    "extra": {
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/{$name}": ["type:drupal-drush"]
+        },
+        "drupal-scaffold": {
+          "locations": {
+              "web-root": "web/"
+          }
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
