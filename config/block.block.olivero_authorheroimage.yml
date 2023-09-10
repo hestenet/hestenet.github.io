@@ -1,0 +1,25 @@
+uuid: 486c6bcb-8ce0-47ca-a871-5eb02ebcf8ee
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_authorheroimage
+theme: olivero
+region: hero
+weight: -7
+provider: null
+plugin: 'block_content:f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e'
+settings:
+  id: 'block_content:f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e'
+  label: 'Author Hero Image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

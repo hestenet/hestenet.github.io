@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "5d0dd4d2-995d-4fa7-b55f-c8b5a86e8f93"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "IMG_5214.JPG"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/IMG_5214.JPG"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 244150
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-10T18:15:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T18:15:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

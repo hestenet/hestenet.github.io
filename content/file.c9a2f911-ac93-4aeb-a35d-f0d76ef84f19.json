@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "c9a2f911-ac93-4aeb-a35d-f0d76ef84f19"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Ogma_Phantom_Image copy 2.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Ogma_Phantom_Image copy 2.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1364156
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-10T18:20:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T18:20:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

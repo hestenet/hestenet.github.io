@@ -1,0 +1,23 @@
+uuid: 466c4aa6-ac10-4d7c-90ef-ab7a07ffaf11
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: page_paths
+label: 'Page Paths'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  c2a0f6cd-3192-408b-b43b-99171e63aef1:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: c2a0f6cd-3192-408b-b43b-99171e63aef1
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "29ca3cf6-412b-4a0e-bcf0-7622b346a28c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "font-face.css"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/dxpr_theme\/fonts\/font-face.css"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "text\/css"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 5083
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-10T16:31:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T16:31:07+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

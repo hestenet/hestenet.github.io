@@ -1,0 +1,20 @@
+uuid: b112114d-d3b2-4437-bcaa-1b86bc1f4b7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dxpr_theme
+id: poweredbydrupal
+theme: dxpr_theme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

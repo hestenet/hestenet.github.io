@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "fac950a5-5ccc-4c90-9207-456afab83758"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "2fb016fa-b70a-4ad5-b233-92df166d35e0"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-09-10T19:15:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Home"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-10T16:34:56+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T19:15:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/home",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<img src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Image%20copy.png\" data-align=\"right\" data-entity-uuid=\"d0fc35f2-8776-45b5-b880-c5eb224e2d43\" data-entity-type=\"file\" alt=\"Book cover of Fog &amp; Fireflies, showing a fog phantom being stared down by a young girl.\" width=\"411\"><p>Fog and Fireflies is complete at 104,000 words. It\u2019s a story written for big sisters and big brothers, and for all children who find themselves to be the caretakers of their families.<\/p><p>Ogma is a stern child of fourteen seasons whose village is adrift in a sea of fog. Strange phantoms roam outside the walls, their touch deadly... but only to adults. And so it is left to children to guard the walls. But children grow up\u2014and when the oldest boy on the wall tries to pass his leadership to Ogma, she refuses, afraid of what it means.<\/p><p>Before she can process her feelings about the responsibility she\u2019s denied, an attack comes that the children are not prepared for. This attack comes not from fog-phantoms, but people\u2014people who've come to take them away. &nbsp;The children fight back with what meager strength they have, but in the confusion Ogma finds herself cut off, outside the walls as the fog carries the village away. She is lost.<\/p><p>Being the pragmatic sort, Ogma knows she can't rely on anyone else to find her, so she resolves to find herself.<\/p><p>Fog and Fireflies explores themes of child labor and parentification\u2014a psychological process in which children come to act as parents for their siblings. Through Ogma\u2019s eyes, the reader learns the difference between growing older, and growing up.<br>&nbsp;<\/p><p>At your request, I'd be delighted to send you a chapter or the full manuscript.<br>&nbsp;<\/p><p style=\"line-height:1.38;margin-bottom:0pt;margin-top:0pt;\" dir=\"ltr\">&nbsp;<\/p>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

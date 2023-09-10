@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "c56f0e91-7966-472b-bd43-c6cee51f5abf"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-09-10T17:00:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Copyright"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T17:55:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC and T.H. Lehnen | 2023<\/p>",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}

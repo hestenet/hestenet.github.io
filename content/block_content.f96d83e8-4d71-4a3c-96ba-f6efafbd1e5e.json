@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-09-10T18:15:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Author Hero Image"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T19:12:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<style>\r\n.mainRunner {\r\n    margin-bottom:-350px;\r\n    margin-top: 100px;\r\n}\r\n.img1 {\r\n  position: relative;\r\n  z-index: 1;\r\n}\r\n.img2 {\r\n  position: relative;\r\n  z-index: 2;\r\n  top: -330px;\r\n  left: 55%;\r\n}\r\n<\/style><div class=\"mainRunner\"><img class=\"img1\" src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img class=\"img2\" src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses.png\" data-entity-uuid=\"1ef8e9b2-b7bb-4592-837f-079c1e3b8619\" data-entity-type=\"file\" alt=\"Portrait of T.H. Lehnen, author of Fog &amp; Fireflies\" width=\"351\"><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

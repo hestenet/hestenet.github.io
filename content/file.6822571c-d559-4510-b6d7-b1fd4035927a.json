@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "6822571c-d559-4510-b6d7-b1fd4035927a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Fog_and_Fireflies_Title_0.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "temporary:\/\/Fog_and_Fireflies_Title_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 25651
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-10T16:32:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T16:32:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

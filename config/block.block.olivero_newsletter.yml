@@ -1,0 +1,25 @@
+uuid: 36fbce32-3e20-43e1-80fe-56fb3355af3b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9567177b-68ec-4388-b99e-709c1d2f2295'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_newsletter
+theme: olivero
+region: content_below
+weight: -7
+provider: null
+plugin: 'block_content:9567177b-68ec-4388-b99e-709c1d2f2295'
+settings:
+  id: 'block_content:9567177b-68ec-4388-b99e-709c1d2f2295'
+  label: Newsletter
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

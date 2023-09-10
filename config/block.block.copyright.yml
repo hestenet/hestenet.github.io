@@ -1,0 +1,25 @@
+uuid: b7a0f7e4-0a83-4bca-a196-a5ef327039fd
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c56f0e91-7966-472b-bd43-c6cee51f5abf'
+  module:
+    - block_content
+  theme:
+    - dxpr_theme
+id: copyright
+theme: dxpr_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:c56f0e91-7966-472b-bd43-c6cee51f5abf'
+settings:
+  id: 'block_content:c56f0e91-7966-472b-bd43-c6cee51f5abf'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

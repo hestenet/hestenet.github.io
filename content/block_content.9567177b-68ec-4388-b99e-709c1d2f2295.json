@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "9567177b-68ec-4388-b99e-709c1d2f2295"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-09-10T18:05:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Newsletter"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-10T18:05:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<div align=\"center\"><script async=\"\" src=\"https:\/\/eomail6.com\/form\/640fb42a-4f96-11ee-ba55-15fa8dc2c5c6.js\" data-form=\"640fb42a-4f96-11ee-ba55-15fa8dc2c5c6\"><\/script><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}
