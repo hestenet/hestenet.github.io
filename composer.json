@@ -19,16 +19,23 @@
     ],
     "require": {
         "composer/installers": "^1.9",
-        "drupal/core-composer-scaffold": "^9.1",
+        "drupal/core-composer-scaffold": "^10",
         "cweagans/composer-patches": "^1.7",
-        "drupal/core": "^9",
-        "drush/drush": "^10.3",
+        "drupal/core": "^10",
+        "drush/drush": "^11",
         "drupal/tome": "^1.0",
         "drupal-tome/tome_drush": "dev-master",
         "webflo/drupal-finder": "^1.2",
-        "drupal/dxpr_theme": "^5.1",
         "drupal/responsive_preview": "^2.1",
-        "drupal-tome/bookish": "^1.0"
+        "drupal/pathauto": "^1.11",
+        "drupal/admin_toolbar": "^3.4",
+        "drupal/core-recommended": "^10",
+        "drupal/core-project-message": "^10",
+        "drupal/lunr": "^1.5",
+        "drupal/metatag": "^2.0",
+        "drupal/bootstrap5": "^3.0",
+        "drupal/dxpr_theme": "^5.1",
+        "drupal/simple_sitemap": "^4.1"
     },
     "scripts": {
         "symlink": "./scripts/symlink.sh",
@@ -59,7 +66,8 @@
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-project-message": true
         }
     }
 }

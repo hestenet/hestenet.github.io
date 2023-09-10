@@ -6,7 +6,9 @@ dependencies:
     - filter.format.basic_html
   module:
     - comment
+    - file
     - filter
+    - media
     - shortcut
     - system
 _core:
@@ -19,6 +21,8 @@ permissions:
   - 'access comments'
   - 'access content'
   - 'access shortcuts'
+  - 'delete own files'
   - 'post comments'
   - 'skip comment approval'
   - 'use text format basic_html'
+  - 'view media'
