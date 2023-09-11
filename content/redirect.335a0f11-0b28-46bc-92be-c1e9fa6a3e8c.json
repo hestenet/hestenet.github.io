@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "335a0f11-0b28-46bc-92be-c1e9fa6a3e8c"
+        }
+    ],
+    "hash": [
+        {
+            "value": "NEADSd_1CFB5eGGX_3Bhrj1OwwdXomafT1W8xnWEuNk"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "fog-fireflies-releasing-soon",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/node\/2",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "en"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-11T05:19:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "ca514b38-7e5c-4266-b246-f251b5eeaa81"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "fog-and-fireflies-cover-3d-marketing-image.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/fog-and-fireflies-cover-3d-marketing-image_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1181934
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-11T05:18:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-11T05:19:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
