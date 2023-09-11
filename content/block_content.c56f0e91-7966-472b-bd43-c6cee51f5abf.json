@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-11T03:18:59+00:00",
+            "value": "2023-09-11T19:23:09+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,8 +57,8 @@
     ],
     "body": [
         {
-            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC | T.H. Lehnen | 2023<\/p>",
-            "format": "basic_html",
+            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC | <a href=\"\/about\">T.H. Lehnen<\/a> | 2023<\/p><p>Powered by <a href=\"https:\/\/drupal.org\">Drupal <img src=\"\/sites\/default\/files\/inline-images\/drupal-logo-white.png\" data-entity-uuid=\"85c39928-ba37-4051-968a-14bbbce4c2c9\" data-entity-type=\"file\" alt=\"Drupal logo\" width=\"20\"><\/a>| <a href=\"\/privacy-policy\">Privacy Policy<\/a>&nbsp;<\/p>",
+            "format": "full_html",
             "summary": ""
         }
     ]

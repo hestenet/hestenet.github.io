@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "6e7dbc02-b671-43ce-afc9-897d43889123"
+            "value": "85c39928-ba37-4051-968a-14bbbce4c2c9"
         }
     ],
     "langcode": [
@@ -17,12 +17,12 @@
     ],
     "filename": [
         {
-            "value": "Fog_and_Fireflies_Favicon.png"
+            "value": "drupal-logo-white.png"
         }
     ],
     "uri": [
         {
-            "value": "temporary:\/\/Fog_and_Fireflies_Favicon.png"
+            "value": "public:\/\/inline-images\/drupal-logo-white.png"
         }
     ],
     "filemime": [
@@ -32,23 +32,23 @@
     ],
     "filesize": [
         {
-            "value": 8102
+            "value": 8130
         }
     ],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "created": [
         {
-            "value": "2023-09-11T03:33:16+00:00",
+            "value": "2023-09-11T19:20:51+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-11T03:33:16+00:00",
+            "value": "2023-09-11T19:22:20+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]
