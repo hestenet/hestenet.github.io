@@ -1,12 +1,14 @@
 _core:
   default_config_hash: Ylohp6sdrL1dU4v-KcXzXTP-U8BAMgh4NWJA9eGHtO4
 favicon:
-  use_default: true
+  mimetype: image/png
+  path: 'public://Fog_and_Fireflies_Favicon.png'
+  use_default: false
 features:
   comment_user_picture: true
   comment_user_verification: true
   favicon: true
-  node_user_picture: false
+  node_user_picture: true
 logo:
   path: 'public://Fog_and_Fireflies_Title_1.png'
   use_default: false

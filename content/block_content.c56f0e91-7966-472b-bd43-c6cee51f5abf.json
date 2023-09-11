@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-10T17:55:55+00:00",
+            "value": "2023-09-11T03:18:59+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC and T.H. Lehnen | 2023<\/p>",
+            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC | T.H. Lehnen | 2023<\/p>",
             "format": "basic_html",
             "summary": ""
         }

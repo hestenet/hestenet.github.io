@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "6e7dbc02-b671-43ce-afc9-897d43889123"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Fog_and_Fireflies_Favicon.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "temporary:\/\/Fog_and_Fireflies_Favicon.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 8102
+        }
+    ],
+    "status": [
+        {
+            "value": false
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-11T03:33:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-11T03:33:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
