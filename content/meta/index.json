@@ -64,5 +64,15 @@
     ],
     "file.85c39928-ba37-4051-968a-14bbbce4c2c9": [
         "user.30237f82-3052-4f3a-bbcc-17a2332e772d"
+    ],
+    "menu_link_content.7a569a35-8b1a-4f22-8cef-dc1996d406f2": [
+        "node.4ecd1c31-002c-4627-a193-a2d9422dd417"
+    ],
+    "node.4ecd1c31-002c-4627-a193-a2d9422dd417": [
+        "user.30237f82-3052-4f3a-bbcc-17a2332e772d",
+        "menu_link_content.7a569a35-8b1a-4f22-8cef-dc1996d406f2"
+    ],
+    "path_alias.4a928a8a-2bcc-4d67-9a22-01f87645cb29": [
+        "node.4ecd1c31-002c-4627-a193-a2d9422dd417"
     ]
 }

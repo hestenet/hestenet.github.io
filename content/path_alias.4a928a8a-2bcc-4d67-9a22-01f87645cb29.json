@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "4a928a8a-2bcc-4d67-9a22-01f87645cb29"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/4ecd1c31-002c-4627-a193-a2d9422dd417"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/books"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

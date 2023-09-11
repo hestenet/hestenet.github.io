@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "75f10fe1-e343-4a01-a0e5-91953e5c112f"
+            "value": "7a569a35-8b1a-4f22-8cef-dc1996d406f2"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-11T02:57:27+00:00",
+            "value": "2023-09-11T22:20:53+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -24,19 +24,15 @@
     "revision_log_message": [],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
         {
-            "value": "\ud83c\udfe0"
+            "value": "Books"
         }
     ],
-    "description": [
-        {
-            "value": "Home"
-        }
-    ],
+    "description": [],
     "menu_name": [
         {
             "value": "main"
@@ -44,7 +40,7 @@
     ],
     "link": [
         {
-            "uri": "entity:node\/fac950a5-5ccc-4c90-9207-456afab83758",
+            "uri": "entity:node\/4ecd1c31-002c-4627-a193-a2d9422dd417",
             "title": null,
             "options": []
         }
@@ -61,7 +57,7 @@
     ],
     "weight": [
         {
-            "value": -49
+            "value": -48
         }
     ],
     "expanded": [
