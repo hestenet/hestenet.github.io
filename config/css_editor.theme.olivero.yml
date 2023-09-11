@@ -1,0 +1,5 @@
+path: 'public://css_editor/olivero.css'
+enabled: true
+css: ".mainRunner {\r\n    position: relative;\r\n    pointer-events: none;\r\n    margin-bottom: -4em;\r\n}\r\n.img1 {\r\n  position: relative;\r\n  z-index: 1;\r\n}\r\n.img2 {\r\n  position: absolute;\r\n  z-index: 2;\r\n  width: 20%;\r\n  left: 55%;\r\n  bottom: 0px;\r\n  display: none;\r\n}\r\n@media (min-width: 850px) {\r\n   .img2 {\r\n     display: inline;\r\n     width:20%;\r\n   }\r\n }\r\n@media (min-width: 1200px) {\r\n   .layout-main-wrapper {\r\n     z-index: 101;\r\n   }\r\n     .img2 {\r\n     display: inline;\r\n     width:30%;\r\n   }\r\n }"
+plaintext_enabled: false
+autopreview_enabled: true

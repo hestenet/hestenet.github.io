@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ed126115fc056024343a873312b6b700",
+    "content-hash": "9e9eb88da5451ce83af6fd4b074381dc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1744,6 +1744,62 @@
                 "source": "https://github.com/drupal/core-recommended/tree/10.1.3"
             },
             "time": "2023-09-07T15:19:51+00:00"
+        },
+        {
+            "name": "drupal/css_editor",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/css_editor.git",
+                "reference": "2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/css_editor-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "046fcf2d74c0512f426d6be36571735aed0d11fd"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.2",
+                    "datestamp": "1677749668",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "caiosba",
+                    "homepage": "https://www.drupal.org/user/1774198"
+                },
+                {
+                    "name": "encelado",
+                    "homepage": "https://www.drupal.org/user/701446"
+                },
+                {
+                    "name": "infojunkie",
+                    "homepage": "https://www.drupal.org/user/48424"
+                },
+                {
+                    "name": "podarok",
+                    "homepage": "https://www.drupal.org/user/116002"
+                }
+            ],
+            "description": "Customize your CSS directly from the browser.",
+            "homepage": "https://www.drupal.org/project/css_editor",
+            "support": {
+                "source": "https://git.drupalcode.org/project/css_editor"
+            }
         },
         {
             "name": "drupal/ctools",
