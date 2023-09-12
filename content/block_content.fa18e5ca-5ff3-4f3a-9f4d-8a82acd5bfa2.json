@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e"
+            "value": "fa18e5ca-5ff3-4f3a-9f4d-8a82acd5bfa2"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-10T18:15:33+00:00",
+            "value": "2023-09-12T00:20:28+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -31,12 +31,12 @@
     ],
     "info": [
         {
-            "value": "Author Hero Image"
+            "value": "Hero Image: Fog & Fireflies | Phantom Portrait"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-12T01:10:44+00:00",
+            "value": "2023-09-12T01:11:59+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img class=\"heroForeground\" src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses_0.png\" data-entity-uuid=\"f783ec86-ddc4-478c-9e63-9f7bfd2242bb\" data-entity-type=\"file\" alt=\"Portrait of the author T.H. Lehnen, a bearded white-man with a leather jacket, sunglasses, and a kind smile.\" width=\"351\"><\/div>",
+            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Photoshop_Website_Hero.jpg\" data-entity-uuid=\"41cce0e4-9b96-4a01-b5cb-ffac7b34a12b\" data-entity-type=\"file\" alt=\"A landscape blanketed in fog\"><img class=\"heroForeground heroForegroundLeft\" src=\"\/sites\/default\/files\/inline-images\/fog_phantom_hero_portrait_2.png\" data-entity-uuid=\"f29df963-2c60-418d-971a-3b4588fb8147\" data-entity-type=\"file\" alt=\"A phantom coalescing out of the fog, with two-pronged horns and glowing red eyes.\" width=\"351\"><\/div>",
             "format": "full_html",
             "summary": ""
         }

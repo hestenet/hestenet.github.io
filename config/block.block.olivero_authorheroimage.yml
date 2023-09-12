@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e'
   module:
     - block_content
+    - system
   theme:
     - olivero
 id: olivero_authorheroimage
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/about\r\n/about/*"

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "a1ff8b6e-c5b5-46c7-99ac-151202febcae"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "fog_phantom_hero_portrait.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/fog_phantom_hero_portrait.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 334384
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-12T00:49:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-12T00:50:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

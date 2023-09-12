@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "f783ec86-ddc4-478c-9e63-9f7bfd2242bb"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "tim-blank-sauvie-sunglasses.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/tim-blank-sauvie-sunglasses_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 196282
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-12T00:39:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-12T00:40:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
