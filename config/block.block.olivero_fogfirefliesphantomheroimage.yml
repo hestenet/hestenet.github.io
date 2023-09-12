@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:fa18e5ca-5ff3-4f3a-9f4d-8a82acd5bfa2'
 settings:
   id: 'block_content:fa18e5ca-5ff3-4f3a-9f4d-8a82acd5bfa2'
-  label: 'Fog & Fireflies: Phantom Hero Image'
+  label: 'Hero Image: Fog & Fireflies | Phantom Portrait'
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "<front>\r\n/home\r\n/fogandfireflies"
+    pages: "<front>\r\n/home\r\n/fogandfireflies\r\n/shop"

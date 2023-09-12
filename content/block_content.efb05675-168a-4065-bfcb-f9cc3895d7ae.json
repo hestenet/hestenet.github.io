@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "a7e67a6c-6091-465e-8a5a-7576acb9f03b"
+            "value": "efb05675-168a-4065-bfcb-f9cc3895d7ae"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-12T01:54:43+00:00",
+            "value": "2023-09-12T02:14:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-12T01:54:43+00:00",
+            "value": "2023-09-12T02:14:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<p><img src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses_0.png\" data-entity-uuid=\"f783ec86-ddc4-478c-9e63-9f7bfd2242bb\" data-entity-type=\"file\" alt=\"Portrait of the author T.H. Lehnen, a bearded white-man with a leather jacket, sunglasses, and a kind smile.\" width=\"351\"><\/p>",
+            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/plummers_tree_plums.jpg\" data-entity-uuid=\"e408913b-ccf9-4112-866b-a61878f6d830\" data-entity-type=\"file\" alt=\"A plum tree with purple leaves and plums with glowing pits straining to float away.\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/the_blue_wizard.png\" data-entity-uuid=\"53017acf-4057-4733-b9f5-9233f13c515b\" data-entity-type=\"file\" alt=\"The Blue Wizard, moss in his beard, holding a gnarled staff with a dirigible plum floating above his palm.\" width=\"351\"><\/div>",
             "format": "full_html",
             "summary": ""
         }

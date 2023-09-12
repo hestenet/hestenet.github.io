@@ -17,7 +17,7 @@ provider: null
 plugin: 'block_content:f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e'
 settings:
   id: 'block_content:f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e'
-  label: 'Author Hero Image'
+  label: 'Hero Image: Author'
   label_display: '0'
   provider: block_content
   status: true
@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/about\r\n/about/*"
+    pages: "/about\r\n/about/*\r\n/aspen-thorn-press\r\n/aspen-thorn-press/*"

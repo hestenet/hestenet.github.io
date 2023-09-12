@@ -1,0 +1,30 @@
+uuid: 4da30b1a-487d-4d01-a481-338b6c8e613a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:efb05675-168a-4065-bfcb-f9cc3895d7ae'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_heroimagefogfirefliesthebluewizard
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:efb05675-168a-4065-bfcb-f9cc3895d7ae'
+settings:
+  id: 'block_content:efb05675-168a-4065-bfcb-f9cc3895d7ae'
+  label: 'Hero Image: Fog & Fireflies | The Blue Wizard'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /audiobooks
