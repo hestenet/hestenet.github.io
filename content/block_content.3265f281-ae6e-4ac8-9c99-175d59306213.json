@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "3265f281-ae6e-4ac8-9c99-175d59306213"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-09-12T02:52:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Footer Fog"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-12T04:15:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<style>\r\n\/* ---------- Fog ---------- *\/\r\n.fogwrapper {\r\n  height: 100%;\r\n  position: absolute;\r\n  top: 0;\r\n  width: 100%;\r\n  -webkit-filter: blur(1px) grayscale(0.2) saturate(1.2) sepia(0.2);\r\n  filter: blur(1px) grayscale(0.2) saturate(1.2) sepia(0.2);\r\n}\r\n#foglayer_01, #foglayer_02, #foglayer_03 {\r\n  height: 100%;\r\n  position: absolute;\r\n  width: 200%;\r\n}\r\n#foglayer_01 .image01, #foglayer_01 .image02,\r\n#foglayer_02 .image01, #foglayer_02 .image02,\r\n#foglayer_03 .image01, #foglayer_03 .image02 {\r\n  float: left;\r\n  height: 100%;\r\n  width: 50%;\r\n}\r\n#foglayer_01 {\r\n  -webkit-animation: foglayer_01_opacity 10s linear infinite, foglayer_moveme 15s linear infinite;\r\n  -moz-animation: foglayer_01_opacity 10s linear infinite, foglayer_moveme 15s linear infinite;\r\n  animation: foglayer_01_opacity 10s linear infinite, foglayer_moveme 15s linear infinite;\r\n}\r\n#foglayer_02, #foglayer_03 {\r\n  -webkit-animation: foglayer_02_opacity 21s linear infinite, foglayer_moveme 13s linear infinite;\r\n  -moz-animation: foglayer_02_opacity 21s linear infinite, foglayer_moveme 13s linear infinite;\r\n  animation: foglayer_02_opacity 21s linear infinite, foglayer_moveme 13s linear infinite;\r\n}\r\n\/* ---------- Moving Fog ---------- *\/\r\n\/*\r\n  'size: cover' || 'size: 100%'; results remain the same\r\n  'attachment: scroll' can be added or removed; results remain the same\r\n  'attachment: fixed' causing unexpected results in Chrome\r\n  'repeat-x' || 'no-repeat'; results remain the same\r\n*\/ \r\n#foglayer_01 .image01, #foglayer_01 .image02 {\r\n  background: url(\"https:\/\/raw.githubusercontent.com\/danielstuart14\/CSS_FOG_ANIMATION\/master\/fog1.png\") center center\/cover no-repeat transparent;\r\n}\r\n#foglayer_02 .image01, #foglayer_02 .image02,\r\n#foglayer_03 .image01, #foglayer_03 .image02{\r\n  background: url(\"https:\/\/raw.githubusercontent.com\/danielstuart14\/CSS_FOG_ANIMATION\/master\/fog2.png\") center center\/cover no-repeat transparent;\r\n}\r\n\/* ---------- Keyframe Layer 1 ---------- *\/\r\n@-webkit-keyframes foglayer_01_opacity {\r\n  0% { opacity: .1; }\r\n  22% { opacity: .5; }\r\n  40% { opacity: .28; }\r\n  58% { opacity: .4; }\r\n  80% { opacity: .16; }\r\n  100% { opacity: .1; }\r\n}\r\n@-moz-keyframes foglayer_01_opacity {\r\n  0% { opacity: .1; }\r\n  22% { opacity: .5; }\r\n  40% { opacity: .28; }\r\n  58% { opacity: .4; }\r\n  80% { opacity: .16; }\r\n  100% { opacity: .1; }\r\n}\r\n@-o-keyframes foglayer_01_opacity {\r\n  0% { opacity: .1; }\r\n  22% { opacity: .5; }\r\n  40% { opacity: .28; }\r\n  58% { opacity: .4; }\r\n  80% { opacity: .16; }\r\n  100% { opacity: .1; }\r\n}\r\n@keyframes foglayer_01_opacity {\r\n  0% { opacity: .1; }\r\n  22% { opacity: .5; }\r\n  40% { opacity: .28; }\r\n  58% { opacity: .4; }\r\n  80% { opacity: .16; }\r\n  100% { opacity: .1; }\r\n}\r\n\/* ---------- Keyframe Layer 2 ---------- *\/\r\n@-webkit-keyframes foglayer_02_opacity {\r\n  0% { opacity: .5; }\r\n  25% { opacity: .2; }\r\n  50% { opacity: .1; }\r\n  80% { opacity: .3; }\r\n  100% { opacity: .5; }\r\n}\r\n@-moz-keyframes foglayer_02_opacity {\r\n  0% { opacity: .5; }\r\n  25% { opacity: .2; }\r\n  50% { opacity: .1; }\r\n  80% { opacity: .3; }\r\n  100% { opacity: .5; }\r\n}\r\n@-o-keyframes foglayer_02_opacity {\r\n  0% { opacity: .5; }\r\n  25% { opacity: .2; }\r\n  50% { opacity: .1; }\r\n  80% { opacity: .3; }\r\n  100% { opacity: .5; }\r\n}\r\n@keyframes foglayer_02_opacity {\r\n  0% { opacity: .5; }\r\n  25% { opacity: .2; }\r\n  50% { opacity: .1; }\r\n  80% { opacity: .3; }\r\n  100% { opacity: .5; }\r\n}\r\n\/* ---------- Keyframe Layer 3 ---------- *\/\r\n@-webkit-keyframes foglayer_03_opacity {\r\n  0% { opacity: .8 }\r\n  27% { opacity: .2; }\r\n  52% { opacity: .6; }\r\n  68% { opacity: .3; }\r\n  100% { opacity: .8; }\r\n}\r\n@-moz-keyframes foglayer_03_opacity {\r\n  0% { opacity: .8 }\r\n  27% { opacity: .2; }\r\n  52% { opacity: .6; }\r\n  68% { opacity: .3; }\r\n  100% { opacity: .8; }\r\n}\r\n@-o-keyframes foglayer_03_opacity {\r\n  0% { opacity: .8 }\r\n  27% { opacity: .2; }\r\n  52% { opacity: .6; }\r\n  68% { opacity: .3; }\r\n  100% { opacity: .8; }\r\n}\r\n@keyframes foglayer_03_opacity {\r\n  0% { opacity: .8; }\r\n  27% { opacity: .2; }\r\n  52% { opacity: .6; }\r\n  68% { opacity: .3; }\r\n  100% { opacity: .8; }\r\n}\r\n\/* ---------- Keyframe moveMe ---------- *\/\r\n@-webkit-keyframes foglayer_moveme {\r\n  0% { left: 0; }\r\n  100% { left: -100%; }\r\n}\r\n@-moz-keyframes foglayer_moveme {\r\n  0% { left: 0; }\r\n  100% { left: -100%; }\r\n}\r\n@-o-keyframes foglayer_moveme {\r\n  0% { left: 0; }\r\n  100% { left: -100%; }\r\n}\r\n@keyframes foglayer_moveme {\r\n  0% { left: 0; }\r\n  100% { left: -100%; }\r\n}\r\n@media only screen\r\n  and (min-width: 280px)\r\n  and (max-width: 767px) {\r\n    #foglayer_01 .image01, #foglayer_01 .image02,\r\n    #foglayer_02 .image01, #foglayer_02 .image02,\r\n    #foglayer_03 .image01, #foglayer_03 .image02 {\r\n      width: 100%;\r\n    }\r\n  }\r\n.fog {\r\n height: 50rem;\r\n}\r\n<\/style><div class=\"fog\" id=\"foglayer_01\"><div class=\"image01\">Text<\/div><div class=\"image01\">&nbsp;&nbsp;<br>&nbsp;<\/div><div class=\"image02\">&nbsp;&nbsp;<br>&nbsp;<\/div><\/div><div class=\"fog\" id=\"foglayer_02\"><div class=\"image01\">&nbsp;&nbsp;<br>&nbsp;<\/div><div class=\"image02\">&nbsp;&nbsp;<br>&nbsp;<\/div><\/div><div class=\"fog\" id=\"foglayer_03\"><div class=\"image01\">&nbsp;&nbsp;<br>&nbsp;<\/div><div class=\"image02\">&nbsp;&nbsp;<br>&nbsp;<\/div><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

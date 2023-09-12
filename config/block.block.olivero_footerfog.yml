@@ -1,0 +1,25 @@
+uuid: 1b09bdd0-facd-47eb-859a-932e4868c701
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:3265f281-ae6e-4ac8-9c99-175d59306213'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_footerfog
+theme: olivero
+region: footer_top
+weight: -8
+provider: null
+plugin: 'block_content:3265f281-ae6e-4ac8-9c99-175d59306213'
+settings:
+  id: 'block_content:3265f281-ae6e-4ac8-9c99-175d59306213'
+  label: 'Footer Fog'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
