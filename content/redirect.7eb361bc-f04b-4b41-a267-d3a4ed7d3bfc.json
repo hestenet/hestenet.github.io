@@ -28,8 +28,8 @@
     ],
     "redirect_redirect": [
         {
-            "uri": "internal:\/node\/2",
-            "title": null,
+            "uri": "internal:\/",
+            "title": "",
             "options": []
         }
     ],
