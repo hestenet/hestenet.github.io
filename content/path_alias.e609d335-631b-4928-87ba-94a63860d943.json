@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "e609d335-631b-4928-87ba-94a63860d943"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/1e4a76cf-c1c0-4eb3-b28f-0e1bcfaca33b"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/aspen-thorn-press"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

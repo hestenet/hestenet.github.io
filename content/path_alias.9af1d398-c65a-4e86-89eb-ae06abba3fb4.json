@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "9af1d398-c65a-4e86-89eb-ae06abba3fb4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/9b476099-8352-48e8-80b6-55913bb8f2be"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/audiobooks"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

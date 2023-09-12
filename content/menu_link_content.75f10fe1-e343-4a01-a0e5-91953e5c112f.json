@@ -24,17 +24,17 @@
     "revision_log_message": [],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
         {
-            "value": "\ud83c\udfe0"
+            "value": "Shop"
         }
     ],
     "description": [
         {
-            "value": "Home"
+            "value": "Shop"
         }
     ],
     "menu_name": [
@@ -45,7 +45,7 @@
     "link": [
         {
             "uri": "entity:node\/fac950a5-5ccc-4c90-9207-456afab83758",
-            "title": null,
+            "title": "",
             "options": []
         }
     ],
@@ -61,18 +61,18 @@
     ],
     "weight": [
         {
-            "value": -49
+            "value": -48
         }
     ],
     "expanded": [
         {
-            "value": false
+            "value": true
         }
     ],
     "parent": [],
     "changed": [
         {
-            "value": "2023-09-11T22:22:44+00:00",
+            "value": "2023-09-12T01:42:53+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

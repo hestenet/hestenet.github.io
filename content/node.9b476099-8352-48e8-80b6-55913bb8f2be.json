@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "4ecd1c31-002c-4627-a193-a2d9422dd417"
+            "value": "9b476099-8352-48e8-80b6-55913bb8f2be"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-12T01:56:17+00:00",
+            "value": "2023-09-12T01:39:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -31,7 +31,7 @@
     "revision_log": [],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "uid": [
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Books"
+            "value": "Audiobooks"
         }
     ],
     "created": [
         {
-            "value": "2023-09-11T22:20:34+00:00",
+            "value": "2023-09-12T01:34:41+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-12T01:56:17+00:00",
+            "value": "2023-09-12T01:39:07+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,21 +72,17 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true
-        }
-    ],
+    "revision_translation_affected": [],
     "path": [
         {
-            "alias": "\/books",
+            "alias": "\/audiobooks",
             "langcode": "en",
             "pathauto": 1
         }
     ],
     "body": [
         {
-            "value": "<p>Books<\/p>",
+            "value": "<p>Audiobook information will go here.<\/p>",
             "format": "basic_html",
             "summary": ""
         }

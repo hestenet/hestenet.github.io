@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-11T19:36:56+00:00",
+            "value": "2023-09-12T01:45:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC | <a href=\"\/about\">T.H. Lehnen<\/a> | 2023 | All rights reserved.<\/p><p><small>Powered by <\/small><a href=\"https:\/\/drupal.org\"><small>Drupal <img style=\"display:inline;margin-bottom:-5px;\" src=\"\/sites\/default\/files\/inline-images\/drupal-logo-white.png\" data-entity-uuid=\"85c39928-ba37-4051-968a-14bbbce4c2c9\" data-entity-type=\"file\" alt=\"Drupal logo\" width=\"15\"><\/small><\/a><small>| <\/small><a href=\"\/privacy-policy\"><small>Privacy Policy<\/small><\/a><\/p>",
+            "value": "<p>\u00a9 Aspen &amp; Thorn Press, LLC | <a href=\"\/about\">T.H. Lehnen<\/a> | 2023 | All rights reserved.<\/p><p><small>Powered by <\/small><a href=\"https:\/\/drupal.org\"><small>Drupal<\/small><\/a><small> <\/small><a href=\"https:\/\/drupal.org\"><small><img style=\"display:inline;margin-bottom:-5px;\" src=\"\/sites\/default\/files\/inline-images\/drupal-logo-white.png\" data-entity-uuid=\"85c39928-ba37-4051-968a-14bbbce4c2c9\" data-entity-type=\"file\" alt=\"Drupal logo\" width=\"15\"><\/small><\/a><small>| <\/small><a href=\"\/privacy-policy\"><small>Privacy Policy<\/small><\/a><\/p>",
             "format": "full_html",
             "summary": ""
         }

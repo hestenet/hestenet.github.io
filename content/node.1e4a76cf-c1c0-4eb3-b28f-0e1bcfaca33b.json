@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "4ecd1c31-002c-4627-a193-a2d9422dd417"
+            "value": "1e4a76cf-c1c0-4eb3-b28f-0e1bcfaca33b"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-12T01:56:17+00:00",
+            "value": "2023-09-12T01:52:37+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -31,7 +31,7 @@
     "revision_log": [],
     "status": [
         {
-            "value": false
+            "value": true
         }
     ],
     "uid": [
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Books"
+            "value": "Aspen & Thorn Press"
         }
     ],
     "created": [
         {
-            "value": "2023-09-11T22:20:34+00:00",
+            "value": "2023-09-12T01:51:30+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-12T01:56:17+00:00",
+            "value": "2023-09-12T01:52:37+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,14 +79,15 @@
     ],
     "path": [
         {
-            "alias": "\/books",
+            "alias": "",
+            "pid": null,
             "langcode": "en",
             "pathauto": 1
         }
     ],
     "body": [
         {
-            "value": "<p>Books<\/p>",
+            "value": "<p>Aspen &amp; Thorn Press, LLC is the independent imprint of T.H. Lehnen. (And any of his friends who might finally be ready to publish, he supposes).&nbsp;<\/p>",
             "format": "basic_html",
             "summary": ""
         }

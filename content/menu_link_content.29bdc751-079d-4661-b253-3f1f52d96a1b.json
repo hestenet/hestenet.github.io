@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "7a569a35-8b1a-4f22-8cef-dc1996d406f2"
+            "value": "29bdc751-079d-4661-b253-3f1f52d96a1b"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-11T22:20:53+00:00",
+            "value": "2023-09-12T01:52:37+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -29,7 +29,7 @@
     ],
     "title": [
         {
-            "value": "Books"
+            "value": "Aspen & Thorn Press"
         }
     ],
     "description": [],
@@ -40,8 +40,8 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
-            "title": "",
+            "uri": "entity:node\/1e4a76cf-c1c0-4eb3-b28f-0e1bcfaca33b",
+            "title": null,
             "options": []
         }
     ],
@@ -52,23 +52,27 @@
     ],
     "rediscover": [
         {
-            "value": true
+            "value": false
         }
     ],
     "weight": [
         {
-            "value": -49
+            "value": 10
         }
     ],
     "expanded": [
         {
-            "value": true
+            "value": false
         }
     ],
-    "parent": [],
+    "parent": [
+        {
+            "value": "menu_link_content:bc093aea-2a18-45f0-be1b-fd16e8daff62"
+        }
+    ],
     "changed": [
         {
-            "value": "2023-09-12T01:42:53+00:00",
+            "value": "2023-09-12T01:52:37+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

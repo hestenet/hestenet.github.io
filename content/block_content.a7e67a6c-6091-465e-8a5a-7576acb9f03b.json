@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "f96d83e8-4d71-4a3c-96ba-f6efafbd1e5e"
+            "value": "a7e67a6c-6091-465e-8a5a-7576acb9f03b"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-10T18:15:33+00:00",
+            "value": "2023-09-12T01:54:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -31,12 +31,12 @@
     ],
     "info": [
         {
-            "value": "Hero Image: Author"
+            "value": "Hero Image: Fog & Fireflies | The Blue Wizard"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-12T01:54:11+00:00",
+            "value": "2023-09-12T01:54:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img class=\"heroForeground\" src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses_0.png\" data-entity-uuid=\"f783ec86-ddc4-478c-9e63-9f7bfd2242bb\" data-entity-type=\"file\" alt=\"Portrait of the author T.H. Lehnen, a bearded white-man with a leather jacket, sunglasses, and a kind smile.\" width=\"351\"><\/div>",
+            "value": "<p><img src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses_0.png\" data-entity-uuid=\"f783ec86-ddc4-478c-9e63-9f7bfd2242bb\" data-entity-type=\"file\" alt=\"Portrait of the author T.H. Lehnen, a bearded white-man with a leather jacket, sunglasses, and a kind smile.\" width=\"351\"><\/p>",
             "format": "full_html",
             "summary": ""
         }
