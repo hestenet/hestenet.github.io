@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "9b476099-8352-48e8-80b6-55913bb8f2be"
+            "value": "9af0ed40-b2ce-45d4-af48-eed1f9ed06a5"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-12T05:21:30+00:00",
+            "value": "2023-09-12T05:13:17+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Audiobooks"
+            "value": "Dedications & Acknowledgments"
         }
     ],
     "created": [
         {
-            "value": "2023-09-12T01:34:41+00:00",
+            "value": "2023-09-12T05:11:58+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-12T05:21:30+00:00",
+            "value": "2023-09-12T05:13:17+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,17 +72,22 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
-            "alias": "\/books\/audiobooks",
+            "alias": "",
+            "pid": null,
             "langcode": "en",
-            "pathauto": 0
+            "pathauto": 1
         }
     ],
     "body": [
         {
-            "value": "<p>Audiobook information will go here.<\/p>",
+            "value": "<h2>Dedications<\/h2><h2>&nbsp;<\/h2><h2>Acknowledgments<\/h2>",
             "format": "basic_html",
             "summary": ""
         }

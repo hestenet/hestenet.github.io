@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "c0449ef2-6a3a-4703-9422-d0595a6ec398"
+        }
+    ],
+    "hash": [
+        {
+            "value": "9gPLv8Rn-Y3wrWmVNTTskMDIqnO5oYgZBk-S3T4gDsQ"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "audiobooks",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/node\/5",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "en"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-12T05:21:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

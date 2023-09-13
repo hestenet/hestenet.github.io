@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "9af1d398-c65a-4e86-89eb-ae06abba3fb4"
+            "value": "911ceb18-96a3-47f7-a400-e0844511f62c"
         }
     ],
     "langcode": [
@@ -11,12 +11,12 @@
     ],
     "path": [
         {
-            "value": "\/node\/9b476099-8352-48e8-80b6-55913bb8f2be"
+            "value": "\/node\/9af0ed40-b2ce-45d4-af48-eed1f9ed06a5"
         }
     ],
     "alias": [
         {
-            "value": "\/books\/audiobooks"
+            "value": "\/dedications-acknowledgments"
         }
     ],
     "status": [

@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "5dac1dcd-32cf-4077-acf3-0db6fbc794ef"
+        }
+    ],
+    "hash": [
+        {
+            "value": "GZakOLW3Tso6JDCjjmtKWU4fRyKLWr6MGbHmtdydfxU"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "fog-fireflies",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/node\/2",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "en"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-12T05:22:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

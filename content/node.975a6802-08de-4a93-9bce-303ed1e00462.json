@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "9b476099-8352-48e8-80b6-55913bb8f2be"
+            "value": "975a6802-08de-4a93-9bce-303ed1e00462"
         }
     ],
     "langcode": [
@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-12T05:21:30+00:00",
+            "value": "2023-09-12T05:16:05+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -42,18 +42,18 @@
     ],
     "title": [
         {
-            "value": "Audiobooks"
+            "value": "Events, Media, Contact"
         }
     ],
     "created": [
         {
-            "value": "2023-09-12T01:34:41+00:00",
+            "value": "2023-09-12T05:15:20+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-12T05:21:30+00:00",
+            "value": "2023-09-12T05:16:05+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -72,17 +72,22 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "path": [
         {
-            "alias": "\/books\/audiobooks",
+            "alias": "",
+            "pid": null,
             "langcode": "en",
-            "pathauto": 0
+            "pathauto": 1
         }
     ],
     "body": [
         {
-            "value": "<p>Audiobook information will go here.<\/p>",
+            "value": "<h2>Events<\/h2><p>&nbsp;<\/p><h2>Media<\/h2><h2>&nbsp;<\/h2><h2>Contact<\/h2>",
             "format": "basic_html",
             "summary": ""
         }

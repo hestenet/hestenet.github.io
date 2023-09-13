@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "<front>\r\n/home\r\n/fogandfireflies\r\n/shop"
+    pages: "<front>\r\n/home\r\n/fogandfireflies\r\n/shop\r\n/books/print"

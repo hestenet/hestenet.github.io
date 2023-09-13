@@ -1,0 +1,37 @@
+{
+    "uuid": [
+        {
+            "value": "49a27afc-55c8-4415-954a-3f7a0f386edd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default",
+            "target_type": "shortcut_set",
+            "target_uuid": "c1f463f4-b298-4aab-aa97-1308fbb4b806"
+        }
+    ],
+    "title": [
+        {
+            "value": "Olivero"
+        }
+    ],
+    "weight": [],
+    "link": [
+        {
+            "uri": "internal:\/admin\/appearance\/settings\/olivero",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ]
+}

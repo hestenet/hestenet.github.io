@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:9567177b-68ec-4388-b99e-709c1d2f2295'
   module:
     - block_content
+    - system
   theme:
     - olivero
 id: olivero_newsletter
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/admin\r\n/admin/*"

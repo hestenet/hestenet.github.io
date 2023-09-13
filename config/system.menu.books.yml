@@ -1,0 +1,8 @@
+uuid: d50cc6c3-67ba-4d96-a32c-6e5c0e4354cb
+langcode: en
+status: true
+dependencies: {  }
+id: books
+label: Books
+description: 'Book menu'
+locked: false
