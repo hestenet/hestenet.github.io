@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-12T01:54:11+00:00",
+            "value": "2023-09-14T07:02:51+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img class=\"heroForeground\" src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses_0.png\" data-entity-uuid=\"f783ec86-ddc4-478c-9e63-9f7bfd2242bb\" data-entity-type=\"file\" alt=\"Portrait of the author T.H. Lehnen, a bearded white-man with a leather jacket, sunglasses, and a kind smile.\" width=\"351\"><\/div>",
+            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\"><img class=\"heroForeground heroForegroundLeft\" src=\"\/sites\/default\/files\/inline-images\/tim-blank-sauvie-sunglasses_0.png\" data-entity-uuid=\"f783ec86-ddc4-478c-9e63-9f7bfd2242bb\" data-entity-type=\"file\" alt=\"Portrait of the author T.H. Lehnen, a bearded white man with a leather jacket, sunglasses, and a kind smile.\" width=\"351\"><\/div>",
             "format": "full_html",
             "summary": ""
         }
