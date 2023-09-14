@@ -11,8 +11,8 @@ dependencies:
     - olivero
 id: olivero_newsletter
 theme: olivero
-region: content_below
-weight: -9
+region: content
+weight: -8
 provider: null
 plugin: 'block_content:9567177b-68ec-4388-b99e-709c1d2f2295'
 settings:
