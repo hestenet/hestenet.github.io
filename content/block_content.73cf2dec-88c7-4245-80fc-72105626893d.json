@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "73cf2dec-88c7-4245-80fc-72105626893d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-09-14T02:59:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "PROTOTYPE | Hero Image: Fog & Fireflies | Phantom Portrait | Testimonials"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-14T04:54:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<style>\r\n\/* Import Font  *\/\r\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;display=swap');\r\n.testimonial {\r\n    padding: 0;\r\n    margin: 5em 5em;\r\n    text-align: center;\r\n}\r\n.smokeText {\r\n    padding: 0;\r\n    margin: 0;\r\n    font-family: \"Poppins\", sans-serif;\r\n}\r\nul.smokeText {\r\n    position: relative; \/* absolute *\/\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    padding: 0.5em;\r\n    \/*white-space: nowrap;*\/\r\n    color: #FFF;\r\n    background-color: rgba(0, 0, 0, 0.8);\r\n    width: fit-content;\r\n}\r\nul.smokeText li {\r\n    list-style: none;\r\n    display: inline-block;\r\n    font-size: 35px;\r\n    \/* text-transform: uppercase; *\/\r\n    margin: 0em 0em;\r\n    animation-name: fogletters;\r\n    animation-duration: 1.5s;\r\n    animation-fill-mode: backwards;\r\n    animation-direction: alternate-reverse;\r\n    animation-timing-function: linear;\r\n}\r\nul.smokeText li:nth-of-type(1) {\r\n    animation-delay: 0s;\r\n}\r\nul.smokeText li:nth-of-type(2) {\r\n    animation-delay: .1s;\r\n}\r\nul.smokeText li:nth-of-type(3) {\r\n    animation-delay: .2s;\r\n}\r\nul.smokeText li:nth-of-type(4) {\r\n    animation-delay: .3s;\r\n}\r\nul.smokeText li:nth-of-type(5) {\r\n    animation-delay: .4s;\r\n}\r\nul.smokeText li:nth-of-type(6) {\r\n    animation-delay: .5s;\r\n}\r\nul.smokeText li:nth-of-type(7) {\r\n    animation-delay: .6s;\r\n}\r\nul.smokeText li:nth-of-type(8) {\r\n    animation-delay: .7s;\r\n}\r\nul.smokeText li:nth-of-type(9) {\r\n    animation-delay: .8s;\r\n}\r\nul.smokeText li:nth-of-type(10) {\r\n    animation-delay: .9s;\r\n}\r\nul.smokeText li:nth-of-type(11) {\r\n    animation-delay: 1.0s;\r\n}\r\nul.smokeText li:nth-of-type(12) {\r\n    animation-delay: 1.1s;\r\n}\r\nul.smokeText li:nth-of-type(13) {\r\n    animation-delay: 1.2s;\r\n}\r\nul.smokeText li:nth-of-type(14) {\r\n    animation-delay: 1.3s;\r\n}\r\nul.smokeText li:nth-of-type(15) {\r\n    animation-delay: 1.4s;\r\n}\r\nul.smokeText li:nth-of-type(16) {\r\n    animation-delay: 1.5s;\r\n}\r\nul.smokeText li:nth-of-type(17) {\r\n    animation-delay: 1.6s;\r\n}\r\nul.smokeText li:nth-of-type(18) {\r\n    animation-delay: 1.7s;\r\n}\r\nul.smokeText li:nth-of-type(19) {\r\n    animation-delay: 1.8s;\r\n}\r\nul.smokeText li:nth-of-type(20) {\r\n    animation-delay: 1.9s;\r\n}\r\nul.smokeText li:nth-of-type(21) {\r\n    animation-delay: 2.0s;\r\n}\r\nul.smokeText li:nth-of-type(22) {\r\n    animation-delay: 2.1s;\r\n}\r\nul.smokeText li:nth-of-type(23) {\r\n    animation-delay: 2.2s;\r\n}\r\nul.smokeText li:nth-of-type(24) {\r\n    animation-delay: 2.3s;\r\n}\r\nul.smokeText li:nth-of-type(25) {\r\n    animation-delay: 2.4s;\r\n}\r\nul.smokeText li:nth-of-type(26) {\r\n    animation-delay: 2.5s;\r\n}\r\nul.smokeText li:nth-of-type(27) {\r\n    animation-delay: 2.6s;\r\n}\r\nul.smokeText li:nth-of-type(28) {\r\n    animation-delay: 2.7s;\r\n}\r\nul.smokeText li:nth-of-type(29) {\r\n    animation-delay: 2.8s;\r\n}\r\nul.smokeText li:nth-of-type(30) {\r\n    animation-delay: 2.9s;\r\n}\r\nul.smokeText li:nth-of-type(31) {\r\n    animation-delay: 3.0s;\r\n}\r\nul.smokeText li:nth-of-type(32) {\r\n    animation-delay: 3.1s;\r\n}\r\nul.smokeText li:nth-of-type(33) {\r\n    animation-delay: 3.2s;\r\n}\r\nul.smokeText li:nth-of-type(34) {\r\n    animation-delay: 3.3s;\r\n}\r\nul.smokeText li:nth-of-type(35) {\r\n    animation-delay: 3.4s;\r\n}\r\nul.smokeText li:nth-of-type(36) {\r\n    animation-delay: 3.5s;\r\n}\r\nul.smokeText li:nth-of-type(37) {\r\n    animation-delay: 3.6s;\r\n}\r\nul.smokeText li:nth-of-type(38) {\r\n    animation-delay: 3.7s;\r\n}\r\nul.smokeText li:nth-of-type(39) {\r\n    animation-delay: 3.8s;\r\n}\r\nul.smokeText li:nth-of-type(40) {\r\n    animation-delay: 3.9s;\r\n}\r\n@keyframes fogletters{\r\n    0% {\r\n        filter: blur(0px);\r\n    }\r\n    50% {\r\n        filter: blur(0px);\r\n    }\r\n    100% {\r\n        filter: blur(40px);\r\n    }\r\n}\r\n<\/style><div class=\"testimonial\" style=\"pointer-events:none;\" title=\"&quot;A novel that reads like a Ghibli film.&quot;\"><ul class=\"smokeText\"><li>\"<\/li><li>A<\/li><li>&nbsp;<\/li><li>n<\/li><li>o<\/li><li>v<\/li><li>e<\/li><li>l<\/li><li>&nbsp;<\/li><li>t<\/li><li>h<\/li><li>a<\/li><li>t<\/li><li>&nbsp;<\/li><li>r<\/li><li>e<\/li><li>a<\/li><li>d<\/li><li>s<\/li><li>&nbsp;<\/li><li>l<\/li><li>i<\/li><li>k<\/li><li>e<\/li><li>&nbsp;<\/li><li>a<\/li><li>&nbsp;<\/li><li>G<\/li><li>h<\/li><li>i<\/li><li>b<\/li><li>l<\/li><li>i<\/li><li>&nbsp;<\/li><li>f<\/li><li>i<\/li><li>l<\/li><li>m<\/li><li>.<\/li><li>\"<\/li><\/ul><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}
