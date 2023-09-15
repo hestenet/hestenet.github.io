@@ -1,0 +1,526 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=DM+Serif+Display&display=swap');
+
+/* Admin area */
+#css-editor-field .CodeMirror{
+    height: 800px;
+}
+.olivero-details {
+  background-color: #ffffff;
+}
+
+/* Root */
+:root {
+    --font-sans: "Tahoma",sans-serif;
+    --font-serif: "Garamond",serif;
+    --font-header-serif: 'Philosopher',"Garamond",serif;
+    --font-testimonial-serif: 'Cinzel',"Garamond",serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-header-serif);
+    font-weight: normal;
+}
+
+/* Background */
+body {
+ /* 
+ background: linear-gradient(to top, rgba(76, 97, 91, 0.6), rgba(30,40,36,1.0)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e"); 
+ background: linear-gradient(to top, rgba(var(--color--primary-30),0.3), rgba(var(--color--black),0.8)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e");
+ */
+ background: linear-gradient(to top, rgb(24, 12, 28, 0.9), rgb(12, 6, 14, 1.0)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e"); 
+ background-blend-mode: saturation;
+}
+
+/* Tighten padding */
+.main-content__container {
+  padding-block-start: var(--sp6);
+}
+
+.region > * {
+  margin-block-end: var(--sp0-25);
+}
+
+@media (max-width: 699px) {
+  .block-page-title-block {
+    text-align: center;
+  }
+  .page-title {
+    font-size: 3rem;
+  }
+}
+
+.region--content-below .block__content {
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
+  margin-inline-end: 1em;
+}
+
+body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+  border-right: solid 1px var(--color--primary-50);
+  border-bottom: solid 1px var(--color--primary-50);
+  border-left: solid 1px var(--color--primary-50);
+  padding-block: calc(2 * var(--sp));
+}
+
+/* Hide newsletter branding */
+.mastfoot {
+  display: none !important;
+}
+
+.btn {
+  padding: 0.6rem 0.5rem !important;
+}
+
+
+/***************************/
+/* Hero 
+/***************************/
+
+/* Z-index trick to allow overlapping hero image to break it's bounds */
+.heroContainer {
+    position: relative;
+    pointer-events: none;
+}
+
+.heroBackground {
+  position: relative;
+  z-index: 1;
+}
+
+.heroForeground {
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+  left: 48%;
+  bottom: 0px;
+}
+
+.heroForegroundLeft {
+  left: 42%;
+}
+.heroForegroundLarger {
+  width: 25%;
+}
+
+.testimonial {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    z-index: 3;
+}
+
+/***************************/
+/* Menu 
+/***************************/
+
+.primary-nav__menu--level-1 {
+    font-family: var(--font-header-serif);
+}
+
+.primary-nav__menu-link-inner--level-1 {
+  font-size: 1.2rem;
+}
+
+.primary-nav__menu--level-2 {
+    visibility: visible; /* Expand mobile menu by default */
+    max-height: none;
+    margin-block-start: var(--sp1-5);
+    opacity: 1;
+    font-family: var(--font-sans);
+}
+
+.primary-nav__button-toggle .icon--menu-toggle {
+  visibility: hidden;
+}
+
+.mobile-nav-button__label {
+  font-size: 1.2rem;
+  font-family: var(--font-header-serif);
+}
+
+/***************************/
+/* Dark Mode         
+/***************************/
+
+.main-content {
+  background-color: #111111;
+}
+
+.page-wrapper {
+   /* background: var(--color--white); */
+   background: #111111;
+}
+
+.site-branding__logo img {
+    filter: brightness(0) invert(1);
+}
+
+.site-branding--bg-gray {
+  /* background: var(--color--gray-100); */
+  /* background-color: #222222; */
+  background: #261e2f;
+}
+
+.site-header__inner, .header-nav, body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+    background: #111111;
+}
+
+.header-nav {
+  border-block-start: solid #222222 calc(var(--sp7) + var(--drupal-displace-offset-top,0px));
+}
+
+.site-header {
+    border-block-end: solid 1px transparent;
+}
+
+.primary-nav__menu-link, .primary-nav__menu-link:hover, .mobile-nav-button__label {
+    color: #ffffff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    /* color: var(--color-text-neutral-loud);*/
+    color: #ffffff;
+}
+
+.text-content {
+    /* color: var(--color-text-neutral-medium); */
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.social-bar {
+  background-color: var(--color--gray-10);
+}
+
+.feed-icon {
+  color: #ffffff;
+}
+
+.feed-icon:hover{
+  color: var(--color--primary-80);
+}
+
+/* Newsletter block styling */
+#block-olivero-newsletter .block__content .text-content {
+  /* background-color: var(--color--gray-100); */
+  background-color: #222222;
+  padding: 0.1rem 2rem;
+}
+
+/* Footer styling */
+.site-footer {
+  /* 
+  background: linear-gradient(0deg,var(--color--gray-5) 0%,var(--color--gray-10) 100%);
+  */
+  background: var(--color--gray-10);
+}
+
+.site-footer__inner {
+  padding-block: 2rem;
+}
+
+
+/***************************/
+/* Large Screens           
+/***************************/
+
+@media (min-width: 1200px) {
+   .site-header, .layout-main-wrapper, .site-header__inner {
+    z-index: auto !important;
+   }
+   .site-header__fixable {
+    clip-path: none !important;
+   }
+   .layout-main-wrapper {
+     z-index: 101;
+   }
+   .main-content__container {
+     padding-block-start: var(--sp4);
+   }
+   .heroForeground {
+     display: inline;
+     width:30%;
+   }
+   .heroForegroundLarger {
+     width:35%;
+   }
+  .testimonial {
+    transform: translate(-50%,-50%);
+  }
+  ul.smokeText {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  #block-olivero-newsletter .block__content .text-content {
+    padding: 0.1rem 6rem;
+  }
+ }
+
+
+
+/***************************/
+/* Testimonial Animations */ 
+/***************************/
+
+.smokeText {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-testimonial-serif);
+}
+ul.smokeText {
+    position: relative; /* absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    /*white-space: nowrap;*/
+    color: #FFF;
+    width: fit-content;
+}
+@media (min-width: 1200px) {
+  ul.smokeText {
+    padding: 0.5em 1em 0em 1em;
+  }
+}
+
+ul.smokeText li {
+    list-style: none;
+    display: inline-block;
+    /*font-size: 35px;*/
+    font-size: 2.2rem;
+    /* text-transform: uppercase; */
+    margin: 0em 0em;
+    animation-name: fogletters;
+    animation-duration: 1.5s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+ul.smokeText li:nth-of-type(1) {
+    animation-delay: 0s;
+}
+ul.smokeText li:nth-of-type(2) {
+    animation-delay: .1s;
+}
+ul.smokeText li:nth-of-type(3) {
+    animation-delay: .2s;
+}
+ul.smokeText li:nth-of-type(4) {
+    animation-delay: .3s;
+}
+ul.smokeText li:nth-of-type(5) {
+    animation-delay: .4s;
+}
+ul.smokeText li:nth-of-type(6) {
+    animation-delay: .5s;
+}
+ul.smokeText li:nth-of-type(7) {
+    animation-delay: .6s;
+}
+ul.smokeText li:nth-of-type(8) {
+    animation-delay: .7s;
+}
+ul.smokeText li:nth-of-type(9) {
+    animation-delay: .8s;
+}
+ul.smokeText li:nth-of-type(10) {
+    animation-delay: .9s;
+}
+ul.smokeText li:nth-of-type(11) {
+    animation-delay: 1.0s;
+}
+ul.smokeText li:nth-of-type(12) {
+    animation-delay: 1.1s;
+}
+ul.smokeText li:nth-of-type(13) {
+    animation-delay: 1.2s;
+}
+ul.smokeText li:nth-of-type(14) {
+    animation-delay: 1.3s;
+}
+ul.smokeText li:nth-of-type(15) {
+    animation-delay: 1.4s;
+}
+ul.smokeText li:nth-of-type(16) {
+    animation-delay: 1.5s;
+}
+ul.smokeText li:nth-of-type(17) {
+    animation-delay: 1.6s;
+}
+ul.smokeText li:nth-of-type(18) {
+    animation-delay: 1.7s;
+}
+ul.smokeText li:nth-of-type(19) {
+    animation-delay: 1.8s;
+}
+ul.smokeText li:nth-of-type(20) {
+    animation-delay: 1.9s;
+}
+ul.smokeText li:nth-of-type(21) {
+    animation-delay: 2.0s;
+}
+ul.smokeText li:nth-of-type(22) {
+    animation-delay: 2.1s;
+}
+ul.smokeText li:nth-of-type(23) {
+    animation-delay: 2.2s;
+}
+ul.smokeText li:nth-of-type(24) {
+    animation-delay: 2.3s;
+}
+ul.smokeText li:nth-of-type(25) {
+    animation-delay: 2.4s;
+}
+ul.smokeText li:nth-of-type(26) {
+    animation-delay: 2.5s;
+}
+ul.smokeText li:nth-of-type(27) {
+    animation-delay: 2.6s;
+}
+ul.smokeText li:nth-of-type(28) {
+    animation-delay: 2.7s;
+}
+ul.smokeText li:nth-of-type(29) {
+    animation-delay: 2.8s;
+}
+ul.smokeText li:nth-of-type(30) {
+    animation-delay: 2.9s;
+}
+ul.smokeText li:nth-of-type(31) {
+    animation-delay: 3.0s;
+}
+ul.smokeText li:nth-of-type(32) {
+    animation-delay: 3.1s;
+}
+ul.smokeText li:nth-of-type(33) {
+    animation-delay: 3.2s;
+}
+ul.smokeText li:nth-of-type(34) {
+    animation-delay: 3.3s;
+}
+ul.smokeText li:nth-of-type(35) {
+    animation-delay: 3.4s;
+}
+ul.smokeText li:nth-of-type(36) {
+    animation-delay: 3.5s;
+}
+ul.smokeText li:nth-of-type(37) {
+    animation-delay: 3.6s;
+}
+ul.smokeText li:nth-of-type(38) {
+    animation-delay: 3.7s;
+}
+ul.smokeText li:nth-of-type(39) {
+    animation-delay: 3.8s;
+}
+ul.smokeText li:nth-of-type(40) {
+    animation-delay: 3.9s;
+}
+@keyframes fogletters{
+    0% {
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(40px);
+    }
+}
+
+/* Olivero Centering Hacks*/ 
+
+@media (min-width: 75rem) {
+
+  body.is-always-mobile-nav .page-wrapper--centered .header-nav {
+    /**
+         * When the "Enable mobile menu at all widths" option is set,
+         * we stop the off-canvas menu (coming from the side) in the center of the page.
+         */
+    max-width: 50vw;
+    /**
+         * We consider the outermost vertices of the menu toggler "X" icon
+         * as a reference point for defining the maximum limit to which the content
+         * of the off-canvas menu can be extended (in other words, the
+         * padding-inline-end of header-nav).
+         * The value is equal to --sp2 in this --nav breakpoint.
+         */
+    padding-inline-end: var(--sp2);
+  }
+}
+
+@media (min-width: 90rem) {
+
+  body.is-always-mobile-nav .page-wrapper--centered .header-nav {
+    /**
+         * [...continue from previous comment]
+         * While in this breakpoint we need to do some calculations to find the value,
+         * involving our global layout helpers (in a very similar way that
+         * has already been done more above for default "not centered" layout).
+         */
+    padding-inline-end: calc((50vw - (var(--max-width) / 2)) + var(--content-left) - var(--sp2));
+  }
+}
+.page-wrapper {
+    & .header-nav {
+      @media (--nav) {
+        /**
+         * When the "Enable mobile menu at all widths" option is set,
+         * we stop the off-canvas menu (coming from the side) in the center of the page.
+         */
+        max-width: 50vw;
+        /**
+         * We consider the outermost vertices of the menu toggler "X" icon
+         * as a reference point for defining the maximum limit to which the content
+         * of the off-canvas menu can be extended (in other words, the
+         * padding-inline-end of header-nav).
+         * The value is equal to --sp2 in this --nav breakpoint.
+         */
+        padding-inline-end: var(--sp2);
+      }
+
+      @media (--grid-max) {
+        /**
+         * [...continue from previous comment]
+         * While in this breakpoint we need to do some calculations to find the value,
+         * involving our global layout helpers (in a very similar way that
+         * has already been done more above for default "not centered" layout).
+         */
+        padding-inline-end: calc((50vw - (var(--max-width) / 2)) + var(--content-left) - var(--sp2));
+      }
+    }
+  }
+
+body:not(.is-always-mobile-nav) .page-wrapper .site-header__fixable {
+    /**
+         * To contain the header sliding inside the page wrapper,
+         * we use clip-path instead of overflow: hidden.
+         * In this way, the drop-down menus of the main nav are not cut off.
+         */
+    -webkit-clip-path: inset(0 0 -100vh 0);
+    clip-path: inset(0 0 -100vh 0);
+  }
+
+body:not(.is-always-mobile-nav) {
+    & .page-wrapper {
+      & .site-header__fixable {
+        /**
+         * To contain the header sliding inside the page wrapper,
+         * we use clip-path instead of overflow: hidden.
+         * In this way, the drop-down menus of the main nav are not cut off.
+         */
+        clip-path: inset(0 0 -100vh 0);
+      }
+    }
+}
+
+.page-wrapper {
+  margin-inline: auto;
+}
