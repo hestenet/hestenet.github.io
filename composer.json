@@ -34,7 +34,6 @@
         "drupal/lunr": "^1.5",
         "drupal/metatag": "^2.0",
         "drupal/bootstrap5": "^3.0",
-        "drupal/dxpr_theme": "^5.1",
         "drupal/simple_sitemap": "^4.1",
         "drupal/css_editor": "^2.0",
         "drupal/redirect": "^1.9",

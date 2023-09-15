@@ -17,7 +17,6 @@ module:
   css_editor: 0
   datetime: 0
   dblog: 0
-  dxpr_theme_helper: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -88,6 +87,4 @@ theme:
   olivero: 0
   claro: 0
   stable9: 0
-  bootstrap5: 0
-  dxpr_theme: 0
 profile: standard
