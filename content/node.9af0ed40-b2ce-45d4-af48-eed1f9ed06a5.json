@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-12T05:13:17+00:00",
+            "value": "2023-09-15T09:47:01+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-12T05:13:17+00:00",
+            "value": "2023-09-15T09:47:01+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -79,8 +79,7 @@
     ],
     "path": [
         {
-            "alias": "",
-            "pid": null,
+            "alias": "\/dedications-acknowledgments",
             "langcode": "en",
             "pathauto": 1
         }
@@ -88,7 +87,7 @@
     "body": [
         {
             "value": "<h2>Dedications<\/h2><h2>&nbsp;<\/h2><h2>Acknowledgments<\/h2>",
-            "format": "basic_html",
+            "format": "full_html",
             "summary": ""
         }
     ]
