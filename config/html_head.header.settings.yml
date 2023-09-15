@@ -1,1 +1,1 @@
-html_header: ''
+html_header: "<style>\r\n/* @Font-Faces */\r\n@font-face {\r\n  font-family: Philosopher;\r\n  src: local(\"Philosopher\"), url(\"fonts/Philosopher/Philosopher-Regular.ttf\");\r\n  font-weight: normal;\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n\r\n@font-face {\r\n  font-family: Cinzel;\r\n  src: local(\"Cinzel\"), url(\"fonts/Cinzel/Cinzel-VariableFont_wght.ttf\");\r\n  font-weight: normal;\r\n  font-style: normal;\r\n  font-display: swap;\r\n}\r\n</style>"
