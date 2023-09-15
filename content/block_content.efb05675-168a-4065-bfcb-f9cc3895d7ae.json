@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-12T02:14:08+00:00",
+            "value": "2023-09-15T05:15:22+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/plummers_tree_plums.jpg\" data-entity-uuid=\"e408913b-ccf9-4112-866b-a61878f6d830\" data-entity-type=\"file\" alt=\"A plum tree with purple leaves and plums with glowing pits straining to float away.\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/the_blue_wizard.png\" data-entity-uuid=\"53017acf-4057-4733-b9f5-9233f13c515b\" data-entity-type=\"file\" alt=\"The Blue Wizard, moss in his beard, holding a gnarled staff with a dirigible plum floating above his palm.\" width=\"351\"><\/div>",
+            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/plummers_tree_plums.jpg\" data-entity-uuid=\"e408913b-ccf9-4112-866b-a61878f6d830\" data-entity-type=\"file\" alt=\"A plum tree with purple leaves and plums with glowing pits straining to float away.\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/the_blue_wizard.png\" data-entity-uuid=\"53017acf-4057-4733-b9f5-9233f13c515b\" data-entity-type=\"file\" alt=\"The Blue Wizard, moss in his beard, holding a gnarled staff with a dirigible plum floating above his palm.\" width=\"351\" loading=\"eager\"><\/div>",
             "format": "full_html",
             "summary": ""
         }

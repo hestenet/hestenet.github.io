@@ -1,0 +1,14 @@
+uuid: 1a999891-f19a-480f-b2d5-84f89f7fa601
+langcode: en
+status: true
+dependencies: {  }
+name: 'Plain Text HTML'
+format: plain_text_html
+weight: -9
+filters:
+  filter_image_lazy_load:
+    id: filter_image_lazy_load
+    provider: filter
+    status: true
+    weight: 15
+    settings: {  }

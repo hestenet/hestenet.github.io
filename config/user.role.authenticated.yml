@@ -2,12 +2,9 @@ uuid: c78b9ece-4935-47a9-84fb-9d63865e8d92
 langcode: en
 status: true
 dependencies:
-  config:
-    - filter.format.basic_html
   module:
     - comment
     - file
-    - filter
     - media
     - shortcut
     - system
@@ -24,5 +21,4 @@ permissions:
   - 'delete own files'
   - 'post comments'
   - 'skip comment approval'
-  - 'use text format basic_html'
   - 'view media'

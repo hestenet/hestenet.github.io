@@ -1,0 +1,5 @@
+path: 'public://css_editor/claro.css'
+enabled: true
+css: "/* Admin area */\r\n#css-editor-field .CodeMirror{\r\n    height: 800px;\r\n}\r\n.olivero-details {\r\n  background-color: #ffffff;\r\n}"
+plaintext_enabled: false
+autopreview_enabled: false
