@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="http://default/">
+<rss version="2.0" xml:base="http://default/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Aspen &amp; Thorn Press - Publishers of Fog &amp; Fireflies by T.H. Lehnen</title>
     <link>http://default/</link>
-    <description/>
+    <description></description>
     <language>en</language>
     
     
