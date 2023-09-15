@@ -1,0 +1,37 @@
+{
+    "uuid": [
+        {
+            "value": "6818fdde-458f-416b-9bb4-1b9da7ac719d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default",
+            "target_type": "shortcut_set",
+            "target_uuid": "c1f463f4-b298-4aab-aa97-1308fbb4b806"
+        }
+    ],
+    "title": [
+        {
+            "value": "HTML Head"
+        }
+    ],
+    "weight": [],
+    "link": [
+        {
+            "uri": "internal:\/admin\/config\/development\/html_head",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ]
+}

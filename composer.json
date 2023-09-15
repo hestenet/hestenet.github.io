@@ -37,7 +37,8 @@
         "drupal/dxpr_theme": "^5.1",
         "drupal/simple_sitemap": "^4.1",
         "drupal/css_editor": "^2.0",
-        "drupal/redirect": "^1.9"
+        "drupal/redirect": "^1.9",
+        "drupal/html_head": "^1.2"
     },
     "scripts": {
         "symlink": "./scripts/symlink.sh",

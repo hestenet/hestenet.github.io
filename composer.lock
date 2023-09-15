@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec181cd2726822bde3162ac1d744dfc2",
+    "content-hash": "9cc7d7ad1795a73b84bdb69f41d2c356",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2005,6 +2005,51 @@
                 "source": "https://git.drupalcode.org/project/dxpr_theme_helper",
                 "documentation": "https:/.dxpr.com/hc",
                 "issues": "https://dxpr.com/hc/tickets"
+            }
+        },
+        {
+            "name": "drupal/html_head",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/html_head.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/html_head-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "9459caec90182e54a402e3771c06b57693453a5d"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1666032283",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Sahil",
+                    "homepage": "https://www.drupal.org/user/3452513",
+                    "role": "contributor"
+                }
+            ],
+            "description": "Html Head module allows to add all html tags inside head tag.",
+            "homepage": "http://drupal.org/project/html_head",
+            "support": {
+                "source": "https://git.drupalcode.org/project/html_head"
             }
         },
         {
