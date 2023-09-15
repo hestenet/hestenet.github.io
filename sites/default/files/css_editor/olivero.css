@@ -1,6 +1,7 @@
 /* @Font-Faces */
 @font-face {
   font-family: Tahoma;
+  src: local("Tahoma");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,6 +9,7 @@
 
 @font-face {
   font-family: Garamond;
+  src: local("Garamond");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -15,6 +17,7 @@
 
 @font-face {
   font-family: Philosopher;
+  src: local("Philosopher"), url("fonts/Philosopher/Philosopher-Regular.ttf");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,6 +25,8 @@
 
 @font-face {
   font-family: Cinzel;
+  src: local("Cinzel"), url("fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -31,8 +36,8 @@
 :root {
     --font-sans: "Tahoma",sans-serif;
     --font-serif: "Garamond",serif;
-    --font-header-serif: 'Philosopher',"Garamond",serif;
-    --font-testimonial-serif: 'Cinzel',"Garamond",serif;
+    --font-header-serif: "Philosopher","Garamond",serif;
+    --font-testimonial-serif: "Cinzel","Garamond",serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
