@@ -1,14 +1,3 @@
-/* Font Imports */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=DM+Serif+Display&display=swap');
-
-/* Admin area */
-#css-editor-field .CodeMirror{
-    height: 800px;
-}
-.olivero-details {
-  background-color: #ffffff;
-}
-
 /* Root */
 :root {
     --font-sans: "Tahoma",sans-serif;
@@ -52,7 +41,7 @@ body {
 }
 
 .region--content-below .block__content {
-  padding: 0rem 1rem 0rem 1rem;
+  padding: 0rem 1rem 2rem 1rem;
 }
 
 body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
@@ -212,7 +201,13 @@ h1, h2, h3, h4, h5, h6 {
 #block-olivero-newsletter .block__content .text-content {
   /* background-color: var(--color--gray-100); */
   background-color: #222222;
-  padding: 0.1rem 2rem;
+  padding: 0.1rem 2rem 2rem 2rem;
+}
+
+@media (min-width: 1200px) {
+  #block-olivero-newsletter .block__content .text-content {
+    padding: 0.1rem 6rem 3rem 6rem;
+  }
 }
 
 /* Footer styling */
@@ -258,10 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   ul.smokeText {
     background-color: rgba(0, 0, 0, 0.5);
   }
-  #block-olivero-newsletter .block__content .text-content {
-    padding: 0.1rem 6rem;
-  }
- }
+}
 
 
 
