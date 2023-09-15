@@ -1,0 +1,13 @@
+diff --git a/modules/tome_static/src/StaticGenerator.php b/modules/tome_static/src/StaticGenerator.php
+index b88b167bc38f9396245100ba697f8f288209dcfb..f4936561ee340f4bb7b433a8b27ebc22ea838fe6 100644
+--- a/modules/tome_static/src/StaticGenerator.php
++++ b/modules/tome_static/src/StaticGenerator.php
+@@ -365,7 +365,7 @@ class StaticGenerator implements StaticGeneratorInterface {
+   protected function getRealPaths(array $paths, $root) {
+     $root_dir = dirname($this->sanitizePath($root));
+     foreach ($paths as &$path) {
+-      if (strpos($path, '../') !== FALSE) {
++      if (strpos($path, '../') === 0) {
+         $path = $this->joinPaths($root_dir, $path);
+       }
+     }

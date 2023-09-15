@@ -72,6 +72,9 @@
         "patches": {
             "drupal/inline_responsive_images": {
                 "CKEditor5 Compatibility": "patches/inline_responsive_images_merge_requests_5.patch"
+            },
+            "drupal/tome": {
+                "Fix for relative path issue with css assets": "patches/project_tome_-_merge_requests_6.patch"
             }
         }
     },
