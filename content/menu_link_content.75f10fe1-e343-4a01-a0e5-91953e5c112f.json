@@ -44,7 +44,7 @@
     ],
     "link": [
         {
-            "uri": "entity:node\/fac950a5-5ccc-4c90-9207-456afab83758",
+            "uri": "internal:\/",
             "title": "",
             "options": []
         }
@@ -56,7 +56,7 @@
     ],
     "rediscover": [
         {
-            "value": false
+            "value": true
         }
     ],
     "weight": [
@@ -72,7 +72,7 @@
     "parent": [],
     "changed": [
         {
-            "value": "2023-09-12T01:42:53+00:00",
+            "value": "2023-09-15T21:05:18+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
