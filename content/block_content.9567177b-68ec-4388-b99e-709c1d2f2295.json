@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-15T05:24:39+00:00",
+            "value": "2023-09-15T08:05:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<h2>Subscribe<\/h2>\r\n<p>Subscribe for brief, meaningful, and infrequent(<strong>\"I promise!\"<\/strong>) updates from T.H. Lehnen including information about upcoming releases, special editions, signings, etc.<\/p>\r\n<script defer src=\"https:\/\/eomail6.com\/form\/640fb42a-4f96-11ee-ba55-15fa8dc2c5c6.js\" data-form=\"640fb42a-4f96-11ee-ba55-15fa8dc2c5c6\"><\/script>\r\n<p>Newsletters are the best way for authors to directly connect to their readership, unmediated by corporate social media companies.<\/p>",
+            "value": "<h2>Subscribe<\/h2>\r\n<p>Subscribe for brief, meaningful, and infrequent(<strong>\"I promise!\"<\/strong>) updates from T.H. Lehnen including information about upcoming releases, special editions, signings, etc.<\/p>\r\n<script defer src=\"https:\/\/eomail6.com\/form\/775847c0-539e-11ee-9a88-ad3f5326142d.js\" data-form=\"775847c0-539e-11ee-9a88-ad3f5326142d\"><\/script>\r\n<p>Newsletters are the best way for authors to directly connect to their readership, unmediated by corporate social media companies.<\/p>",
             "format": "plain_text_html",
             "summary": ""
         }

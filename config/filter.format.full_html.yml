@@ -16,37 +16,37 @@ filters:
     id: filter_align
     provider: filter
     status: true
-    weight: 8
+    weight: -45
     settings: {  }
   filter_caption:
     id: filter_caption
     provider: filter
     status: true
-    weight: 9
+    weight: -46
     settings: {  }
   filter_htmlcorrector:
     id: filter_htmlcorrector
     provider: filter
     status: true
-    weight: 10
+    weight: -49
     settings: {  }
   editor_file_reference:
     id: editor_file_reference
     provider: editor
     status: true
-    weight: 11
+    weight: -47
     settings: {  }
   filter_image_lazy_load:
     id: filter_image_lazy_load
     provider: filter
     status: true
-    weight: 12
+    weight: -44
     settings: {  }
   filter_html:
     id: filter_html
     provider: filter
     status: false
-    weight: -10
+    weight: -43
     settings:
       allowed_html: ''
       filter_html_help: true
@@ -55,7 +55,7 @@ filters:
     id: media_embed
     provider: media
     status: true
-    weight: 100
+    weight: -48
     settings:
       default_view_mode: default
       allowed_view_modes: {  }
@@ -64,5 +64,30 @@ filters:
     id: webp_image
     provider: webp_extras
     status: true
-    weight: 101
+    weight: -50
+    settings: {  }
+  filter_html_image_secure:
+    id: filter_html_image_secure
+    provider: filter
+    status: false
+    weight: -39
+    settings: {  }
+  filter_url:
+    id: filter_url
+    provider: filter
+    status: false
+    weight: -40
+    settings:
+      filter_url_length: 72
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: false
+    weight: -41
+    settings: {  }
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: false
+    weight: -42
     settings: {  }
