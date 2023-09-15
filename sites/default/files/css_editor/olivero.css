@@ -1,4 +1,8 @@
-/* @Font-Faces */
+/***************************/
+/* @Font-Faces 
+/***************************/
+
+
 @font-face {
   font-family: Philosopher;
   src: local("Philosopher"), url("/fonts/Philosopher/Philosopher-Regular.ttf");
@@ -70,7 +74,12 @@
   font-display: swap;
 }
 
-/* Root */
+
+/***************************/
+/* Root 
+/***************************/
+
+
 :root {
     --font-sans: "Tahoma",sans-serif;
     --font-serif: "Garamond",serif;
@@ -83,7 +92,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-/* Background */
+
+/***************************/
+/* Background 
+/***************************/
+
+
 body {
  /* 
  background: linear-gradient(to top, rgba(76, 97, 91, 0.6), rgba(30,40,36,1.0)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e"); 
@@ -94,7 +108,12 @@ body {
  font-display: swap;
 }
 
-/* Tighten padding */
+
+/***************************/
+/* Tighten padding 
+/***************************/
+
+
 .main-content__container {
   padding-block-start: var(--sp6);
 }
@@ -115,6 +134,15 @@ body {
   margin-block-end: var(--sp0-25);
 }
 
+.region--content-below .block__content {
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+/***************************/
+/* Center title and small screen sizes
+/***************************/
+
+
 @media (max-width: 699px) {
   .block-page-title-block {
     text-align: center;
@@ -124,12 +152,26 @@ body {
   }
 }
 
-.region--content-below .block__content {
-  padding: 0rem 1rem 2rem 1rem;
+
+/***************************/
+/* Menu adjustments
+/***************************/
+
+.primary-nav__menu--level-1 {
+    font-family: var(--font-header-serif);
+}
+
+.primary-nav__menu-link-inner--level-1 {
+  font-size: 1.2rem;
+}
+
+.mobile-nav-button__label {
+  font-size: 1.2rem;
+  font-family: var(--font-header-serif);
 }
 
 body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
-  margin-inline-end: 1em;
+  margin-inline-end: 1rem;
 }
 
 body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
@@ -139,7 +181,25 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
   padding-block: calc(2 * var(--sp));
 }
 
+/* Expand mobile menu by default */
+.primary-nav__menu--level-2 {
+    visibility: visible; /* Expand mobile menu by default */
+    max-height: none;
+    margin-block-start: var(--sp1-5);
+    opacity: 1;
+    font-family: var(--font-sans);
+}
+
+.primary-nav__button-toggle .icon--menu-toggle {
+  visibility: hidden;
+}
+
+
+/***************************/
 /* Hide newsletter branding */
+/***************************/
+
+
 .mastfoot {
   display: none !important;
 }
@@ -152,6 +212,7 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
 /***************************/
 /* Hero 
 /***************************/
+
 
 /* Z-index trick to allow overlapping hero image to break it's bounds */
 .heroContainer {
@@ -180,7 +241,7 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
 }
 
 .heroForegroundLeft {
-  left: 42%;
+  left: 40%;
 }
 
 .heroForegroundLarger {
@@ -209,38 +270,11 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
   }
 }
 
-/***************************/
-/* Menu 
-/***************************/
-
-.primary-nav__menu--level-1 {
-    font-family: var(--font-header-serif);
-}
-
-.primary-nav__menu-link-inner--level-1 {
-  font-size: 1.2rem;
-}
-
-.primary-nav__menu--level-2 {
-    visibility: visible; /* Expand mobile menu by default */
-    max-height: none;
-    margin-block-start: var(--sp1-5);
-    opacity: 1;
-    font-family: var(--font-sans);
-}
-
-.primary-nav__button-toggle .icon--menu-toggle {
-  visibility: hidden;
-}
-
-.mobile-nav-button__label {
-  font-size: 1.2rem;
-  font-family: var(--font-header-serif);
-}
 
 /***************************/
 /* Dark Mode         
 /***************************/
+
 
 .main-content {
   background-color: #111111;
@@ -314,7 +348,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/***************************/
 /* Footer styling */
+/***************************/
+
+
 .site-footer {
   /* 
   background: linear-gradient(0deg,var(--color--gray-5) 0%,var(--color--gray-10) 100%);
@@ -328,9 +367,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /***************************/
-/* Large Screens           
+/* Large Screens Only    
 /***************************/
 
+/* Reset z-index to allow hero image to overlap */
 @media (min-width: 1200px) {
    .site-header, .layout-main-wrapper, .site-header__inner {
     z-index: auto !important;
@@ -344,10 +384,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /***************************/
 /* Testimonial Animations */ 
 /***************************/
+
 
 .smokeText {
     padding: 0;
@@ -516,7 +556,9 @@ ul.smokeText li:nth-of-type(40) {
     }
 }
 
+/***************************/
 /* Olivero Centering Hacks*/ 
+/***************************/
 
 @media (min-width: 75rem) {
 
@@ -564,7 +606,7 @@ ul.smokeText li:nth-of-type(40) {
          * padding-inline-end of header-nav).
          * The value is equal to --sp2 in this --nav breakpoint.
          */
-        padding-inline-end: var(--sp2);
+        /* padding-inline-end: var(--sp2);*'/
       }
 
       @media (--grid-max) {
