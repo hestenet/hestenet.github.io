@@ -225,15 +225,6 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
   margin-inline-end: 1rem;
 }
 
-@media (min-width: 1200px) {
-  body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
-    border-right: solid 1px var(--color--primary-50);
-    border-bottom: solid 1px var(--color--primary-50);
-    border-left: solid 1px var(--color--primary-50);
-    padding-block: calc(2 * var(--sp));
-  }
-}
-
 /* Expand mobile menu by default */
 .primary-nav__menu--level-2 {
     visibility: visible; /* Expand mobile menu by default */
@@ -245,6 +236,26 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
 
 .primary-nav__button-toggle .icon--menu-toggle {
   visibility: hidden;
+}
+
+@media (min-width: 1200px) {
+  body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+    border-right: solid 2px var(--color--primary-60);
+    border-bottom: solid 2px var(--color--primary-60);
+    border-left: solid 2px var(--color--primary-60);
+    padding-block: calc(2.5 * var(--sp));
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+    visibility: hidden; /* Hide mobile menu at full width */
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle {
+    visibility: visible;
+    background-color: #111111;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle:after {
+    border-right: solid 4px var(--color--primary-60);
+    border-bottom: solid 4px var(--color--primary-60);
+  }
 }
 
 
