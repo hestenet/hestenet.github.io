@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "bcc00afb-802e-4874-9dc1-a18ad215acf7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "the_blue_wizard.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-09\/the_blue_wizard.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 421799
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-09-15T07:18:01+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-15T07:18:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

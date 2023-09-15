@@ -79,6 +79,8 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  webp: 0
+  webp_extras: 0
   pathauto: 1
   content_translation: 10
   views: 10

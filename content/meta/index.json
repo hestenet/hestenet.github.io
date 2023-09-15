@@ -144,5 +144,12 @@
     "block_content.73cf2dec-88c7-4245-80fc-72105626893d": [],
     "block_content.ede86996-9f55-457b-8881-4c126f97a228": [],
     "shortcut.f14913fa-2e95-4431-8a7e-e624fce11427": [],
-    "shortcut.6818fdde-458f-416b-9bb4-1b9da7ac719d": []
+    "shortcut.6818fdde-458f-416b-9bb4-1b9da7ac719d": [],
+    "file.bcc00afb-802e-4874-9dc1-a18ad215acf7": [
+        "user.30237f82-3052-4f3a-bbcc-17a2332e772d"
+    ],
+    "media.9a8964d6-fb36-41e7-a9f7-a6ec4bbf823f": [
+        "user.30237f82-3052-4f3a-bbcc-17a2332e772d",
+        "file.bcc00afb-802e-4874-9dc1-a18ad215acf7"
+    ]
 }

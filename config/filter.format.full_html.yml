@@ -4,6 +4,8 @@ status: true
 dependencies:
   module:
     - editor
+    - media
+    - webp_extras
 _core:
   default_config_hash: WNeK5FbcY8pXgEpbD_KgRzlF1-5PL3BJXwqaBctPTqw
 name: 'Full HTML'
@@ -39,4 +41,28 @@ filters:
     provider: filter
     status: true
     weight: 12
+    settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: ''
+      filter_html_help: true
+      filter_html_nofollow: false
+  media_embed:
+    id: media_embed
+    provider: media
+    status: true
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_view_modes: {  }
+      allowed_media_types: {  }
+  webp_image:
+    id: webp_image
+    provider: webp_extras
+    status: true
+    weight: 101
     settings: {  }

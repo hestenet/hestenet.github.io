@@ -37,7 +37,11 @@
         "drupal/simple_sitemap": "^4.1",
         "drupal/css_editor": "^2.0",
         "drupal/redirect": "^1.9",
-        "drupal/html_head": "^1.2"
+        "drupal/html_head": "^1.2",
+        "mglaman/composer-drupal-lenient": "^1.0",
+        "drupal/inline_responsive_images": "^2.3",
+        "drupal/webp_extras": "^2.0@beta",
+        "drupal/color": "^1.0"
     },
     "scripts": {
         "symlink": "./scripts/symlink.sh",
@@ -61,6 +65,14 @@
           "locations": {
               "web-root": "web/"
           }
+        },
+        "drupal-lenient": {
+            "allowed-list": ["drupal/inline_responsive_images", "drupal/inline_responsive_images"]
+        },
+        "patches": {
+            "drupal/inline_responsive_images": {
+                "CKEditor5 Compatibility": "patches/inline_responsive_images_merge_requests_5.patch"
+            }
         }
     },
     "config": {
@@ -69,7 +81,8 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "drupal/core-project-message": true
+            "drupal/core-project-message": true,
+            "mglaman/composer-drupal-lenient": true
         }
     }
 }
