@@ -10,7 +10,7 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: olivero_syndicate
 theme: olivero
-region: social
+region: footer_top
 weight: -7
 provider: null
 plugin: node_syndicate_block
