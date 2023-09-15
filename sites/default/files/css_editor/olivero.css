@@ -87,11 +87,6 @@
     --font-testimonial-serif: "Cinzel","Garamond",serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-header-serif);
-    font-weight: normal;
-}
-
 
 /***************************/
 /* Background 
@@ -134,28 +129,70 @@ body {
   margin-block-end: var(--sp0-25);
 }
 
+.region--content {
+  padding-block-start: var(--sp);
+}
+
 .region--content-below .block__content {
   padding: 0rem 1rem 2rem 1rem;
 }
 
+
 /***************************/
-/* Center title and small screen sizes
+/* Page Titles
 /***************************/
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-header-serif);
+    font-weight: normal;
+}
 
+h1 {
+    line-height: var(--sp3);
+}
+
+h2, h3, h4, h5, h6 {
+    line-height: var(--sp2);
+}
+
+.block-page-title-block {
+ /* margin-block-start: var(--sp0-5);
+  margin-block-end: var(--sp); */
+}
+
+/*Center on small sreens */
 @media (max-width: 699px) {
   .block-page-title-block {
     text-align: center;
+    margin-block-end: var(--sp);
   }
   .page-title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
+}
+
+
+/***************************/
+/* Blockquote
+/***************************/
+
+
+.text-content blockquote:before {
+  color: var(--color--primary-60);
+  font-size: 5rem;
+}
+
+.text-content blockquote {
+  font-family: Philosopher;
+  font-size: 2rem;
+  line-height: var(--sp2-5);
 }
 
 
 /***************************/
 /* Menu adjustments
 /***************************/
+
 
 .primary-nav__menu--level-1 {
     font-family: var(--font-header-serif);
