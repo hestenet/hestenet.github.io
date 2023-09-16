@@ -193,6 +193,7 @@ h2, h3, h4, h5, h6 {
 /* Menu adjustments
 /***************************/
 
+
 .primary-nav__menu-item {
   margin-block-start: var(--sp0-75);
   margin-block-end: var(--sp0-75);
@@ -218,6 +219,10 @@ h2, h3, h4, h5, h6 {
   .primary-nav__menu-link-inner--level-2 {
     font-size: 1rem;
   }
+}
+
+.primary-nav__button-toggle {
+  display:none;
 }
 
 .mobile-nav-button__label {
@@ -268,20 +273,6 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
     border-right: solid 4px var(--color--primary-60);
     border-bottom: solid 4px var(--color--primary-60);
   }
-}
-
-
-/***************************/
-/* Hide newsletter branding */
-/***************************/
-
-
-.mastfoot {
-  display: none !important;
-}
-
-.btn {
-  padding: 0.6rem 0.5rem !important;
 }
 
 
@@ -409,6 +400,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .feed-icon:hover{
   color: var(--color--primary-80);
+}
+
+/***************************/
+/* Hide newsletter branding */
+/***************************/
+
+
+.mastfoot {
+  display: none !important;
+}
+
+.btn {
+  padding: 0.6rem 0.5rem !important;
+}
+
+.emailoctopus-form input[type=submit] {
+  background-color: var(--color--primary-60) !important;
+  border-color: var(--color--primary-60) !important;
 }
 
 /* Newsletter block styling */
