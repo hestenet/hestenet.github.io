@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-15T23:49:52+00:00",
+            "value": "2023-09-16T00:36:32+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"heroContainer\"><div><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Photoshop_Website_Hero.jpg\" data-entity-uuid=\"41cce0e4-9b96-4a01-b5cb-ffac7b34a12b\" data-entity-type=\"file\" alt=\"\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/fog_phantom_hero_portrait_2.png\" data-entity-uuid=\"f29df963-2c60-418d-971a-3b4588fb8147\" data-entity-type=\"file\" alt=\"A phantom coalescing out of the fog, with two-pronged horns and glowing red eyes.\" width=\"351\" loading=\"eager\"><\/div><\/div><div class=\"testimonial\" title=\"\u201cA novel that reads like a Ghibli film.\u201d\"><ul class=\"smokeText\"><li>\u201cA<\/li><li>&nbsp;<\/li><li>novel<\/li><li>&nbsp;<\/li><li>that<\/li><li>&nbsp;<\/li><li>reads<\/li><li>&nbsp;<\/li><li>like<\/li><li>&nbsp;<\/li><li>a<\/li><li>&nbsp;<\/li><li>Ghibli<\/li><li>&nbsp;<\/li><li>film.\u201d<\/li><\/ul><\/div>",
+            "value": "<div class=\"heroContainer\"><div><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Photoshop_Website_Hero.jpg\" data-entity-uuid=\"41cce0e4-9b96-4a01-b5cb-ffac7b34a12b\" data-entity-type=\"file\" alt=\"\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/fog_phantom_hero_portrait_2.png\" data-entity-uuid=\"f29df963-2c60-418d-971a-3b4588fb8147\" data-entity-type=\"file\" alt=\"\" width=\"351\" loading=\"eager\"><\/div><\/div><div class=\"testimonial\" role=\"marquee\" title=\"\u201cA novel that reads like a Ghibli film.\u201d\"><ul class=\"smokeText\"><li>\u201cA<\/li><li>&nbsp;<\/li><li>novel<\/li><li>&nbsp;<\/li><li>that<\/li><li>&nbsp;<\/li><li>reads<\/li><li>&nbsp;<\/li><li>like<\/li><li>&nbsp;<\/li><li>a<\/li><li>&nbsp;<\/li><li>Ghibli<\/li><li>&nbsp;<\/li><li>film.\u201d<\/li><\/ul><\/div>",
             "format": "full_html",
             "summary": ""
         }
