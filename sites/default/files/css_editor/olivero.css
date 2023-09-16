@@ -193,7 +193,6 @@ h2, h3, h4, h5, h6 {
 /* Menu adjustments
 /***************************/
 
-
 .primary-nav__menu-item {
   margin-block-start: var(--sp0-75);
   margin-block-end: var(--sp0-75);
@@ -227,6 +226,12 @@ h2, h3, h4, h5, h6 {
 
 .primary-nav__button-toggle {
   display:none;
+}
+
+@media (min-width: 1200px) {
+  .primary-nav__button-toggle {
+    display:inline;
+  }
 }
 
 .mobile-nav-button__label {
@@ -278,7 +283,6 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
     border-bottom: solid 4px var(--color--primary-60);
   }
 }
-
 
 /***************************/
 /* Hero 
@@ -405,6 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 .feed-icon:hover{
   color: var(--color--primary-80);
 }
+
 
 /***************************/
 /* Hide newsletter branding */
