@@ -110,19 +110,13 @@ body {
 
 
 .main-content__container {
-  padding-block-start: var(--sp6);
-}
-
-@media (max-width: 699px) {
-  .main-content__container {
-    padding-block-start: var(--sp9);
-  }
+  padding-block-start: var(--sp3);
 }
 
 @media (min-width: 1200px) {
-   .main-content__container {
-     padding-block-start: var(--sp4);
-   }
+  .main-content__container {
+    padding-block-start: var(--sp3);
+  }
 }
 
 .region > * {
@@ -141,6 +135,7 @@ body {
 /***************************/
 /* Page Titles
 /***************************/
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-header-serif);
@@ -167,7 +162,7 @@ h2, h3, h4, h5, h6 {
     margin-block-end: var(--sp);
   }
   .page-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -193,6 +188,7 @@ h2, h3, h4, h5, h6 {
 /* Menu adjustments
 /***************************/
 
+
 .primary-nav__menu-item {
   margin-block-start: var(--sp0-75);
   margin-block-end: var(--sp0-75);
@@ -206,8 +202,6 @@ h2, h3, h4, h5, h6 {
 .primary-nav__menu-link {
   display: block;
 }
-
-
 
 .primary-nav__menu--level-1 {
     font-family: var(--font-header-serif);
@@ -291,8 +285,9 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
   }
 }
 
+
 /***************************/
-/* Hero 
+/* Hero & Testimonial
 /***************************/
 
 
@@ -337,18 +332,21 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
 }
 
 .testimonial {
-    padding: 0;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,50%);
-    z-index: 3;
+  padding: 4em 0em 0em;
+  margin: 0em 0em -2em;
+  text-align: center;
+  width: 100%;
 }
 
 @media (min-width: 1200px) {
   .testimonial {
     transform: translate(-50%,-50%);
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    z-index: 3;
   }
 }
 
@@ -505,6 +503,7 @@ ul.smokeText {
     color: #FFF;
     width: fit-content;
 }
+
 @media (min-width: 1200px) {
   ul.smokeText {
     padding: 0.5em 1em 0em 1em;
