@@ -193,6 +193,10 @@ h2, h3, h4, h5, h6 {
 /* Menu adjustments
 /***************************/
 
+.primary-nav__menu-item {
+  margin-block-start: var(--sp0-75);
+  margin-block-end: var(--sp0-75);
+}
 
 .primary-nav__menu--level-1 {
     font-family: var(--font-header-serif);
@@ -221,6 +225,14 @@ h2, h3, h4, h5, h6 {
   font-family: var(--font-header-serif);
 }
 
+.mobile-nav-button__icon, .mobile-nav-button__icon::before, .mobile-nav-button__icon::after {
+    border-top: solid 3px var(--color--primary-60);
+}
+
+.mobile-nav-button:focus {
+    outline: solid 2px var(--color--primary-60);
+}
+
 body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
   margin-inline-end: 1rem;
 }
@@ -240,10 +252,10 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
 
 @media (min-width: 1200px) {
   body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
-    border-right: solid 2px var(--color--primary-60);
-    border-bottom: solid 2px var(--color--primary-60);
-    border-left: solid 2px var(--color--primary-60);
-    padding-block: calc(2.5 * var(--sp));
+    border-right: solid 2px var(--color--primary-50);
+    border-bottom: solid 2px var(--color--primary-50);
+    border-left: solid 2px var(--color--primary-50);
+    padding-block: calc(2 * var(--sp));
   }
   body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
     visibility: hidden; /* Hide mobile menu at full width */
