@@ -199,6 +199,10 @@ h2, h3, h4, h5, h6 {
   margin-block-end: var(--sp0-75);
 }
 
+.primary-nav__menu-link {
+  display: block;
+}
+
 .primary-nav__menu--level-1 {
     font-family: var(--font-header-serif);
 }
