@@ -196,11 +196,18 @@ h2, h3, h4, h5, h6 {
 .primary-nav__menu-item {
   margin-block-start: var(--sp0-75);
   margin-block-end: var(--sp0-75);
+  margin-right: var(--sp);
+}
+
+.primary-nav__menu-item:last-child {
+  margin-block-end: var(--sp0-75);
 }
 
 .primary-nav__menu-link {
   display: block;
 }
+
+
 
 .primary-nav__menu--level-1 {
     font-family: var(--font-header-serif);
