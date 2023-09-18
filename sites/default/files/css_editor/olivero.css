@@ -468,6 +468,16 @@ in a constant rotation.
    background: #111111;
 }
 
+.site-branding__inner {
+    padding-top: 2em;
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+}
+
+.site-branding__inner a {
+  all: revert !important;
+}
+
 .site-branding__logo img {
     filter: brightness(0) invert(1);
 }
