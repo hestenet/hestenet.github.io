@@ -1,0 +1,25 @@
+uuid: e1c83825-4899-43b8-b1b7-a105626e02f3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e5916248-c333-48c4-b35f-2aa51d0671fd'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_sitelogo
+theme: olivero
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:e5916248-c333-48c4-b35f-2aa51d0671fd'
+settings:
+  id: 'block_content:e5916248-c333-48c4-b35f-2aa51d0671fd'
+  label: 'Site Logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

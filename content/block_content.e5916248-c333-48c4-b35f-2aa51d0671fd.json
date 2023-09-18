@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "e5916248-c333-48c4-b35f-2aa51d0671fd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2023-09-18T06:35:43+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Site Logo"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-09-18T07:07:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<style>\r\n.text-content .sitebrainding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/Fog_and_Fireflies_Title_1.png\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}
