@@ -331,22 +331,63 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
    }
 }
 
+/***************************/
+/* Testimonials - Display
+/***************************/
+
+
+.smokeText {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-testimonial-serif);
+}
+
+ul.smokeText {
+    position: relative; /* absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1em;
+    /*white-space: nowrap;*/
+    color: #FFF;
+    width: fit-content;
+}
+
+@media (min-width: 1200px) {
+  ul.smokeText {
+    padding: 0.5em 1em 0em 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+ul.smokeText li {
+  list-style: none;
+  display: inline-block;
+  margin: 0em 0em;
+  font-size: 2.2rem;
+}
+
 .testimonial {
-  padding: 4em 0em 0em;
-  margin: 0em 0em -2em;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: auto;
+  transform: translate(-50%, 0%);
+  padding: 0em 0em 0em;
+  margin: 0em 0em 0em;
   text-align: center;
   width: 100%;
 }
 
 @media (min-width: 1200px) {
   .testimonial {
-    transform: translate(-50%,-50%);
-    padding: 0;
-    text-align: center;
-    width: 100%;
     position: absolute;
     left: 50%;
-    z-index: 3;
+    bottom: 0;
+    top: auto;
+    transform: translate(-50%,20%);
+    padding: 0;
+    margin: 0;
   }
 }
 
@@ -488,177 +529,787 @@ h1, h2, h3, h4, h5, h6 {
 /***************************/
 
 
-.smokeText {
-    padding: 0;
-    margin: 0;
-    font-family: var(--font-testimonial-serif);
-}
-ul.smokeText {
-    position: relative; /* absolute */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1em;
-    /*white-space: nowrap;*/
-    color: #FFF;
-    width: fit-content;
+/******************************
+
+Variables
+
+/******************************/
+
+
+:root {
+  --cycle-duration: 36s;
+  --line-duration: 7s;
 }
 
+
+/******************************
+
+A carousel that fades in 5 items
+in a constant rotation. 
+
+/******************************/
+
 @media (min-width: 1200px) {
-  ul.smokeText {
-    padding: 0.5em 1em 0em 1em;
-    background-color: rgba(0, 0, 0, 0.5);
+  .fadeCarousel {
+    /* width: 100%; */
+    /* margin: 40px auto 0; */
+    /* overflow: visible; */
+    /* position: relative; */
+    position: relative;
+    z-index: 3;
   }
 }
 
+.fadeCarousel ul.carouselList {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* position: relative; */
+}
+
+.fadeCarousel li.anim {
+  /* width: 100%; */
+  /* height: 320px; */
+  /* position: absolute; */
+  /* top: -325px; */ 
+  list-style: none;
+  opacity: 0;
+}
+
+.fadeCarousel .source {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+
+/*********************
+Hover States
+*********************/
+
+
+.fadeCarousel:hover li {
+  animation-play-state: paused;
+  filter: blur(0px) !important;
+  z-index: 3;
+}
+
+
+/******************************
+Calculating the animation duration for a loop 
+
+Full keyframe animation should be completed
+in 100/n% of the keyframes, where n is the number
+of items in the animation.
+
+For example:
+5 lines in the animation
+100/5 = 20%
+
+Ensure the full animation completes by the 20% keyframe
+
+Set delay equal to length of the animation * (n-1)
+Set duration = delay * n, where n is number of lines. 
+
+******************************/
+
+
+.fadeCarousel li.anim {
+  z-index: 0; 
+  animation-name: cycle; /* Name of animation | default: 0 */
+  animation-duration: calc(var(--cycle-duration) * 1);
+  animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
+  animation-iteration-count: infinite; /* How many times the animation should run | default: infinite*/ 
+  animation-direction: normal; /* normal, reverse, alternate(forwards then backwards) alternate-reverse(backwards then forwards) per iteration | default: normal */
+  animation-timing-function: linear; /* Speed curve: ease (slow-fast-slow),  ease-in(fast-slow), ease-out(slow-fast), linear (equal time), ease-in-out (fast-slow-fast), cubic-bezier(n,n,n) | Default: ease*/
+  animation-fill-mode: none; /* style applied before, after, or both | default: none (original styles), forwards (last keyframe styles), backwards (first keyframe styles before animation starts), both (first styles before animation, last styles after) */
+  /* Shorthand is in the order above */ 
+}
+
+
+.fadeCarousel li.anim.one {
+  animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
+}
+
+.fadeCarousel li.anim.two {
+  animation-delay: calc(var(--line-duration) * 1); /* Delay before the animation starts */
+}
+
+.fadeCarousel li.anim.three {
+  animation-delay: calc(var(--line-duration) * 2); /* Delay before the animation starts */
+} 
+
+.fadeCarousel li.anim.four {
+  animation-delay: calc(var(--line-duration) * 3); /* Delay before the animation starts */
+}
+
+.fadeCarousel li.anim.five {
+  animation-delay: calc(var(--line-duration) * 4); /* Delay before the animation starts */
+  /* End on five */
+  /* 
+  animation: cycleEnd;
+  animation-duration: var(--line-duration); 
+  animation-iteration-count: 1;
+  */ 
+}
+
+
+@keyframes cycle {
+  0% {
+    filter: blur(200px);
+    opacity: 1;
+    z-index:3
+  }
+  4% {
+    z-index:3
+  }
+  8% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  28% {
+    opacity: 0;
+    filter: blur(200px);
+  }
+}
+
+@keyframes cycleEnd {
+  0% {
+    filter: blur(40px);
+    display:inline;
+  }
+  4% {
+    filter: blur(40px);
+    z-index: 3
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(10px);
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  80% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  92% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  96% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+
+/******************************
+FogLetters / Smoke Text Animation 
+
+Set duration = 'Cycle' animation delay * n, where n is number of lines. 
+
+Full keyframe animation should be completed
+in 100/[n]/[wordcount]% of the keyframes, where [n] is the number
+of items in the animation, and [wordcount] is the avg words per line.
+
+Add a buffer equal to the fade in duration of the Cycle animation, so
+the FogLetters animation doesn't complete before cycle starts
+
+For example:
+8% of keyframe buffer
+5 lines in the animation
+8 words per line
+8% + 100/5/8 = 10.5% <-- animatiom should finish on this keyframe. 
+
+Delay should be .05s per letter + the [cycle delay] offset for each line.
+
+So if each cycle has 7s delay, add 7s per cycle. 
+
+******************************/
+
+
 ul.smokeText li {
-    list-style: none;
-    display: inline-block;
-    /*font-size: 35px;*/
-    font-size: 2.2rem;
-    /* text-transform: uppercase; */
-    margin: 0em 0em;
-    animation-name: fogletters;
-    animation-duration: 1.5s;
-    animation-fill-mode: backwards;
-    animation-direction: alternate-reverse;
-    animation-timing-function: linear;
+  animation-name: fogletters;
+  animation-duration: calc(var(--cycle-duration) * 1); /* How long to complete animation | default: 0 */
+  animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
+  animation-iteration-count: infinite; /* How many times the animation should run | default: infinite*/ 
+  animation-direction: normal; /* normal, reverse, alternate(forwards then backwards) alternate-reverse(backwards then forwards) per iteration | default: normal */
+  animation-timing-function: linear; /* Speed curve: ease (slow-fast-slow),  ease-in(fast-slow), ease-out(slow-fast), linear (equal time), ease-in-out (fast-slow-fast), cubic-bezier(n,n,n) | Default: ease*/
+  animation-fill-mode: none; /* style applied before, after, or both | default: none (original styles), forwards (last keyframe styles), backwards (first keyframe styles before animation starts), both (first styles before animation, last styles after) */
+  /* Shorthand is in the order above */ 
 }
-ul.smokeText li:nth-of-type(1) {
-    animation-delay: 0s;
-}
-ul.smokeText li:nth-of-type(2) {
-    animation-delay: .1s;
-}
-ul.smokeText li:nth-of-type(3) {
-    animation-delay: .2s;
-}
-ul.smokeText li:nth-of-type(4) {
-    animation-delay: .3s;
-}
-ul.smokeText li:nth-of-type(5) {
-    animation-delay: .4s;
-}
-ul.smokeText li:nth-of-type(6) {
-    animation-delay: .5s;
-}
-ul.smokeText li:nth-of-type(7) {
-    animation-delay: .6s;
-}
-ul.smokeText li:nth-of-type(8) {
-    animation-delay: .7s;
-}
-ul.smokeText li:nth-of-type(9) {
-    animation-delay: .8s;
-}
-ul.smokeText li:nth-of-type(10) {
-    animation-delay: .9s;
-}
-ul.smokeText li:nth-of-type(11) {
-    animation-delay: 1.0s;
-}
-ul.smokeText li:nth-of-type(12) {
-    animation-delay: 1.1s;
-}
-ul.smokeText li:nth-of-type(13) {
-    animation-delay: 1.2s;
-}
-ul.smokeText li:nth-of-type(14) {
-    animation-delay: 1.3s;
-}
-ul.smokeText li:nth-of-type(15) {
-    animation-delay: 1.4s;
-}
-ul.smokeText li:nth-of-type(16) {
-    animation-delay: 1.5s;
-}
-ul.smokeText li:nth-of-type(17) {
-    animation-delay: 1.6s;
-}
-ul.smokeText li:nth-of-type(18) {
-    animation-delay: 1.7s;
-}
-ul.smokeText li:nth-of-type(19) {
-    animation-delay: 1.8s;
-}
-ul.smokeText li:nth-of-type(20) {
-    animation-delay: 1.9s;
-}
-ul.smokeText li:nth-of-type(21) {
-    animation-delay: 2.0s;
-}
-ul.smokeText li:nth-of-type(22) {
-    animation-delay: 2.1s;
-}
-ul.smokeText li:nth-of-type(23) {
-    animation-delay: 2.2s;
-}
-ul.smokeText li:nth-of-type(24) {
-    animation-delay: 2.3s;
-}
-ul.smokeText li:nth-of-type(25) {
-    animation-delay: 2.4s;
-}
-ul.smokeText li:nth-of-type(26) {
-    animation-delay: 2.5s;
-}
-ul.smokeText li:nth-of-type(27) {
-    animation-delay: 2.6s;
-}
-ul.smokeText li:nth-of-type(28) {
-    animation-delay: 2.7s;
-}
-ul.smokeText li:nth-of-type(29) {
-    animation-delay: 2.8s;
-}
-ul.smokeText li:nth-of-type(30) {
-    animation-delay: 2.9s;
-}
-ul.smokeText li:nth-of-type(31) {
-    animation-delay: 3.0s;
-}
-ul.smokeText li:nth-of-type(32) {
-    animation-delay: 3.1s;
-}
-ul.smokeText li:nth-of-type(33) {
-    animation-delay: 3.2s;
-}
-ul.smokeText li:nth-of-type(34) {
-    animation-delay: 3.3s;
-}
-ul.smokeText li:nth-of-type(35) {
-    animation-delay: 3.4s;
-}
-ul.smokeText li:nth-of-type(36) {
-    animation-delay: 3.5s;
-}
-ul.smokeText li:nth-of-type(37) {
-    animation-delay: 3.6s;
-}
-ul.smokeText li:nth-of-type(38) {
-    animation-delay: 3.7s;
-}
-ul.smokeText li:nth-of-type(39) {
-    animation-delay: 3.8s;
-}
-ul.smokeText li:nth-of-type(40) {
-    animation-delay: 3.9s;
-}
+
 @keyframes fogletters{
     0% {
-        filter: blur(0px);
+        filter: blur(40px);
     }
-    50% {
+    8% {
+        filter: blur(40px);
+    }
+    10.5% {
         filter: blur(0px);
     }
     100% {
-        filter: blur(40px);
+        filter: blur(0px);
     }
 }
+
+
+/******************************
+
+Line one inner animation
+
+******************************/
+
+
+/* Source */
+li.anim.one div.source ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.00s);
+  }
+
+/* Quote */
+li.anim.one ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 0) + .00s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 0) + .05s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 0) + .10s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 0) + .15s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 0) + .20s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 0) + .25s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 0) + .30s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 0) + .35s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 0) + .40s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 0) + .45s);
+  }
+li.anim.one ul.smokeText li:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 0) + .50s);
+}
+li.anim.one ul.smokeText li:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 0) + .55s);
+}
+li.anim.one ul.smokeText li:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 0) + .60s);
+}
+li.anim.one ul.smokeText li:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 0) + .65s);
+}
+li.anim.one ul.smokeText li:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 0) + .70s);
+}
+li.anim.one ul.smokeText li:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 0) + .75s);
+}
+li.anim.one ul.smokeText  li:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 0) + .80s);
+}
+li.anim.one ul.smokeText li:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 0) + .85s);
+}
+li.anim.one ul.smokeText li:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 0) + .90s);
+}
+li.anim.one ul.smokeText li:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 0) + .95s);
+}
+li.anim.one ul.smokeText li:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.00s);
+}
+li.anim.one ul.smokeText li:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.05s);
+}
+li.anim.one ul.smokeText li:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.10s);
+}
+li.anim.one ul.smokeText li:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.15s);
+}
+li.anim.one ul.smokeText li:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.20s);
+}
+li.anim.one ul.smokeText li:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.25s);
+}
+li.anim.one ul.smokeText li:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.30s);
+}
+li.anim.one ul.smokeText li:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.35s);
+}
+li.anim.one ul.smokeText li:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.40s);
+}
+li.anim.one ul.smokeText li:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.45s);
+}
+
+
+/******************************
+
+Line two inner animation
+
+******************************/
+
+
+/* Source */
+li.anim.two div.source ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.00s);
+  }
+
+/* Quote */
+li.anim.two ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 1) + .00s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 1) + .05s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 1) + .10s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 1) + .15s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 1) + .20s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 1) + .25s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 1) + .30s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 1) + .35s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 1) + .40s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 1) + .45s);
+  }
+li.anim.two ul.smokeText li:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 1) + .50s);
+}
+li.anim.two ul.smokeText li:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 1) + .55s);
+}
+li.anim.two ul.smokeText li:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 1) + .60s);
+}
+li.anim.two ul.smokeText li:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 1) + .65s);
+}
+li.anim.two ul.smokeText li:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 1) + .70s);
+}
+li.anim.two ul.smokeText li:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 1) + .75s);
+}
+li.anim.two ul.smokeText  li:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 1) + .80s);
+}
+li.anim.two ul.smokeText li:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 1) + .85s);
+}
+li.anim.two ul.smokeText li:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 1) + .90s);
+}
+li.anim.two ul.smokeText  li:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 1) + .95s);
+}
+li.anim.two ul.smokeText li:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.00s);
+}
+li.anim.two ul.smokeText li:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.05s);
+}
+li.anim.two ul.smokeText li:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.10s);
+}
+li.anim.two ul.smokeText li:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.15s);
+}
+li.anim.two ul.smokeText li:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.20s);
+}
+li.anim.two ul.smokeText li:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.25s);
+}
+li.anim.two ul.smokeText li:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.30s);
+}
+li.anim.two ul.smokeText li:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.35s);
+}
+li.anim.two ul.smokeText li:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.40s);
+}
+li.anim.two ul.smokeText li:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.45s);
+}
+
+
+/******************************
+
+Line three inner animation
+
+******************************/
+
+
+/* Source */
+li.anim.three div.source ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.00s);
+  }
+
+/* Quote */
+li.anim.three ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 2) + .00s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 2) + .05s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 2) + .10s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 2) + .15s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 2) + .20s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 2) + .25s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 2) + .30s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 2) + .35s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 2) + .40s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 2) + .45s);
+  }
+li.anim.three ul.smokeText li:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 2) + .50s);
+}
+li.anim.three ul.smokeText li:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 2) + .55s);
+}
+li.anim.three ul.smokeText li:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 2) + .60s);
+}
+li.anim.three ul.smokeText li:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 2) + .65s);
+}
+li.anim.three ul.smokeText li:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 2) + .70s);
+}
+li.anim.three ul.smokeText li:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 2) + .75s);
+}
+li.anim.three ul.smokeText  li:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 2) + .80s);
+}
+li.anim.three ul.smokeText li:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 2) + .85s);
+}
+li.anim.three ul.smokeText li:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 2) + .90s);
+}
+li.anim.three ul.smokeText  li:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 2) + .95s);
+}
+li.anim.three ul.smokeText li:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.00s);
+}
+li.anim.three ul.smokeText li:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.05s);
+}
+li.anim.three ul.smokeText li:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.10s);
+}
+li.anim.three ul.smokeText li:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.15s);
+}
+li.anim.three ul.smokeText li:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.20s);
+}
+li.anim.three ul.smokeText li:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.25s);
+}
+li.anim.three ul.smokeText li:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.30s);
+}
+li.anim.three ul.smokeText li:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.35s);
+}
+li.anim.three ul.smokeText li:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.40s);
+}
+li.anim.three ul.smokeText li:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.45s);
+}
+
+
+/******************************
+
+Line four inner animation
+
+******************************/
+
+
+/* Source */
+li.anim.four div.source ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.00s);
+  }
+
+/* Quote */
+li.anim.four ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 3) + .00s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 3) + .05s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 3) + .10s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 3) + .15s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 3) + .20s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 3) + .25s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 3) + .30s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 3) + .35s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 3) + .40s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 3) + .45s);
+  }
+li.anim.four ul.smokeText li:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 3) + .50s);
+}
+li.anim.four ul.smokeText li:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 3) + .55s);
+}
+li.anim.four ul.smokeText li:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 3) + .60s);
+}
+li.anim.four ul.smokeText li:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 3) + .65s);
+}
+li.anim.four ul.smokeText li:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 3) + .70s);
+}
+li.anim.four ul.smokeText li:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 3) + .75s);
+}
+li.anim.four ul.smokeText  li:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 3) + .80s);
+}
+li.anim.four ul.smokeText li:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 3) + .85s);
+}
+li.anim.four ul.smokeText li:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 3) + .90s);
+}
+li.anim.four ul.smokeText  li:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 3) + .95s);
+}
+li.anim.four ul.smokeText li:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.00s);
+}
+li.anim.four ul.smokeText li:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.05s);
+}
+li.anim.four ul.smokeText li:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.10s);
+}
+li.anim.four ul.smokeText li:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.15s);
+}
+li.anim.four ul.smokeText li:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.20s);
+}
+li.anim.four ul.smokeText li:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.25s);
+}
+li.anim.four ul.smokeText li:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.30s);
+}
+li.anim.four ul.smokeText li:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.35s);
+}
+li.anim.four ul.smokeText li:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.40s);
+}
+li.anim.four ul.smokeText li:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.45s);
+}
+
+
+/******************************
+
+Line five inner animation
+
+******************************/
+
+
+/* Source */
+li.anim.five div.source ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.00s);
+  }
+
+/* Quote */
+li.anim.five ul.smokeText li:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 4) + .00s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 4) + .05s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 4) + .10s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 4) + .15s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 4) + .20s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 4) + .25s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 4) + .30s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 4) + .35s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 4) + .40s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 4) + .45s);
+  }
+li.anim.five ul.smokeText li:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 4) + .50s);
+}
+li.anim.five ul.smokeText li:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 4) + .55s);
+}
+li.anim.five ul.smokeText li:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 4) + .60s);
+}
+li.anim.five ul.smokeText li:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 4) + .65s);
+}
+li.anim.five ul.smokeText li:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 4) + .70s);
+}
+li.anim.five ul.smokeText li:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 4) + .75s);
+}
+li.anim.five ul.smokeText  li:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 4) + .80s);
+}
+li.anim.five ul.smokeText li:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 4) + .85s);
+}
+li.anim.five ul.smokeText li:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 4) + .90s);
+}
+li.anim.five ul.smokeText  li:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 4) + .95s);
+}
+li.anim.five ul.smokeText li:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.00s);
+}
+li.anim.five ul.smokeText li:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.05s);
+}
+li.anim.five ul.smokeText li:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.10s);
+}
+li.anim.five ul.smokeText li:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.15s);
+}
+li.anim.five ul.smokeText li:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.20s);
+}
+li.anim.five ul.smokeText li:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.25s);
+}
+li.anim.five ul.smokeText li:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.30s);
+}
+li.anim.five ul.smokeText li:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.35s);
+}
+li.anim.five ul.smokeText li:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.40s);
+}
+li.anim.five ul.smokeText li:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.45s);
+}
+
+
+
+
+
+
+
 
 /***************************/
 /* Olivero Centering Hacks*/ 
 /***************************/
+
+
+
+
+
+
+
 
 @media (min-width: 75rem) {
 
