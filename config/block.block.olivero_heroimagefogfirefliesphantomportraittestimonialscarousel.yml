@@ -1,23 +1,23 @@
-uuid: d4c309e0-fc65-4d72-a7a2-3815b82e48cd
+uuid: ab39a97e-9c9f-431a-9c4a-c2e110a4094a
 langcode: en
-status: false
+status: true
 dependencies:
   content:
-    - 'block_content:basic:ede86996-9f55-457b-8881-4c126f97a228'
+    - 'block_content:basic:77511e64-4a4a-4580-bb4d-8b0334e7781c'
   module:
     - block_content
     - system
   theme:
     - olivero
-id: olivero_heroimagefogfirefliesphantomportraittestimonials
+id: olivero_heroimagefogfirefliesphantomportraittestimonialscarousel
 theme: olivero
 region: hero
 weight: 0
 provider: null
-plugin: 'block_content:ede86996-9f55-457b-8881-4c126f97a228'
+plugin: 'block_content:77511e64-4a4a-4580-bb4d-8b0334e7781c'
 settings:
-  id: 'block_content:ede86996-9f55-457b-8881-4c126f97a228'
-  label: 'Hero Image: Fog & Fireflies | Phantom Portrait | Testimonials'
+  id: 'block_content:77511e64-4a4a-4580-bb4d-8b0334e7781c'
+  label: 'Hero Image: Fog & Fireflies | Phantom Portrait | Testimonials | Carousel'
   label_display: '0'
   provider: block_content
   status: true
