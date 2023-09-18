@@ -609,13 +609,13 @@ Variables
 Hover States
 *********************/
 
-
+/*
 .fadeCarousel:hover li {
   animation-play-state: paused;
   filter: blur(0px) !important;
   z-index: 3;
 }
-
+*/
 
 /******************************
 Calculating the animation duration for a loop 
