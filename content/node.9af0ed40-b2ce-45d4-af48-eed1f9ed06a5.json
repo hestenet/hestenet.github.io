@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-15T09:47:01+00:00",
+            "value": "2023-09-18T06:09:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-15T09:47:01+00:00",
+            "value": "2023-09-18T06:09:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -88,7 +88,7 @@
         {
             "value": "<h2>Dedications<\/h2><h2>&nbsp;<\/h2><h2>Acknowledgments<\/h2>",
             "format": "full_html",
-            "summary": ""
+            "summary": "Dedications and acknowledgments from T.H. Lehnen, with gratitude for all who have supported his work. "
         }
     ]
 }

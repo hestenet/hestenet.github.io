@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-15T09:47:16+00:00",
+            "value": "2023-09-18T06:09:36+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-15T09:47:16+00:00",
+            "value": "2023-09-18T06:09:36+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -88,7 +88,7 @@
         {
             "value": "<p>Audiobook information will go here.<\/p>",
             "format": "full_html",
-            "summary": ""
+            "summary": "Audiobook editions of the novels by T.H. Lehnen."
         }
     ]
 }

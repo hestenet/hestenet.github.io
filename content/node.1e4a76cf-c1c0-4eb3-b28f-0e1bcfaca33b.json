@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2023-09-15T09:46:45+00:00",
+            "value": "2023-09-18T06:08:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-15T09:46:45+00:00",
+            "value": "2023-09-18T06:08:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -86,9 +86,9 @@
     ],
     "body": [
         {
-            "value": "<p>Aspen &amp; Thorn Press, LLC is the independent imprint of T.H. Lehnen. (And any of his friends who might finally be ready to publish, he supposes).&nbsp;<\/p>",
+            "value": "<p>Aspen &amp; Thorn Press, LLC is the independent imprint of T.H. Lehnen. (And any of his friends who might finally be ready to publish, perhaps).&nbsp;<\/p>",
             "format": "full_html",
-            "summary": ""
+            "summary": "Aspen & Thorn Press, LLC is the independent imprint of T.H. Lehnen. (And any of his friends who might finally be ready to publish, perhaps).\r\n"
         }
     ]
 }
