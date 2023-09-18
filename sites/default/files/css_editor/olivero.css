@@ -308,6 +308,14 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
   width: 20%;
   left: 48%;
   bottom: 0px;
+  visibility: hidden;
+  animation-name: fogPictures;
+  animation-duration: 1.25s; /* How long to complete animation | default: 0 */
+  animation-delay: 0s; /* Delay before the animation starts */
+  animation-iteration-count: 1; /* How many times the animation should run | default: infinite*/ 
+  animation-direction: normal; /* normal, reverse, alternate(forwards then backwards) alternate-reverse(backwards then forwards) per iteration | default: normal */
+  animation-timing-function: linear; /* Speed curve: ease (slow-fast-slow),  ease-in(fast-slow), ease-out(slow-fast), linear (equal time), ease-in-out (fast-slow-fast), cubic-bezier(n,n,n) | Default: ease*/
+  animation-fill-mode: forwards; /* style applied before, after, or both | default: none (original styles), forwards (last keyframe styles), backwards (first keyframe styles before animation starts), both (first styles before animation, last styles after) */ 
 }
 
 @media (min-width: 1200px) {
@@ -733,7 +741,7 @@ Set duration = delay * n, where n is number of lines.
 
 
 /******************************
-FogLetters / Smoke Text Animation 
+fogLetters / Smoke Text Animation 
 
 Set duration = 'Cycle' animation delay * n, where n is number of lines. 
 
@@ -742,7 +750,7 @@ in 100/[n]/[wordcount]% of the keyframes, where [n] is the number
 of items in the animation, and [wordcount] is the avg words per line.
 
 Add a buffer equal to the fade in duration of the Cycle animation, so
-the FogLetters animation doesn't complete before cycle starts
+the fogLetters animation doesn't complete before cycle starts
 
 For example:
 8% of keyframe buffer
@@ -758,7 +766,7 @@ So if each cycle has 7s delay, add 7s per cycle.
 
 
 ul.smokeText li {
-  animation-name: fogletters;
+  animation-name: fogLetters;
   animation-duration: calc(var(--cycle-duration) * 1); /* How long to complete animation | default: 0 */
   animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
   animation-iteration-count: infinite; /* How many times the animation should run | default: infinite*/ 
@@ -768,7 +776,7 @@ ul.smokeText li {
   /* Shorthand is in the order above */ 
 }
 
-@keyframes fogletters{
+@keyframes fogLetters{
     0% {
         filter: blur(40px);
     }
@@ -780,6 +788,21 @@ ul.smokeText li {
     }
     100% {
         filter: blur(0px);
+    }
+}
+
+@keyframes fogPictures{
+    0% {
+        filter: blur(80px);
+        visibility: visible;
+    }
+    30% {
+        filter: blur(40px);
+        visibility: visible;
+    }
+    100% {
+        filter: blur(0px);
+        visibility: visible;
     }
 }
 
