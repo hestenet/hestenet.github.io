@@ -374,36 +374,43 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
 }
 
 div.quote, div.source {
-    font-family: var(--font-testimonial-serif);
-    position: relative; /* absolute */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 1em;
-    /*white-space: nowrap;*/
-    color: #FFF;
-    width: fit-content;
+  font-family: var(--font-testimonial-serif);
+  position: relative; /* absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 0;
+  padding: 1em 0.25em;
+  color: #FFF;
+  width: fit-content;
 }
 
 div.quote {
   font-size: 1.5em;
-  margin-bottom: -.05em !important;
+  margin-bottom: -.05em;
 }
 
-div.source{
+div.source {
   font-size: 1.1em;
+  margin-top: -0.75em;
 }
 
 @media (min-width: 1200px) {
   div.quote, div.source {
-    margin: 0 0 0 0;
     padding: 0.25em 0.5em;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 20px 1px rgba(0,0,0,.5);
   }
 }
 
+@media (min-width: 1200px) {
+  div.quote {
+  }
+
+  div.source {
+    margin-top: -0.05em;
+  }
+}
 
 
 /******************************
