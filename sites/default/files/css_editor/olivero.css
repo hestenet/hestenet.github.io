@@ -325,8 +325,22 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
    }
 }
 
+@media (min-width: 1500px) {
+   .heroForeground {
+     display: inline;
+     width:30%;
+     left: 44%;
+   }
+}
+
 .heroForegroundLeft {
-  left: 40%;
+  left: 38%;
+}
+
+@media (min-width: 1500px) {
+   .heroForegroundLeft {
+     left: 34%;
+   }
 }
 
 .heroForegroundLarger {
@@ -513,6 +527,38 @@ h1, h2, h3, h4, h5, h6 {
     /* color: var(--color-text-neutral-medium); */
     color: #ffffff;
     font-size: 1.4rem;
+}
+
+.text-content a:where(:not(.button)), .cke_editable a:where(:not(.button)) {
+    /*color: var(--color--primary-60); */
+    color: #8ff36b;
+}
+
+.text-content a:where(:not(.button)):hover, .cke_editable a:where(:not(.button)):hover {
+    box-shadow: inset 0 -2em 0 0 #a0d38d;
+}
+
+.text-content a.frame:where(:not(.button)), .cke_editable a.frame:where(:not(.button)) {
+    /*color: var(--color--primary-60); */
+    color: var(--color--gray-10);
+}
+
+.text-content a.frame:where(:not(.button)):hover, .cke_editable a.frame:where(:not(.button)):hover {
+    box-shadow: inset 0 -2em 0 0 var(--color--gray-10);
+}
+
+/* Image link frames, for Media Kit */
+
+.text-content a.frame{
+  color: #fff;
+}
+
+.text-content a.frame:hover {
+  color: #a0d38d;
+}
+
+.text-content a.frame img {
+  border:5px solid;
 }
 
 .social-bar {
