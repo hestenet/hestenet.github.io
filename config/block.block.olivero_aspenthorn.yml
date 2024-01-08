@@ -1,0 +1,25 @@
+uuid: 198cefc4-f201-4b20-9659-e929453451e0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0465150f-05eb-4071-a7b7-4580720b0355'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_aspenthorn
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'block_content:0465150f-05eb-4071-a7b7-4580720b0355'
+settings:
+  id: 'block_content:0465150f-05eb-4071-a7b7-4580720b0355'
+  label: 'Aspen & Thorn'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

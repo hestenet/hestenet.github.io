@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "75f10fe1-e343-4a01-a0e5-91953e5c112f"
+            "value": "9cba2e5d-09a2-45b4-99f6-5723ea96ba2a"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-11T02:57:27+00:00",
+            "value": "2024-01-08T05:18:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -24,19 +24,15 @@
     "revision_log_message": [],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
         {
-            "value": "Shop"
+            "value": "Media Kit"
         }
     ],
-    "description": [
-        {
-            "value": "Shop"
-        }
-    ],
+    "description": [],
     "menu_name": [
         {
             "value": "main"
@@ -44,8 +40,8 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
-            "title": "",
+            "uri": "entity:node\/975a6802-08de-4a93-9bce-303ed1e00462",
+            "title": null,
             "options": []
         }
     ],
@@ -56,17 +52,17 @@
     ],
     "rediscover": [
         {
-            "value": true
+            "value": false
         }
     ],
     "weight": [
         {
-            "value": -47
+            "value": -48
         }
     ],
     "expanded": [
         {
-            "value": true
+            "value": false
         }
     ],
     "parent": [],

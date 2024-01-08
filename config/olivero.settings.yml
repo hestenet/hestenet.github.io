@@ -10,7 +10,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: 'public://Fog_and_Fireflies_Title_1.png'
+  path: 'public://Aspen-and-Thorn-Logo-White.png'
   use_default: false
 third_party_settings:
   shortcut:

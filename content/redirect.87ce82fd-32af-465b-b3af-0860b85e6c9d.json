@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "87ce82fd-32af-465b-b3af-0860b85e6c9d"
+        }
+    ],
+    "hash": [
+        {
+            "value": "1YyMgibcM_rmo3dQwkUbc8UD9k35qjSWH235Zgt4ivM"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "events-media-contact",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/node\/8",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "en"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-08T05:13:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

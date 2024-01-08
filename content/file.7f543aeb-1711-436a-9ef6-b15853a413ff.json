@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "7f543aeb-1711-436a-9ef6-b15853a413ff"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "TH-Lehnen-About-the-Author-Sauvie-Portrait-2751\u200a\u00d7\u200a3175.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/TH-Lehnen-About-the-Author-Sauvie-Portrait-2751\u200a\u00d7\u200a3175.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1399772
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-08T06:41:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-08T06:42:47+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

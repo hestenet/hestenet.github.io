@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "75f10fe1-e343-4a01-a0e5-91953e5c112f"
+            "value": "f9ee55a5-d167-453c-ba67-a15ec6473dac"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-11T02:57:27+00:00",
+            "value": "2024-01-08T06:17:50+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -24,27 +24,27 @@
     "revision_log_message": [],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
         {
-            "value": "Shop"
+            "value": "Contact"
         }
     ],
     "description": [
         {
-            "value": "Shop"
+            "value": "Contact the author"
         }
     ],
     "menu_name": [
         {
-            "value": "main"
+            "value": "footer"
         }
     ],
     "link": [
         {
-            "uri": "internal:\/",
+            "uri": "mailto:thlfogandfireflies@gmail.com",
             "title": "",
             "options": []
         }
@@ -56,23 +56,23 @@
     ],
     "rediscover": [
         {
-            "value": true
+            "value": false
         }
     ],
     "weight": [
         {
-            "value": -47
+            "value": 2
         }
     ],
     "expanded": [
         {
-            "value": true
+            "value": false
         }
     ],
     "parent": [],
     "changed": [
         {
-            "value": "2024-01-08T05:41:49+00:00",
+            "value": "2024-01-08T06:17:50+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

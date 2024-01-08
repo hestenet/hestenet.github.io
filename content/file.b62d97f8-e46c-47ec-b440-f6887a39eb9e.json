@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b62d97f8-e46c-47ec-b440-f6887a39eb9e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "1-Official-Cover_Fog-and-Fireflies-TH-Lehnen-ePub-1600x2560.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/1-Official-Cover_Fog-and-Fireflies-TH-Lehnen-ePub-1600x2560.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1741064
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-08T07:01:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-08T07:03:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "4264703c-80fb-402c-854b-19c9f0319792"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Fog-and-Fireflies-Title.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-01\/Fog-and-Fireflies-Title.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 11432
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-08T07:51:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-08T07:52:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

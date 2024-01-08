@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/about\r\n/about/*\r\n/aspen-thorn-press\r\n/aspen-thorn-press/*"
+    pages: "/about\r\n/about/*\r\n/aspen-thorn-press\r\n/aspen-thorn-press/*\r\n/media-kit\r\n/media-kit/*"

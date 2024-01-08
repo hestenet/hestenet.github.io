@@ -18,12 +18,21 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-18T06:35:43+00:00",
+            "value": "2024-01-08T08:03:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "revision_user": [],
-    "revision_log": [],
+    "revision_user": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Old style logo in .webp"
+        }
+    ],
     "status": [
         {
             "value": true
@@ -36,7 +45,7 @@
     ],
     "changed": [
         {
-            "value": "2023-09-18T07:07:45+00:00",
+            "value": "2024-01-08T08:03:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -50,14 +59,10 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true
-        }
-    ],
+    "revision_translation_affected": [],
     "body": [
         {
-            "value": "<style>\r\n.text-content .sitebrainding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/Fog_and_Fireflies_Title_1.png\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
+            "value": "<style>\r\n.text-content .sitebranding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/Fog_and_Fireflies_Title_1.webp\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
             "format": "full_html",
             "summary": ""
         }
