@@ -1,0 +1,98 @@
+{
+    "uuid": [
+        {
+            "value": "55468516-5268-4587-84d9-e8a31c03b807"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image",
+            "target_type": "media_type",
+            "target_uuid": "02e1d2ee-4e11-40ed-a4ad-b09c5c29f047"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-01-09T02:15:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "name": [
+        {
+            "value": "Fog & Fireflies - Website Logo.png"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "Home | Fog & Fireflies",
+            "title": null,
+            "width": 1000,
+            "height": 205,
+            "target_type": "file",
+            "target_uuid": "8e264579-fc9f-4402-98d9-81c88925576a"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-09T02:15:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-09T02:15:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "field_media_image": [
+        {
+            "alt": "Home | Fog & Fireflies",
+            "title": "",
+            "width": 1000,
+            "height": 205,
+            "target_type": "file",
+            "target_uuid": "8e264579-fc9f-4402-98d9-81c88925576a"
+        }
+    ]
+}

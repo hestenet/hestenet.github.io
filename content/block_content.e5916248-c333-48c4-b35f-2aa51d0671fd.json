@@ -18,7 +18,7 @@
     ],
     "revision_created": [
         {
-            "value": "2024-01-08T08:03:15+00:00",
+            "value": "2024-01-09T02:18:05+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -28,11 +28,7 @@
             "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
         }
     ],
-    "revision_log": [
-        {
-            "value": "Old style logo in .webp"
-        }
-    ],
+    "revision_log": [],
     "status": [
         {
             "value": true
@@ -45,7 +41,7 @@
     ],
     "changed": [
         {
-            "value": "2024-01-08T08:03:15+00:00",
+            "value": "2024-01-09T02:18:35+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -59,10 +55,14 @@
             "value": true
         }
     ],
-    "revision_translation_affected": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
     "body": [
         {
-            "value": "<style>\r\n.text-content .sitebranding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/Fog_and_Fireflies_Title_1.webp\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
+            "value": "<style>\r\n.text-content .sitebranding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/2024-01\/Fog%20%26%20Fireflies%20-%20Website%20Logo.png\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
             "format": "full_html",
             "summary": ""
         }
