@@ -18,12 +18,21 @@
     ],
     "revision_created": [
         {
-            "value": "2023-09-16T03:20:11+00:00",
+            "value": "2024-01-09T01:23:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
-    "revision_user": [],
-    "revision_log": [],
+    "revision_user": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [
+        {
+            "value": "Fictional figures + four testimonials = 5 in rotation."
+        }
+    ],
     "status": [
         {
             "value": true
@@ -31,12 +40,12 @@
     ],
     "info": [
         {
-            "value": "Hero Image: Fog & Fireflies | Phantom Portrait | Testimonials | Carousel"
+            "value": "Hero Image: Fog & Fireflies | Phantom Portrait | Testimonials Carousel"
         }
     ],
     "changed": [
         {
-            "value": "2023-09-18T23:56:34+00:00",
+            "value": "2024-01-09T01:23:43+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +66,7 @@
     ],
     "body": [
         {
-            "value": "<div class=\"heroContainer\"><div><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Photoshop_Website_Hero.jpg\" data-entity-uuid=\"41cce0e4-9b96-4a01-b5cb-ffac7b34a12b\" data-entity-type=\"file\" alt=\"\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/fog_phantom_hero_portrait_2.png\" data-entity-uuid=\"f29df963-2c60-418d-971a-3b4588fb8147\" data-entity-type=\"file\" alt=\"\" width=\"351\" loading=\"eager\"><\/div><\/div><div class=\"fadeCarousel\"><div class=\"carouselList\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Design patterns\"><div class=\"testimonial anim one\" title=\"\u201cA novel that reads like a Ghibli film.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u201cA<\/span> <span>novel<\/span> <span>that<\/span> <span>reads<\/span> <span>like<\/span> <span>a<\/span> <span>Ghibli<\/span> <span>film.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- Ashitaka<\/span><\/div><\/div><div class=\"testimonial anim two\" title=\"Seven stars\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><\/p><\/div><div class=\"source\"><span>- Elendil<\/span><\/div><\/div><div class=\"testimonial anim three\" title=\"\u201cAnd one white tree.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>...and<\/span> <span>one<\/span> <span>white<\/span> <span>tree.<\/span><\/p><\/div><div class=\"source\"><span>- Celeborn<\/span><\/div><\/div><div class=\"testimonial anim four\" title=\"\u201dA travelogue not seen since Oz.\u201c\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u201cA<\/span> <span>travelogue<\/span> <span>not<\/span> <span>seen<\/span> <span>since<\/span> <span>Oz.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- H.M. Wogglebug T.E.<\/span><\/div><\/div><div class=\"testimonial anim five\" title=\"\u201dFull of heart and magic.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u201cFull<\/span> <span>of<\/span> <span>heart<\/span> <span>and<\/span> <span>magic.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- A wombat<\/span><\/div><\/div><\/div><\/div>",
+            "value": "<div class=\"heroContainer\"><div><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Photoshop_Website_Hero.jpg\" data-entity-uuid=\"41cce0e4-9b96-4a01-b5cb-ffac7b34a12b\" data-entity-type=\"file\" alt=\"\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/fog_phantom_hero_portrait_2.png\" data-entity-uuid=\"f29df963-2c60-418d-971a-3b4588fb8147\" data-entity-type=\"file\" alt=\"\" width=\"351\" loading=\"eager\"><\/div><\/div><div class=\"fadeCarousel\"><div class=\"carouselList\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Design patterns\"><div class=\"testimonial anim one\" title=\"Testimonials from your favorite fictional figures.\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>Testimonials<\/span> <span>from<\/span> <span>your<\/span> <span>favorite<\/span> <span>fictional<\/span> <span>figures.<\/span><\/p><\/div><\/div><div class=\"testimonial anim two\" title=\"\u201cA novel that reads like a Ghibli film.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u201cA<\/span> <span>novel<\/span> <span>that<\/span> <span>reads<\/span> <span>like<\/span> <span>a<\/span> <span>Ghibli<\/span> <span>film.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- Ashitaka<\/span><\/div><\/div><div class=\"testimonial anim three\" title=\"\u201dA travelogue not seen since Oz.\u201c\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u201cA<\/span> <span>travelogue<\/span> <span>not<\/span> <span>seen<\/span> <span>since<\/span> <span>Oz.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- H.M. Wogglebug T.E.<\/span><\/div><\/div><div class=\"testimonial anim four\" title=\"Seven stars\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><\/p><\/div><div class=\"source\"><span>- Elendil<\/span><\/div><\/div><div class=\"testimonial anim five\" title=\"\u201cAnd one white tree.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>...and<\/span> <span>one<\/span> <span>white<\/span> <span>tree.<\/span><\/p><\/div><div class=\"source\"><span>- Celeborn<\/span><\/div><\/div><\/div><\/div>",
             "format": "full_html",
             "summary": ""
         }
