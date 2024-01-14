@@ -1,7 +1,7 @@
 {
     "uuid": [
         {
-            "value": "f9ee55a5-d167-453c-ba67-a15ec6473dac"
+            "value": "9a63e850-2ba8-4db5-b2b6-005fc7abfc1c"
         }
     ],
     "langcode": [
@@ -16,7 +16,7 @@
     ],
     "revision_created": [
         {
-            "value": "2024-01-08T06:17:50+00:00",
+            "value": "2024-01-14T20:29:12+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -29,14 +29,10 @@
     ],
     "title": [
         {
-            "value": "thlfogandfireflies@gmail.com"
+            "value": "hestenet@gmail.com"
         }
     ],
-    "description": [
-        {
-            "value": "Contact the author"
-        }
-    ],
+    "description": [],
     "menu_name": [
         {
             "value": "footer"
@@ -44,7 +40,7 @@
     ],
     "link": [
         {
-            "uri": "mailto:thlfogandfireflies@gmail.com",
+            "uri": "mailto:hestenet@gmail.com",
             "title": "",
             "options": []
         }
@@ -61,7 +57,7 @@
     ],
     "weight": [
         {
-            "value": -48
+            "value": 0
         }
     ],
     "expanded": [
@@ -72,7 +68,7 @@
     "parent": [],
     "changed": [
         {
-            "value": "2024-01-14T20:28:16+00:00",
+            "value": "2024-01-14T20:29:12+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
