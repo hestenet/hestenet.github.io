@@ -1,0 +1,28 @@
+uuid: d768b7a2-cbeb-4595-b499-3ea3644a3c9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.archive.field_media_file
+    - media.type.archive
+  module:
+    - file
+id: media.archive.default
+targetEntityType: media
+bundle: archive
+mode: default
+content:
+  field_media_file:
+    type: file_default
+    label: visually_hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

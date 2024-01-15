@@ -1,0 +1,14 @@
+uuid: 8255a994-eab7-418d-b331-8996439c496f
+langcode: en
+status: true
+dependencies: {  }
+id: archive
+label: Archive
+description: 'Upload archives such as zip files.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map:
+  name: name

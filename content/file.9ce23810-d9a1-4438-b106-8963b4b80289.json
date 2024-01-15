@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "9ce23810-d9a1-4438-b106-8963b4b80289"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Fog-and-Fireflies-TH-Lehnen-ARC.zip"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-01\/Fog-and-Fireflies-TH-Lehnen-ARC.zip"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/zip"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 24025141
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-15T04:26:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T04:26:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

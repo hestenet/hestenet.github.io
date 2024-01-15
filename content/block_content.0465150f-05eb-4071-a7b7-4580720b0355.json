@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2024-01-08T07:46:26+00:00",
+            "value": "2024-01-15T04:38:55+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<img src=\"\/sites\/default\/files\/inline-images\/Aspen-and-Thorn-Logo-White.png\" data-entity-uuid=\"d4bbc38a-dcc8-496b-a76f-e945621c6adb\" data-entity-type=\"file\" alt=\"Aspen &amp; Thorn Press, LLC\" width=\"209\" data-align=\"center\">",
+            "value": "<img src=\"\/sites\/default\/files\/inline-images\/Aspen-and-Thorn-Logo-White_0.png\" data-entity-uuid=\"ad3779b4-fb7f-4344-91c7-99ca8de1f621\" data-entity-type=\"file\" alt=\"Aspen &amp; Thorn Press, LLC\" width=\"200\" data-align=\"center\">",
             "format": "full_html",
             "summary": ""
         }

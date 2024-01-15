@@ -1,0 +1,91 @@
+{
+    "uuid": [
+        {
+            "value": "3f11fef3-2e2c-40a4-8545-8d09b94dd280"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "archive",
+            "target_type": "media_type",
+            "target_uuid": "8255a994-eab7-418d-b331-8996439c496f"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-01-15T04:26:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "name": [
+        {
+            "value": "Fog & Firefles ARC Package"
+        }
+    ],
+    "thumbnail": [
+        {
+            "alt": "",
+            "title": null,
+            "width": 180,
+            "height": 180,
+            "target_type": "file",
+            "target_uuid": "83287126-36c1-4f57-b670-e1ebf82c065f"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-15T04:26:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T04:26:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "",
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "field_media_file": [
+        {
+            "display": true,
+            "description": "",
+            "target_type": "file",
+            "target_uuid": "9ce23810-d9a1-4438-b106-8963b4b80289"
+        }
+    ]
+}

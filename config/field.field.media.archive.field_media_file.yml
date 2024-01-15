@@ -1,0 +1,27 @@
+uuid: 5cd9aed1-5892-436f-8763-933b993e2252
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.archive
+  module:
+    - file
+id: media.archive.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: archive
+label: Archive
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'epub pdf zip tar tar.gz rar 7z'
+  max_filesize: ''
+  description_field: false
+field_type: file

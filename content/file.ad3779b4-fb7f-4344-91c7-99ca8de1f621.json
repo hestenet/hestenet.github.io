@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "ad3779b4-fb7f-4344-91c7-99ca8de1f621"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Aspen-and-Thorn-Logo-White.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Aspen-and-Thorn-Logo-White_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 24848
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-15T04:28:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-15T04:29:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
