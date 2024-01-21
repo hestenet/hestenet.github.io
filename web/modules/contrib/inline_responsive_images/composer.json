@@ -1,0 +1,14 @@
+{
+    "name": "drupal/inline_responsive_images",
+    "description": "Allows you to apply image styles and responsive image styles in the WYSIWYG editor.",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/inline_responsive_images",
+    "license": "GPL-2.0-or-later",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/inline_responsive_images",
+        "source": "https://git.drupalcode.org/project/inline_responsive_images"
+    },
+    "require": {
+        "drupal/core": "^9.4 || ^10"
+    }
+}

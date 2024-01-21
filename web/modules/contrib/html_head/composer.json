@@ -1,0 +1,12 @@
+{
+  "name": "drupal/html_head",
+  "description": "Html Head module allows to add all html tags inside head tag.",
+  "type": "drupal-module",
+  "homepage": "http://drupal.org/project/html_head",
+  "authors": [
+    {
+      "name": "Sahil",
+      "role": "contributor"
+    }
+  ]
+}

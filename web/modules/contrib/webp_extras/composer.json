@@ -1,0 +1,28 @@
+{
+  "name": "drupal/webp_extras",
+  "description": "Extra functionalities for the WebP module. Provides a filter to convert images to webp images.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Ahmad Smhan",
+      "email": "a.smhan@sprintive.com",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Yahya Ahmad",
+      "email": "yahya@sprintive.com",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "drupal/webp": "^1.0",
+    "drupal/core": "^9.3 || ^10"
+  },
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/webp_extras",
+    "irc": "irc://irc.freenode.org/drupal-contribute",
+    "source": "http://git.drupal.org/project/webp_extras.git"
+  }
+}

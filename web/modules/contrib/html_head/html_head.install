@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Uninstall functions for HTML head module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function html_head_uninstall() {
+  \Drupal::service('config.factory')
+    ->getEditable('html_head.header.settings')
+    ->delete();
+
+}

@@ -1,0 +1,12 @@
+name: Html Head
+description: Adding all html tags inside head tag and support translations.
+package: HTML HEAD
+type: module
+configure: html_head.admin.header
+core_version_requirement: ^8 || ^9 || ^10
+# project: 'html_head'
+
+# Information added by Drupal.org packaging script on 2022-10-17
+version: '8.x-1.2'
+project: 'html_head'
+datestamp: 1666032285

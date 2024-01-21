@@ -1,0 +1,11 @@
+name: WebP Extra
+type: module
+description: "Extra functionalities for the WebP module. Provides a filter to convert images to webp images."
+core_version_requirement: ^9.3 || ^10
+dependencies:
+  - drupal:webp
+
+# Information added by Drupal.org packaging script on 2023-05-01
+version: '2.0.0-beta1'
+project: 'webp_extras'
+datestamp: 1682952521

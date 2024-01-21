@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+        <meta http-equiv="Content-language" content="en-US" >
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8" >
+	<meta http-equiv="Expires" content="0" >
+	<meta http-equiv="Cache-Control" content="no-cache" >
+	<meta http-equiv="Pragma" content="no-cache" >
+
+        <script src="/js/base-functions.js"></script>
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script type="text/javascript" src="https://c.la2-c1cs-ph2.salesforceliveagent.com/content/g/js/48.0/deployment.js"></script>
+        <script type="text/javascript"> setCookie(); </script>
+                
+        <link rel="shortcut icon" href="favicon.ico" type="images/vnd.microsoft.icon" >
+        
+        <link rel="stylesheet" href="/css/main.css" type="text/css" media="screen,print" >
+        <link rel="stylesheet" href="/css/menu.css" type="text/css" media="screen,print" >
+        
+        <title>CenturyLink Copyright Notice</title>
+
+<script type="text/javascript">
+
+$(function(){
+    var stageCheck = function(){
+
+        $.ajax({
+            cache: false,
+            type: 'GET',
+            url: '/cgi-bin/custIntro.cgi',
+            dataType: ($.browser.msie) ? "text" : "html",
+            success: function(h) { $('#stageContent').html(h); },
+            error: function(xhr,ajaxOptions,thrownError ) { alert(xhr.status); alert(thrownError); }
+        });
+
+        $('#stageContent').css({"display":"block"});
+    }
+    $(document).ready(stageCheck);
+});
+
+</script>
+
+</head>
+<body style="left:1px; top:-3px; " >
+
+<div id="main" >
+    <!-- CONTENT HEADER START -->
+    <div id="masthead" >
+        <a target="_blank" href="http://www.centurylink.com/" ><img class="logo" src="/images/logoCenturyLink.png" alt="CenturyLink Logo" width="236" height="64" ></a>
+        <img src="/images/homeNavDivide.gif" >
+    </div>
+    <!-- CONTENT HEADER END -->
+
+    <div id="content" >
+      <div class="body" >
+
+<!-- CLICK-TO-CHAT START -->
+	<div class="c2c" >
+	    <div id="lpChatButtonDiv">
+                <div id="chat-cris-wg-dmca"></div>
+                <a id="liveagent_button_online_5734N0000004RcJ" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5734N0000004RcJ')">
+                    <img src="http://images.notify.centurylink.com/shared_images/chatOnline.png" alt="Chat Online">
+                </a>
+                <div id="liveagent_button_offline_5734N0000004RcJ" style="display: none;">
+                    <img src="http://images.notify.centurylink.com/shared_images/chatOffline.png" alt="Chat Offline">
+                </div>
+            </div>
+        </div>
+<!-- CLICK-TO-CHAT END -->
+
+	<h1>CenturyLink Copyright Messaging Program</h1>
+	<h4>Notification of Receipt of Digital Millennium Copyright Act (DMCA) Notice</h4>
+        <div id="stageContent" style="display:none;"></div>
+
+    </div>
+    </div>
+
+<!-- LEFTNAV START -->
+
+<div id="menu" >
+    <div class="inside" >
+        <ul>
+            <li class="active open" ><span>More Information</span>
+            <ul>
+                <li><a target="_blank" href="http://internethelp.centurylink.com/legal/highspeedinternetsubscriberagreement/" >Terms of Service</a></li>
+                <li><a target="_blank" href="http://www.centurylink.com/Pages/AboutUs/Legal/AcceptableUse/" >Acceptable Use Policy</a></li>
+                <li><a target="_blank" href="http://www.centurylink.com/Pages/AboutUs/Legal/PrivacyPolicy/" >Privacy Policy</a></li>
+                <li><a target="_blank" onclick="logAction('faq')" href="faqs.html" >FAQs</a></li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- LEFTNAV END -->
+
+<!-- FOOTER START -->
+
+    <div id="footer" >
+        <div class="about" >
+            <ul class="nav" >
+                <li class="first" ><a target="_blank" href="http://www.centurylink.com/Pages/AboutUs/" >About Us</a></li>
+                <li><a target="_blank" href="http://www.centurylink.com/Pages/AboutUs/Legal/" >Legal</a></li>
+                <li class="last" ><a target="_blank" href="http://www.centurylink.com/Pages/PrivacyPolicy/" >Privacy</a></li>
+            </ul>
+            <p class="copyright" >&copy; 2020 CenturyLink. All Rights Reserved. The name CenturyLink and the pathways logo are trademarks of CenturyLink.</p>
+        </div>
+    </div>
+<!-- FOOTER END -->
+
+</div>
+
+    <script type='text/javascript'>
+        if (window.liveagent) {
+            liveagent.init('https://d.la1-c1-lon.salesforceliveagent.com/chat', '5724N000000CocI', '00D41000002HUz0'); // DeploymentID, OrgID
+        }
+
+        if (!window._laq) {
+            window._laq = [];
+        }
+
+        window._laq.push(function () {
+            liveagent.showWhenOnline('5734N0000004RcJ', document.getElementById('liveagent_button_online_5734N0000004RcJ'));
+            liveagent.showWhenOffline('5734N0000004RcJ', document.getElementById('liveagent_button_offline_5734N0000004RcJ'));
+        });
+    </script>
+
+</body>
+</html>

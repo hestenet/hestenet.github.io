@@ -1,0 +1,41 @@
+image_imageStyle:
+  provider: image
+  ckeditor5:
+    plugins:
+      - images.DrupalImageStyle
+    config:
+      image:
+        toolbar: [ DrupalImageStyle ]
+      DrupalImageStyle:
+        label: 'Drupal image style'
+        viewAttributeName: 'data-image-style'
+  drupal:
+    label: Drupal image style
+    class: Drupal\inline_responsive_images\Plugin\CKEditor5Plugin\ImageStyle
+    library: inline_responsive_images/image
+    elements:
+      - <img data-image-style>
+    conditions:
+      filter: filter_imagestyle
+      plugins: [ ckeditor5_image ]
+
+responsive_image_responsiveImageStyle:
+  provider: responsive_image
+  ckeditor5:
+    plugins:
+      - responsive_images.DrupalResponsiveImageStyle
+    config:
+      image:
+        toolbar: [ DrupalResponsiveImageStyle ]
+      DrupalResponsiveImageStyle:
+        label: 'Drupal responsive image style'
+        viewAttributeName: 'data-responsive-image-style'
+  drupal:
+    label: Drupal responsive image style
+    class: Drupal\inline_responsive_images\Plugin\CKEditor5Plugin\ResponsiveImageStyle
+    library: inline_responsive_images/responsive_image
+    elements:
+      - <img data-responsive-image-style>
+    conditions:
+      filter: filter_responsive_image_style
+      plugins: [ ckeditor5_image ]

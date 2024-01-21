@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * @file
+ * Adding  script.
+ */
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function html_head_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    case 'help.page.html_dead':
+      $output = '<h2>' . t('About') . '</h2>';
+      $output .= '<p>' . t('Adding all html tags inside head tag and support translations.') . '</p>';
+
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_page_attachments_alter().
+ *
+ * Added HTML tags as needed.
+ * which are defined on the settings page.
+ */
+function html_head_page_attachments_alter(array &$attachments) {
+  $header_section = \Drupal::config('html_head.header.settings')->get();
+  if (isset($header_section['html_header']) && !empty($header_section['html_header'])) {
+    $attachments['#attached']["html_head"][] = [
+      [
+        '#type' => 'inline_template',
+        '#template' => $header_section['html_header'],
+      ],
+      'html_head-1',
+    ];
+  }
+}

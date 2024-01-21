@@ -1,0 +1,11 @@
+image:
+  js:
+    js/build/images.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5
+
+responsive_image:
+  js:
+    js/build/responsive_images.js: { preprocess: false, minified: true }
+  dependencies:
+    - ckeditor5/ckeditor5

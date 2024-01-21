@@ -1,0 +1,3 @@
+administer html head settings:
+  title:            'HTML Head Settings'
+  description:      'Adding all html tags inside head tag and support translations.'

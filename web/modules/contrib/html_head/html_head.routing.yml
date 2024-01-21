@@ -1,0 +1,8 @@
+html_head.admin.header:
+  path: '/admin/config/development/html_head'
+  defaults:
+    _form: '\Drupal\html_head\Form\HeaderForm'
+    _title: 'HTML Head'
+  requirements:
+    _permission: 'administer html head settings'
+

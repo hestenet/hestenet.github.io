@@ -1,0 +1,5 @@
+html_head.admin.header:
+  route_name:           html_head.admin.header  
+  title:                'HTML HEAD'
+  description:          'Adding all html tags inside head tag.'
+  parent:               system.admin_config_development

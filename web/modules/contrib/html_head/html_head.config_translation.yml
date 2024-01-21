@@ -1,0 +1,5 @@
+html_head.admin.header:
+  title: 'HTML Head'
+  base_route_name: html_head.admin.header
+  names:
+    - html_head.header.settings

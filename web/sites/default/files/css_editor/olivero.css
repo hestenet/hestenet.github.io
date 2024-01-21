@@ -1,0 +1,1498 @@
+/***************************/
+/* @Font-Faces 
+/***************************/
+
+
+@font-face {
+  font-family: Philosopher;
+  src: local("Philosopher"), url("/fonts/Philosopher/Philosopher-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Cinzel;
+  src: local("Cinzel"), url("/fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: metropolis;
+  src: url("/fonts/metropolis/Metropolis-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: metropolis;
+  src: url("/fonts/metropolis/Metropolis-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: metropolis;
+  src: url("../fonts/metropolis/Metropolis-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* lora-regular - latin */
+
+@font-face {
+  font-family: Lora;
+  src: local("Lora Regular"), local("Lora-Regular"), url("/fonts/lora/lora-v14-latin-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* lora-italic - latin */
+
+@font-face {
+  font-family: Lora;
+  src: local("Lora Italic"), local("Lora-Italic"), url("/fonts/lora/lora-v14-latin-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* lora-700 - latin */
+
+@font-face {
+  font-family: Lora;
+  src: local("Lora Bold"), local("Lora-Bold"), url("/fonts/lora/lora-v14-latin-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/***************************/
+/* Root 
+/***************************/
+
+
+:root {
+    --font-sans: "Tahoma",sans-serif;
+    --font-serif: "Garamond",serif;
+    --font-header-serif: "Philosopher","Garamond",serif;
+    --font-testimonial-serif: "Cinzel","Garamond",serif;
+}
+
+
+/***************************/
+/* Background 
+/***************************/
+
+
+body {
+ /* 
+ background: linear-gradient(to top, rgba(76, 97, 91, 0.6), rgba(30,40,36,1.0)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e"); 
+ background: linear-gradient(to top, rgba(var(--color--primary-30),0.3), rgba(var(--color--black),0.8)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e");
+ */
+ background: linear-gradient(to top, rgb(24, 12, 28, 0.9), rgb(12, 6, 14, 1.0)), url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='50' height='84' viewBox='0 0 50 84'%3e  %3cpath opacity='0.05' fill='%230e6ba6' d='M25,61.7C25,68.5,19.4,74,12.5,74S0,68.5,0,61.7c0-5.7,3.9-9.6,7.4-12.9c2.3-2.2,4.5-4.4,5.1-6.8c0.7,2.4,2.8,4.6,5.1,6.8C21.1,52.2,25,56,25,61.7z M42.6,6.8c-2.3-2.2-4.5-4.4-5.1-6.8c-0.7,2.4-2.9,4.6-5.1,6.8C28.9,10.2,25,14,25,19.7C25,26.5,30.6,32,37.5,32S50,26.5,50,19.7C50,14,46.1,10.2,42.6,6.8z'/%3e%3c/svg%3e"); 
+ background-blend-mode: saturation;
+ font-display: swap;
+}
+
+
+/***************************/
+/* Tighten padding 
+/***************************/
+
+
+.main-content__container {
+  padding-block-start: var(--sp3);
+}
+
+@media (min-width: 1200px) {
+  .main-content__container {
+    padding-block-start: var(--sp3);
+  }
+}
+
+.region > * {
+  margin-block-end: var(--sp0-25);
+}
+
+.region--content {
+  padding-block-start: var(--sp);
+}
+
+.region--content-below .block__content {
+  padding: 0rem 1rem 2rem 1rem;
+}
+
+
+/***************************/
+/* Page Titles
+/***************************/
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-header-serif);
+    font-weight: normal;
+}
+
+h1 {
+    line-height: var(--sp3);
+}
+
+h2, h3, h4, h5, h6 {
+    line-height: var(--sp2);
+}
+
+.block-page-title-block {
+ /* margin-block-start: var(--sp0-5);
+  margin-block-end: var(--sp); */
+}
+
+/*Center on small sreens */
+@media (max-width: 699px) {
+  .block-page-title-block {
+    text-align: center;
+    margin-block-end: var(--sp);
+  }
+  .page-title {
+    font-size: 3rem;
+  }
+}
+
+
+/***************************/
+/* Blockquote
+/***************************/
+
+
+.text-content blockquote:before {
+  color: var(--color--primary-60);
+  font-size: 5rem;
+}
+
+.text-content blockquote {
+  font-family: Philosopher;
+  font-size: 2rem;
+  line-height: var(--sp2-5);
+}
+
+
+/***************************/
+/* Menu adjustments
+/***************************/
+
+
+.primary-nav__menu-item {
+  margin-block-start: var(--sp0-75);
+  margin-block-end: var(--sp0-75);
+  margin-right: var(--sp);
+}
+
+.primary-nav__menu-item:last-child {
+  margin-block-end: var(--sp0-75);
+}
+
+.primary-nav__menu-link {
+  display: block;
+}
+
+.primary-nav__menu--level-1 {
+    font-family: var(--font-header-serif);
+}
+
+.primary-nav__menu-link-inner--level-1 {
+  font-size: 2rem;
+}
+
+.primary-nav__menu-link-inner--level-2 {
+  font-size: 1.4rem;
+  line-height: var(--sp1-5);
+}
+
+@media (min-width: 1200px) {
+  .primary-nav__menu-link-inner--level-1 {
+    font-size: 1.2rem;
+  }
+  .primary-nav__menu-link-inner--level-2 {
+    font-size: 1rem;
+  }
+}
+
+.primary-nav__button-toggle {
+  display:none;
+}
+
+@media (min-width: 1200px) {
+  .primary-nav__button-toggle {
+    display:inline;
+  }
+}
+
+.mobile-nav-button__label {
+  font-size: 1.2rem;
+  font-family: var(--font-header-serif);
+}
+
+.mobile-nav-button__icon, .mobile-nav-button__icon::before, .mobile-nav-button__icon::after {
+    border-top: solid 3px var(--color--primary-60);
+}
+
+.mobile-nav-button:focus {
+    outline: solid 2px var(--color--primary-60);
+}
+
+body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
+  margin-inline-end: 1rem;
+}
+
+/* Expand mobile menu by default */
+.primary-nav__menu--level-2 {
+    visibility: visible; /* Expand mobile menu by default */
+    max-height: none;
+    margin-block-start: var(--sp1-5);
+    opacity: 1;
+    font-family: var(--font-sans);
+}
+
+.primary-nav__button-toggle .icon--menu-toggle {
+  visibility: hidden;
+}
+
+@media (min-width: 1200px) {
+  body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+    border-right: solid 2px var(--color--primary-50);
+    border-bottom: solid 2px var(--color--primary-50);
+    border-left: solid 2px var(--color--primary-50);
+    padding-block: calc(2 * var(--sp));
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+    visibility: hidden; /* Hide mobile menu at full width */
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle {
+    visibility: visible;
+    background-color: #111111;
+  }
+  body:not(.is-always-mobile-nav) .primary-nav__button-toggle .icon--menu-toggle:after {
+    border-right: solid 4px var(--color--primary-60);
+    border-bottom: solid 4px var(--color--primary-60);
+  }
+}
+
+
+/***************************/
+/* Hero 
+/***************************/
+
+
+/* Z-index trick to allow overlapping hero image to break it's bounds */
+.heroContainer {
+    position: relative;
+    pointer-events: none;
+}
+
+.heroBackground {
+  position: relative;
+  z-index: 1;
+}
+
+.heroForeground {
+  position: absolute;
+  z-index: 2;
+  width: 20%;
+  left: 48%;
+  bottom: 0px;
+  visibility: hidden;
+  animation-name: fogPictures;
+  animation-duration: 1.25s; /* How long to complete animation | default: 0 */
+  animation-delay: 0s; /* Delay before the animation starts */
+  animation-iteration-count: 1; /* How many times the animation should run | default: infinite*/ 
+  animation-direction: normal; /* normal, reverse, alternate(forwards then backwards) alternate-reverse(backwards then forwards) per iteration | default: normal */
+  animation-timing-function: linear; /* Speed curve: ease (slow-fast-slow),  ease-in(fast-slow), ease-out(slow-fast), linear (equal time), ease-in-out (fast-slow-fast), cubic-bezier(n,n,n) | Default: ease*/
+  animation-fill-mode: forwards; /* style applied before, after, or both | default: none (original styles), forwards (last keyframe styles), backwards (first keyframe styles before animation starts), both (first styles before animation, last styles after) */ 
+}
+
+@media (min-width: 1200px) {
+   .heroForeground {
+     display: inline;
+     width:30%;
+   }
+}
+
+@media (min-width: 1500px) {
+   .heroForeground {
+     display: inline;
+     width:30%;
+     left: 44%;
+   }
+}
+
+.heroForegroundLeft {
+  left: 38%;
+}
+
+@media (min-width: 1500px) {
+   .heroForegroundLeft {
+     left: 34%;
+   }
+}
+
+.heroForegroundLarger {
+  width: 25%;
+}
+
+@media (min-width: 1200px) {
+   .heroForegroundLarger {
+     width:35%;
+   }
+}
+
+/***************************/
+/* Testimonials - Display
+/***************************/
+
+.testimonial {
+  position: relative;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 50%);
+  margin: 0em 0em 0em;
+  width: 100%;
+  text-align: center;
+}
+
+.source {
+    transform: translate(0%, -40%);
+}
+
+
+@media (min-width: 1200px) {
+  .testimonial {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: auto;
+    transform: translate(-50%,25%);
+    padding: 0;
+    margin: 0;
+  }
+  .source {
+    transform: translate(0%, 0%);
+  }
+}
+
+div.quote, div.source {
+  font-family: var(--font-testimonial-serif);
+  position: relative; /* absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 0 0 0;
+  padding: 1em 0.25em;
+  color: #FFF;
+  width: fit-content;
+}
+
+div.quote {
+  font-size: 1.5em;
+  margin-bottom: -.05em;
+}
+
+div.source {
+  font-size: 1.1em;
+  margin-top: -0.75em;
+}
+
+@media (min-width: 1200px) {
+  div.quote, div.source {
+    padding: 0.25em 0.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px 1px rgba(0,0,0,.5);
+  }
+}
+
+@media (min-width: 1200px) {
+  div.quote {
+  }
+
+  div.source {
+    margin-top: -0.05em;
+  }
+}
+
+
+/******************************
+
+A carousel that fades in 5 items
+in a constant rotation. 
+
+/******************************/
+
+
+.fadeCarousel {
+  z-index: 3;
+  position: relative;
+
+}
+
+@media (min-width: 1200px) {
+  .fadeCarousel {
+    z-index: 3;
+    position: relative;
+  }
+}
+
+.fadeCarousel div.carouselList {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: -4em 0 4em 0;
+}
+
+@media (min-width: 1200px) {
+  .fadeCarousel div.carouselList {
+  margin: 0 0 0 0;
+  }
+}
+
+.fadeCarousel div.anim {
+  opacity: 0;
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+
+/***************************/
+/* Dark Mode         
+/***************************/
+
+
+.main-content {
+  background-color: #111111;
+}
+
+.page-wrapper {
+   /* background: var(--color--white); */
+   background: #111111;
+}
+
+.site-branding__inner {
+    padding-top: 3.5em;
+    padding-inline-start: 1em;
+    padding-inline-end: 1em;
+}
+
+.site-branding__inner a {
+  all: revert !important;
+}
+
+.site-branding__logo img {
+   /* filter: brightness(0) invert(1); */
+}
+
+.site-branding--bg-gray {
+  /* background: var(--color--gray-100); */
+  /* background-color: #222222; */
+  background: #261e2f;
+}
+
+.site-header__inner, .header-nav, body:not(.is-always-mobile-nav) .primary-nav__menu--level-2 {
+    background: #111111;
+}
+
+.header-nav {
+  border-block-start: solid #222222 calc(var(--sp7) + var(--drupal-displace-offset-top,0px));
+}
+
+.site-header {
+    border-block-end: solid 1px transparent;
+}
+
+.primary-nav__menu-link, .primary-nav__menu-link:hover, .mobile-nav-button__label {
+    color: #ffffff;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    /* color: var(--color-text-neutral-loud);*/
+    color: #ffffff;
+}
+
+.text-content {
+    /* color: var(--color-text-neutral-medium); */
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.text-content a:where(:not(.button)), .cke_editable a:where(:not(.button)) {
+    /*color: var(--color--primary-60); */
+    color: #8ff36b;
+}
+
+.text-content a:where(:not(.button)):hover, .cke_editable a:where(:not(.button)):hover {
+    box-shadow: inset 0 -2em 0 0 #a0d38d;
+}
+
+.text-content a.frame:where(:not(.button)), .cke_editable a.frame:where(:not(.button)) {
+    /*color: var(--color--primary-60); */
+    color: var(--color--gray-10);
+}
+
+.text-content a.frame:where(:not(.button)):hover, .cke_editable a.frame:where(:not(.button)):hover {
+    box-shadow: inset 0 -2em 0 0 var(--color--gray-10);
+}
+
+/* Image link frames, for Media Kit */
+
+.text-content a.frame{
+  color: #fff;
+}
+
+.text-content a.frame:hover {
+  color: #a0d38d;
+}
+
+.text-content a.frame img {
+  border:5px solid;
+}
+
+.social-bar {
+  background-color: var(--color--gray-10);
+}
+
+.feed-icon {
+  color: #ffffff;
+}
+
+.feed-icon:hover{
+  color: var(--color--primary-80);
+}
+
+.emailoctopus-success-message {
+  color: #ffffff !important;
+}
+
+
+/***************************/
+/* Hide newsletter branding */
+/***************************/
+
+
+.mastfoot {
+  display: none !important;
+}
+
+.btn {
+  padding: 0.6rem 0.5rem !important;
+}
+
+.emailoctopus-form input[type=submit] {
+  background-color: var(--color--primary-60) !important;
+  border-color: var(--color--primary-60) !important;
+}
+
+/* Newsletter block styling */
+#block-olivero-newsletter .block__content .text-content {
+  /* background-color: var(--color--gray-100); */
+  background-color: #222222;
+  padding: 0.1rem 2rem 2rem 2rem;
+}
+
+@media (min-width: 1200px) {
+  #block-olivero-newsletter .block__content .text-content {
+    padding: 0.1rem 6rem 3rem 6rem;
+  }
+}
+
+
+/***************************/
+/* Footer styling */
+/***************************/
+
+
+.site-footer {
+  /* 
+  background: linear-gradient(0deg,var(--color--gray-5) 0%,var(--color--gray-10) 100%);
+  */
+  background: var(--color--gray-10);
+}
+
+.site-footer__inner {
+  padding-block: 2rem;
+}
+
+
+/***************************/
+/* Large Screens Only    
+/***************************/
+
+/* Reset z-index to allow hero image to overlap */
+@media (min-width: 1200px) {
+   .site-header, .layout-main-wrapper, .site-header__inner {
+    z-index: auto !important;
+   }
+   .site-header__fixable {
+    clip-path: none !important;
+   }
+   .layout-main-wrapper {
+     z-index: 101;
+   }
+}
+
+
+/***************************/
+/* Testimonial Animations */ 
+/***************************/
+
+
+/******************************
+
+Variables
+
+/******************************/
+
+
+:root {
+  --cycle-duration: 36s;
+  --line-duration: 7s;
+}
+
+
+/*********************
+Hover States
+Pausing animation actually screws up the screen reader :/ 
+*********************/
+
+/*
+.fadeCarousel:hover .testimonial {
+  animation-play-state: paused;
+  filter: blur(0px) !important;
+  z-index: 3;
+}
+*/
+
+/******************************
+Calculating the animation duration for a loop 
+
+Full keyframe animation should be completed
+in 100/n% of the keyframes, where n is the number
+of items in the animation.
+
+For example:
+5 lines in the animation
+100/5 = 20%
+
+Ensure the full animation completes by the 20% keyframe
+
+Set delay equal to length of the animation * (n-1)
+Set duration = delay * n, where n is number of lines. 
+
+******************************/
+
+
+.fadeCarousel div.anim {
+  z-index: 0; 
+  animation-name: cycle; /* Name of animation | default: 0 */
+  animation-duration: calc(var(--cycle-duration) * 1);
+  animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
+  animation-iteration-count: infinite; /* How many times the animation should run | default: infinite*/ 
+  animation-direction: normal; /* normal, reverse, alternate(forwards then backwards) alternate-reverse(backwards then forwards) per iteration | default: normal */
+  animation-timing-function: linear; /* Speed curve: ease (slow-fast-slow),  ease-in(fast-slow), ease-out(slow-fast), linear (equal time), ease-in-out (fast-slow-fast), cubic-bezier(n,n,n) | Default: ease*/
+  animation-fill-mode: none; /* style applied before, after, or both | default: none (original styles), forwards (last keyframe styles), backwards (first keyframe styles before animation starts), both (first styles before animation, last styles after) */
+  /* Shorthand is in the order above */ 
+}
+
+
+.fadeCarousel div.anim.one {
+  animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
+}
+
+.fadeCarousel div.anim.two {
+  animation-delay: calc(var(--line-duration) * 1); /* Delay before the animation starts */
+}
+
+.fadeCarousel div.anim.three {
+  animation-delay: calc(var(--line-duration) * 2); /* Delay before the animation starts */
+} 
+
+.fadeCarousel div.anim.four {
+  animation-delay: calc(var(--line-duration) * 3); /* Delay before the animation starts */
+}
+
+.fadeCarousel div.anim.five {
+  animation-delay: calc(var(--line-duration) * 4); /* Delay before the animation starts */
+  /* End on five */
+  /* 
+  animation: cycleEnd;
+  animation-duration: var(--line-duration); 
+  animation-iteration-count: 1;
+  */ 
+}
+
+
+@keyframes cycle {
+  0% {
+    filter: blur(200px);
+    opacity: 1;
+    z-index:3
+  }
+  4% {
+    z-index:3
+  }
+  8% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  20% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  28% {
+    opacity: 0;
+    filter: blur(200px);
+  }
+}
+
+@keyframes cycleEnd {
+  0% {
+    filter: blur(40px);
+    display:inline;
+  }
+  4% {
+    filter: blur(40px);
+    z-index: 3
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(10px);
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  80% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  92% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  96% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+
+/******************************
+fogLetters / Smoke Text Animation 
+
+Set duration = 'Cycle' animation delay * n, where n is number of lines. 
+
+Full keyframe animation should be completed
+in 100/[n]/[wordcount]% of the keyframes, where [n] is the number
+of items in the animation, and [wordcount] is the avg words per line.
+
+Add a buffer equal to the fade in duration of the Cycle animation, so
+the fogLetters animation doesn't complete before cycle starts
+
+For example:
+8% of keyframe buffer
+5 lines in the animation
+8 words per line
+8% + 100/5/8 = 10.5% <-- animatiom should finish on this keyframe. 
+
+Delay should be .05s per letter + the [cycle delay] offset for each line.
+
+So if each cycle has 7s delay, add 7s per cycle. 
+
+******************************/
+
+
+div.quote span {
+  animation-name: fogLetters;
+  animation-duration: calc(var(--cycle-duration) * 1); /* How long to complete animation | default: 0 */
+  animation-delay: calc(var(--line-duration) * 0); /* Delay before the animation starts */
+  animation-iteration-count: infinite; /* How many times the animation should run | default: infinite*/ 
+  animation-direction: normal; /* normal, reverse, alternate(forwards then backwards) alternate-reverse(backwards then forwards) per iteration | default: normal */
+  animation-timing-function: linear; /* Speed curve: ease (slow-fast-slow),  ease-in(fast-slow), ease-out(slow-fast), linear (equal time), ease-in-out (fast-slow-fast), cubic-bezier(n,n,n) | Default: ease*/
+  animation-fill-mode: none; /* style applied before, after, or both | default: none (original styles), forwards (last keyframe styles), backwards (first keyframe styles before animation starts), both (first styles before animation, last styles after) */
+  /* Shorthand is in the order above */ 
+}
+
+@keyframes fogLetters{
+    0% {
+        filter: blur(40px);
+    }
+    8% {
+        filter: blur(40px);
+    }
+    10.5% {
+        filter: blur(0px);
+    }
+    100% {
+        filter: blur(0px);
+    }
+}
+
+@keyframes fogPictures{
+    0% {
+        filter: blur(80px);
+        visibility: visible;
+    }
+    30% {
+        filter: blur(40px);
+        visibility: visible;
+    }
+    100% {
+        filter: blur(0px);
+        visibility: visible;
+    }
+}
+
+
+/******************************
+
+Line one inner animation
+
+******************************/
+
+
+/* Source */
+div.anim.one div.source span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.00s);
+  }
+
+/* Quote */
+div.anim.one div.quote span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 0) + .00s);
+  }
+div.anim.one div.quote span:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 0) + .05s);
+  }
+div.anim.one div.quote span:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 0) + .10s);
+  }
+div.anim.one div.quote span:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 0) + .15s);
+  }
+div.anim.one div.quote span:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 0) + .20s);
+  }
+div.anim.one div.quote span:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 0) + .25s);
+  }
+div.anim.one div.quote span:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 0) + .30s);
+  }
+div.anim.one div.quote span:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 0) + .35s);
+  }
+div.anim.one div.quote span:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 0) + .40s);
+  }
+div.anim.one div.quote span:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 0) + .45s);
+  }
+div.anim.one div.quote span:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 0) + .50s);
+}
+div.anim.one div.quote span:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 0) + .55s);
+}
+div.anim.one div.quote span:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 0) + .60s);
+}
+div.anim.one div.quote span:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 0) + .65s);
+}
+div.anim.one div.quote span:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 0) + .70s);
+}
+div.anim.one div.quote span:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 0) + .75s);
+}
+div.anim.one div.quote span:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 0) + .80s);
+}
+div.anim.one div.quote span:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 0) + .85s);
+}
+div.anim.one div.quote span:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 0) + .90s);
+}
+div.anim.one div.quote span:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 0) + .95s);
+}
+div.anim.one div.quote span:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.00s);
+}
+div.anim.one div.quote span:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.05s);
+}
+div.anim.one div.quote span:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.10s);
+}
+div.anim.one div.quote span:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.15s);
+}
+div.anim.one div.quote span:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.20s);
+}
+div.anim.one div.quote span:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.25s);
+}
+div.anim.one div.quote span:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.30s);
+}
+div.anim.one div.quote span:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.35s);
+}
+div.anim.one div.quote span:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.40s);
+}
+div.anim.one div.quote span:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 0) + 1.45s);
+}
+
+
+/******************************
+
+Line two inner animation
+
+******************************/
+
+
+/* Source */
+div.anim.two div.source span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.00s);
+  }
+
+/* Quote */
+div.anim.two div.quote span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 1) + .00s);
+  }
+div.anim.two div.quote span:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 1) + .05s);
+  }
+div.anim.two div.quote span:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 1) + .10s);
+  }
+div.anim.two div.quote span:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 1) + .15s);
+  }
+div.anim.two div.quote span:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 1) + .20s);
+  }
+div.anim.two div.quote span:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 1) + .25s);
+  }
+div.anim.two div.quote span:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 1) + .30s);
+  }
+div.anim.two div.quote span:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 1) + .35s);
+  }
+div.anim.two div.quote span:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 1) + .40s);
+  }
+div.anim.two div.quote span:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 1) + .45s);
+  }
+div.anim.two div.quote span:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 1) + .50s);
+}
+div.anim.two div.quote span:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 1) + .55s);
+}
+div.anim.two div.quote span:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 1) + .60s);
+}
+div.anim.two div.quote span:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 1) + .65s);
+}
+div.anim.two div.quote span:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 1) + .70s);
+}
+div.anim.two div.quote span:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 1) + .75s);
+}
+div.anim.two div.quote span:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 1) + .80s);
+}
+div.anim.two div.quote span:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 1) + .85s);
+}
+div.anim.two div.quote span:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 1) + .90s);
+}
+div.anim.two div.quote span:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 1) + .95s);
+}
+div.anim.two div.quote span:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.00s);
+}
+div.anim.two div.quote span:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.05s);
+}
+div.anim.two div.quote span:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.10s);
+}
+div.anim.two div.quote span:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.15s);
+}
+div.anim.two div.quote span:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.20s);
+}
+div.anim.two div.quote span:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.25s);
+}
+div.anim.two div.quote span:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.30s);
+}
+div.anim.two div.quote span:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.35s);
+}
+div.anim.two div.quote span:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.40s);
+}
+div.anim.two div.quote span:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 1) + 1.45s);
+}
+
+
+/******************************
+
+Line three inner animation
+
+******************************/
+
+
+/* Source */
+div.anim.three div.source span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.00s);
+  }
+
+/* Quote */
+div.anim.three div.quote span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 2) + .00s);
+  }
+div.anim.three div.quote span:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 2) + .05s);
+  }
+div.anim.three div.quote span:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 2) + .10s);
+  }
+div.anim.three div.quote span:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 2) + .15s);
+  }
+div.anim.three div.quote span:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 2) + .20s);
+  }
+div.anim.three div.quote span:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 2) + .25s);
+  }
+div.anim.three div.quote span:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 2) + .30s);
+  }
+div.anim.three div.quote span:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 2) + .35s);
+  }
+div.anim.three div.quote span:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 2) + .40s);
+  }
+div.anim.three div.quote span:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 2) + .45s);
+  }
+div.anim.three div.quote span:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 2) + .50s);
+}
+div.anim.three div.quote span:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 2) + .55s);
+}
+div.anim.three div.quote span:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 2) + .60s);
+}
+div.anim.three div.quote span:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 2) + .65s);
+}
+div.anim.three div.quote span:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 2) + .70s);
+}
+div.anim.three div.quote span:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 2) + .75s);
+}
+div.anim.three div.quote span:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 2) + .80s);
+}
+div.anim.three div.quote span:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 2) + .85s);
+}
+div.anim.three div.quote span:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 2) + .90s);
+}
+div.anim.three div.quote span:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 2) + .95s);
+}
+div.anim.three div.quote span:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.00s);
+}
+div.anim.three div.quote span:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.05s);
+}
+div.anim.three div.quote span:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.10s);
+}
+div.anim.three div.quote span:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.15s);
+}
+div.anim.three div.quote span:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.20s);
+}
+div.anim.three div.quote span:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.25s);
+}
+div.anim.three div.quote span:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.30s);
+}
+div.anim.three div.quote span:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.35s);
+}
+div.anim.three div.quote span:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.40s);
+}
+div.anim.three div.quote span:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 2) + 1.45s);
+}
+
+
+/******************************
+
+Line four inner animation
+
+******************************/
+
+
+/* Source */
+div.anim.four div.source span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.00s);
+  }
+
+/* Quote */
+div.anim.four div.quote span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 3) + .00s);
+  }
+div.anim.four div.quote span:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 3) + .05s);
+  }
+div.anim.four div.quote span:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 3) + .10s);
+  }
+div.anim.four div.quote span:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 3) + .15s);
+  }
+div.anim.four div.quote span:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 3) + .20s);
+  }
+div.anim.four div.quote span:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 3) + .25s);
+  }
+div.anim.four div.quote span:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 3) + .30s);
+  }
+div.anim.four div.quote span:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 3) + .35s);
+  }
+div.anim.four div.quote span:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 3) + .40s);
+  }
+div.anim.four div.quote span:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 3) + .45s);
+  }
+div.anim.four div.quote span:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 3) + .50s);
+}
+div.anim.four div.quote span:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 3) + .55s);
+}
+div.anim.four div.quote span:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 3) + .60s);
+}
+div.anim.four div.quote span:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 3) + .65s);
+}
+div.anim.four div.quote span:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 3) + .70s);
+}
+div.anim.four div.quote span:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 3) + .75s);
+}
+div.anim.four div.quote span:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 3) + .80s);
+}
+div.anim.four div.quote span:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 3) + .85s);
+}
+div.anim.four div.quote span:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 3) + .90s);
+}
+div.anim.four div.quote span:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 3) + .95s);
+}
+div.anim.four div.quote span:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.00s);
+}
+div.anim.four div.quote span:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.05s);
+}
+div.anim.four div.quote span:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.10s);
+}
+div.anim.four div.quote span:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.15s);
+}
+div.anim.four div.quote span:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.20s);
+}
+div.anim.four div.quote span:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.25s);
+}
+div.anim.four div.quote span:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.30s);
+}
+div.anim.four div.quote span:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.35s);
+}
+div.anim.four div.quote span:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.40s);
+}
+div.anim.four div.quote span:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 3) + 1.45s);
+}
+
+
+/******************************
+
+Line five inner animation
+
+******************************/
+
+
+/* Source */
+div.anim.five div.source span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.00s);
+  }
+
+/* Quote */
+div.anim.five div.quote span:nth-of-type(1) {
+    animation-delay: calc((var(--line-duration) * 4) + .00s);
+  }
+div.anim.five div.quote span:nth-of-type(2) {
+    animation-delay: calc((var(--line-duration) * 4) + .05s);
+  }
+div.anim.five div.quote span:nth-of-type(3) {
+    animation-delay: calc((var(--line-duration) * 4) + .10s);
+  }
+div.anim.five div.quote span:nth-of-type(4) {
+    animation-delay: calc((var(--line-duration) * 4) + .15s);
+  }
+div.anim.five div.quote span:nth-of-type(5) {
+    animation-delay: calc((var(--line-duration) * 4) + .20s);
+  }
+div.anim.five div.quote span:nth-of-type(6) {
+    animation-delay: calc((var(--line-duration) * 4) + .25s);
+  }
+div.anim.five div.quote span:nth-of-type(7) {
+    animation-delay: calc((var(--line-duration) * 4) + .30s);
+  }
+div.anim.five div.quote span:nth-of-type(8) {
+    animation-delay: calc((var(--line-duration) * 4) + .35s);
+  }
+div.anim.five div.quote span:nth-of-type(9) {
+    animation-delay: calc((var(--line-duration) * 4) + .40s);
+  }
+div.anim.five div.quote span:nth-of-type(10) {
+    animation-delay: calc((var(--line-duration) * 4) + .45s);
+  }
+div.anim.five div.quote span:nth-of-type(11) {
+    animation-delay: calc((var(--line-duration) * 4) + .50s);
+}
+div.anim.five div.quote span:nth-of-type(12) {
+    animation-delay: calc((var(--line-duration) * 4) + .55s);
+}
+div.anim.five div.quote span:nth-of-type(13) {
+    animation-delay: calc((var(--line-duration) * 4) + .60s);
+}
+div.anim.five div.quote span:nth-of-type(14) {
+    animation-delay: calc((var(--line-duration) * 4) + .65s);
+}
+div.anim.five div.quote span:nth-of-type(15) {
+    animation-delay: calc((var(--line-duration) * 4) + .70s);
+}
+div.anim.five div.quote span:nth-of-type(16) {
+    animation-delay: calc((var(--line-duration) * 4) + .75s);
+}
+div.anim.five div.quote span:nth-of-type(17) {
+    animation-delay: calc((var(--line-duration) * 4) + .80s);
+}
+div.anim.five div.quote span:nth-of-type(18) {
+    animation-delay: calc((var(--line-duration) * 4) + .85s);
+}
+div.anim.five div.quote span:nth-of-type(19) {
+    animation-delay: calc((var(--line-duration) * 4) + .90s);
+}
+div.anim.five div.quote span:nth-of-type(20) {
+    animation-delay: calc((var(--line-duration) * 4) + .95s);
+}
+div.anim.five div.quote span:nth-of-type(21) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.00s);
+}
+div.anim.five div.quote span:nth-of-type(22) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.05s);
+}
+div.anim.five div.quote span:nth-of-type(23) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.10s);
+}
+div.anim.five div.quote span:nth-of-type(24) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.15s);
+}
+div.anim.five div.quote span:nth-of-type(25) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.20s);
+}
+div.anim.five div.quote span:nth-of-type(26) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.25s);
+}
+div.anim.five div.quote span:nth-of-type(27) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.30s);
+}
+div.anim.five div.quote span:nth-of-type(28) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.35s);
+}
+div.anim.five div.quote span:nth-of-type(29) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.40s);
+}
+div.anim.five div.quote span:nth-of-type(30) {
+    animation-delay: calc((var(--line-duration) * 4) + 1.45s);
+}
+
+
+
+
+
+
+
+
+/***************************/
+/* Olivero Centering Hacks*/ 
+/***************************/
+
+
+
+
+
+
+
+
+@media (min-width: 75rem) {
+
+  body.is-always-mobile-nav .page-wrapper--centered .header-nav {
+    /**
+         * When the "Enable mobile menu at all widths" option is set,
+         * we stop the off-canvas menu (coming from the side) in the center of the page.
+         */
+    max-width: 50vw;
+    /**
+         * We consider the outermost vertices of the menu toggler "X" icon
+         * as a reference point for defining the maximum limit to which the content
+         * of the off-canvas menu can be extended (in other words, the
+         * padding-inline-end of header-nav).
+         * The value is equal to --sp2 in this --nav breakpoint.
+         */
+    padding-inline-end: var(--sp2);
+  }
+}
+
+@media (min-width: 90rem) {
+
+  body.is-always-mobile-nav .page-wrapper--centered .header-nav {
+    /**
+         * [...continue from previous comment]
+         * While in this breakpoint we need to do some calculations to find the value,
+         * involving our global layout helpers (in a very similar way that
+         * has already been done more above for default "not centered" layout).
+         */
+    padding-inline-end: calc((50vw - (var(--max-width) / 2)) + var(--content-left) - var(--sp2));
+  }
+}
+.page-wrapper {
+    & .header-nav {
+      @media (--nav) {
+        /**
+         * When the "Enable mobile menu at all widths" option is set,
+         * we stop the off-canvas menu (coming from the side) in the center of the page.
+         */
+        max-width: 50vw;
+        /**
+         * We consider the outermost vertices of the menu toggler "X" icon
+         * as a reference point for defining the maximum limit to which the content
+         * of the off-canvas menu can be extended (in other words, the
+         * padding-inline-end of header-nav).
+         * The value is equal to --sp2 in this --nav breakpoint.
+         */
+        /* padding-inline-end: var(--sp2);*'/
+      }
+
+      @media (--grid-max) {
+        /**
+         * [...continue from previous comment]
+         * While in this breakpoint we need to do some calculations to find the value,
+         * involving our global layout helpers (in a very similar way that
+         * has already been done more above for default "not centered" layout).
+         */
+        padding-inline-end: calc((50vw - (var(--max-width) / 2)) + var(--content-left) - var(--sp2));
+      }
+    }
+  }
+
+body:not(.is-always-mobile-nav) .page-wrapper .site-header__fixable {
+    /**
+         * To contain the header sliding inside the page wrapper,
+         * we use clip-path instead of overflow: hidden.
+         * In this way, the drop-down menus of the main nav are not cut off.
+         */
+    -webkit-clip-path: inset(0 0 -100vh 0);
+    clip-path: inset(0 0 -100vh 0);
+  }
+
+body:not(.is-always-mobile-nav) {
+    & .page-wrapper {
+      & .site-header__fixable {
+        /**
+         * To contain the header sliding inside the page wrapper,
+         * we use clip-path instead of overflow: hidden.
+         * In this way, the drop-down menus of the main nav are not cut off.
+         */
+        clip-path: inset(0 0 -100vh 0);
+      }
+    }
+}
+
+.page-wrapper {
+  margin-inline: auto;
+}
