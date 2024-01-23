@@ -400,7 +400,11 @@ div.grayedOut {
   filter: grayscale(100%); 
 }
 
-.overlay {
+####
+#### https://codepen.io/ibaslogic/pen/yLEPeXm?editors=1100
+####
+
+.imgOverlay {
   position: absolute; 
   background: rgba(57, 57, 57, 0.5);
   
