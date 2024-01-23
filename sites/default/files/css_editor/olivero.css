@@ -400,14 +400,14 @@ div.grayedOut {
   filter: grayscale(100%); 
 }
 
-####
-#### https://codepen.io/ibaslogic/pen/yLEPeXm?editors=1100
-####
+/*******/
+/* https://codepen.io/ibaslogic/pen/yLEPeXm?editors=1100
+/*******/
 
-.imgOverlay {
+.overlay {
   position: absolute; 
   background: rgba(57, 57, 57, 0.5);
-  
+
   /* center overlay text */
   display: flex;
   align-items: center;
