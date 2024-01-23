@@ -353,6 +353,70 @@ body:not(.is-always-mobile-nav) .primary-nav__menu--level-1 {
    }
 }
 
+
+/***************************/
+/* Logo Grid
+/***************************/
+
+.logoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+.logoGrid > div {
+  background: white;
+  padding: 1rem;
+  position: relative;
+}
+.logoGrid > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.logoGrid > div img {
+  position: absolute;
+  max-width: 100%;
+      // Alternate Version
+      // top: 0;
+      // bottom: 0;
+      // right: 0;
+      // left: 0;
+      // margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.grayedOut {
+  background: DarkGray;
+
+}
+
+.grayedOut img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%); 
+}
+
+.overlay {
+  position: absolute; 
+  background: rgba(57, 57, 57, 0.5);
+  
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comingSoon {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+}
+
 /***************************/
 /* Testimonials - Display
 /***************************/
