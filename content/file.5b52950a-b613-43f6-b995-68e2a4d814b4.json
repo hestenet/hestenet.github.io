@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "5b52950a-b613-43f6-b995-68e2a4d814b4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "3d-cover-fog-and-fireflies.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/3d-cover-fog-and-fireflies.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 588195
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-26T05:46:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-26T05:48:10+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
