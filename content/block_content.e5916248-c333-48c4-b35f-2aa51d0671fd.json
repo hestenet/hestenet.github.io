@@ -41,7 +41,7 @@
     ],
     "changed": [
         {
-            "value": "2024-01-09T02:18:35+00:00",
+            "value": "2024-01-26T04:42:12+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -62,7 +62,7 @@
     ],
     "body": [
         {
-            "value": "<style>\r\n.text-content .sitebranding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/2024-01\/Fog%20%26%20Fireflies%20-%20Website%20Logo.png\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
+            "value": "<style>\r\n.text-content .sitebranding__inner {\r\n  all: revert;\r\n}\r\n<\/style><div class=\"site-branding site-branding--bg-gray site-branding__inner\"><a class=\"site-branding__logo\" href=\"\/\" rel=\"home\"><img src=\"\/sites\/default\/files\/inline-images\/Fog%20%26%20Fireflies%20-%20Website%20Logo.png\" data-entity-uuid=\"f7d7e1c7-53f6-4d61-b1b8-1a8e7ee18a23\" data-entity-type=\"file\" alt=\"Home\" width=\"351\" height=\"72\" loading=\"eager\"><\/a><\/div>",
             "format": "full_html",
             "summary": ""
         }

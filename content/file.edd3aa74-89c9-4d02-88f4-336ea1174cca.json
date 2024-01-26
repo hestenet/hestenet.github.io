@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "edd3aa74-89c9-4d02-88f4-336ea1174cca"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "2-Alternate-Cover-Wizard_Fog-and-Fireflies-TH-Lehnen-1657x2560.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/2-Alternate-Cover-Wizard_Fog-and-Fireflies-TH-Lehnen-1657x2560_1.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 2148606
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-26T04:46:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-26T04:48:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

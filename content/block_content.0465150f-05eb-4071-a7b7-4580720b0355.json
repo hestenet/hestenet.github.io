@@ -36,7 +36,7 @@
     ],
     "changed": [
         {
-            "value": "2024-01-15T04:38:55+00:00",
+            "value": "2024-01-26T04:44:45+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -57,7 +57,7 @@
     ],
     "body": [
         {
-            "value": "<img src=\"\/sites\/default\/files\/inline-images\/Aspen-and-Thorn-Logo-White_0.png\" data-entity-uuid=\"ad3779b4-fb7f-4344-91c7-99ca8de1f621\" data-entity-type=\"file\" alt=\"Aspen &amp; Thorn Press, LLC\" width=\"200\" data-align=\"center\">",
+            "value": "<img src=\"\/sites\/default\/files\/inline-images\/Aspen%26Thorn-Logo-White-with-Black-Stroke.png\" data-entity-uuid=\"06370204-c06e-4cad-bf0b-a729bccad289\" data-entity-type=\"file\" alt=\"Aspen &amp; Thorn Press | Publishers of Fog &amp; Fireflies by T.H. Lehnen\" width=\"200\" data-align=\"center\">",
             "format": "full_html",
             "summary": ""
         }

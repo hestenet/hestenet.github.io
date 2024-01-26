@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "f7d7e1c7-53f6-4d61-b1b8-1a8e7ee18a23"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Fog & Fireflies - Website Logo.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Fog & Fireflies - Website Logo.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 255784
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-26T04:41:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-26T04:42:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
