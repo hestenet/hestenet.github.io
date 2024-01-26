@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b32955f4-6258-477b-ad8a-80aae2eaa69f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "odilo.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/odilo.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 5945
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-26T05:07:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-26T05:09:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

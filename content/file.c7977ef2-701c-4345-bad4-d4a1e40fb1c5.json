@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "c7977ef2-701c-4345-bad4-d4a1e40fb1c5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Direct-From-the-Author-Book-and-Quill.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Direct-From-the-Author-Book-and-Quill_1.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 266871
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-26T05:06:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-26T05:09:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

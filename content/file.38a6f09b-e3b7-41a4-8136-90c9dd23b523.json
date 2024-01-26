@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "38a6f09b-e3b7-41a4-8136-90c9dd23b523"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Gardners-Books.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Gardners-Books.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 29233
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-26T05:08:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-26T05:09:38+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
