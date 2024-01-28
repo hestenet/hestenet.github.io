@@ -418,6 +418,14 @@ div.grayedOut {
   justify-content: center;
 }
 
+.overlayTopLeft {
+  left: 0;
+  top: 0;
+  padding: .5rem;
+  margin: 4px;
+  background: #0394fc;
+}
+
 .comingSoon {
   left: 0;
   bottom: 0;
