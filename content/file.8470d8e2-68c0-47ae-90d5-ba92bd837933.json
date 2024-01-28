@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "8470d8e2-68c0-47ae-90d5-ba92bd837933"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Parallel-Worlds-Books.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Parallel-Worlds-Books.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 423916
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-01-28T19:59:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-01-28T20:00:53+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
