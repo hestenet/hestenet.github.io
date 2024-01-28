@@ -421,8 +421,9 @@ div.grayedOut {
 .overlayTopLeft {
   left: 0;
   top: 0;
-  padding: .5rem;
+  padding: .2rem;
   margin: 4px;
+  height: 3rem;
   background: #0394fc;
 }
 
