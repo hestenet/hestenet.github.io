@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xml:base="https://aspenthornpress.com/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://aspenthornpress.com/">
   <channel>
     <title>Aspen &amp; Thorn Press - Publishers of Fog &amp; Fireflies, a young adult novel by T.H. Lehnen</title>
     <link>https://aspenthornpress.com/</link>
-    <description></description>
+    <description/>
     <language>en</language>
     
     
