@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "3573239c-0cba-47e2-a637-566bb2e11add"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "th-lehnen-author-of-fog-and-fireflies-portrait-eastern.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/th-lehnen-author-of-fog-and-fireflies-portrait-eastern.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1112595
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-02-04T23:00:17+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-02-04T23:01:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
