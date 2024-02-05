@@ -1,0 +1,30 @@
+uuid: 486bcf5a-3fe0-4b37-912c-8b34e2215082
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:413ddbdf-e4e9-4641-88b7-d6dc6041248f'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_heroimagelibrary
+theme: olivero
+region: hero
+weight: -10
+provider: null
+plugin: 'block_content:413ddbdf-e4e9-4641-88b7-d6dc6041248f'
+settings:
+  id: 'block_content:413ddbdf-e4e9-4641-88b7-d6dc6041248f'
+  label: 'Hero Image: Library'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/local\r\n/local/*"

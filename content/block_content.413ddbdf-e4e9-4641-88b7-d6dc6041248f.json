@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "413ddbdf-e4e9-4641-88b7-d6dc6041248f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-02-05T04:42:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Hero Image: Library"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-02-05T04:57:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/books-5682442.jpg\" data-entity-uuid=\"114b44f7-ce8a-46be-b7fa-34182dda40c3\" data-entity-type=\"file\" alt=\"Photograph of a library or bookstore with a mural of the moon.\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/Melial-Web-Banner.png\" data-entity-uuid=\"24e425fc-5621-40ad-a02d-cd1907874ab0\" data-entity-type=\"file\" alt=\"Portrait of Melial - A woman with magic charms in her manzanita antlers, emerald eyes, and madrone bark skin.\" width=\"450\" loading=\"eager\"><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

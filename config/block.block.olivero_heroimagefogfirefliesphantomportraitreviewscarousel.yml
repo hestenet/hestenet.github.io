@@ -12,7 +12,7 @@ dependencies:
 id: olivero_heroimagefogfirefliesphantomportraitreviewscarousel
 theme: olivero
 region: hero
-weight: -12
+weight: -13
 provider: null
 plugin: 'block_content:7a0c1693-3e83-437e-b71d-0058745e2f70'
 settings:
