@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "7a0c1693-3e83-437e-b71d-0058745e2f70"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-02-05T02:50:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Hero Image: Fog & Fireflies | Phantom Portrait | Reviews Carousel"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-02-05T03:12:48+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"heroContainer\"><div><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/Ogma_Phantom_Photoshop_Website_Hero.jpg\" data-entity-uuid=\"41cce0e4-9b96-4a01-b5cb-ffac7b34a12b\" data-entity-type=\"file\" alt=\"\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/fog_phantom_hero_portrait_2.png\" data-entity-uuid=\"f29df963-2c60-418d-971a-3b4588fb8147\" data-entity-type=\"file\" alt=\"\" width=\"351\" loading=\"eager\"><\/div><\/div><div class=\"fadeCarousel\"><div class=\"carouselList\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Design patterns\"><div class=\"testimonial anim one\" title=\"\u201c...master storyteller...\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><br><span>\u201c...masterful storytelling...\u201d<\/span><\/p><\/div><div class=\"source\"><span>- San Francisco Book Review<\/span><\/div><\/div><div class=\"testimonial anim two\" title=\"\u201cDark atmosphere with Pan&apos;s Labyrinth vibes.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><br><span>\u201cDark atmosphere with Pan's Labyrinth vibes.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- F\u00e9lszip\u00f3k\u00e1s \u0150smoly | Goodreads<\/span><\/div><\/div><div class=\"testimonial anim three\" title=\"\u201cFog &amp; Fireflies read like a Studio Ghibli movie.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><br><span>\u201c...reads like a Studio Ghibli movie.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- Lianne Brouwer | Goodreads<\/span><\/div><\/div><div class=\"testimonial anim four\" title=\"\u201cI loved this book from the first page, and I won&apos;t be surprised if it is one of my favorite books of the year. It definitely lives up to all that it claims to be while also managing to surprise and delight in ways I was not expecting.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><br><span>\u201cI loved this book from the first page, page, and I won't be surprised if it is one of my favorite books of the year.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- Caroline McClure | Goodreads<\/span><\/div><\/div><div class=\"testimonial anim five\" title=\"\u201cI have no doubt Lehnen has imagination enough to populate galaxies.\u201d\" role=\"group\" aria-roledescription=\"testimonial\"><div class=\"quote\"><p role=\"text\"><span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span> <span>\u2605<\/span><br><span>\u201cI<\/span> <span>have<\/span> <span>no<\/span> <span>doubt<\/span> <span>Lehnen<\/span> <span>has<\/span> <span>imagination<\/span> <span>enough<\/span> <span>to<\/span> <span>populate<\/span> <span>galaxies.\u201d<\/span><\/p><\/div><div class=\"source\"><span>- Manhattan Book Review<\/span><\/div><\/div><\/div><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

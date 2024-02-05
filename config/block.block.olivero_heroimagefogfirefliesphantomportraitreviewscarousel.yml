@@ -1,0 +1,30 @@
+uuid: ba8910e8-86bd-432f-9aca-75e5c3f953ae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7a0c1693-3e83-437e-b71d-0058745e2f70'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_heroimagefogfirefliesphantomportraitreviewscarousel
+theme: olivero
+region: hero
+weight: -12
+provider: null
+plugin: 'block_content:7a0c1693-3e83-437e-b71d-0058745e2f70'
+settings:
+  id: 'block_content:7a0c1693-3e83-437e-b71d-0058745e2f70'
+  label: 'Hero Image: Fog & Fireflies | Phantom Portrait | Reviews Carousel'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "<front>\r\n/home\r\n/fogandfireflies\r\n/shop\r\n/books/print"

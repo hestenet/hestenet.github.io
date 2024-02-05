@@ -12,13 +12,13 @@ dependencies:
 id: olivero_heroimagemelial
 theme: olivero
 region: hero
-weight: -11
+weight: -10
 provider: null
 plugin: 'block_content:e4e5a11b-1a05-497e-9a3a-c2924d6f75ea'
 settings:
   id: 'block_content:e4e5a11b-1a05-497e-9a3a-c2924d6f75ea'
   label: 'Hero Image: Melial'
-  label_display: visible
+  label_display: '0'
   provider: block_content
   status: true
   info: ''

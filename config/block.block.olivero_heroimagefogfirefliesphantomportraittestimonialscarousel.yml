@@ -1,6 +1,6 @@
 uuid: ab39a97e-9c9f-431a-9c4a-c2e110a4094a
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:basic:77511e64-4a4a-4580-bb4d-8b0334e7781c'
@@ -12,7 +12,7 @@ dependencies:
 id: olivero_heroimagefogfirefliesphantomportraittestimonialscarousel
 theme: olivero
 region: hero
-weight: -10
+weight: -8
 provider: null
 plugin: 'block_content:77511e64-4a4a-4580-bb4d-8b0334e7781c'
 settings:
