@@ -441,7 +441,7 @@ div.grayedOut {
 .testimonial {
   position: relative;
   left: 50%;
-  top: 0;
+  top: auto;
   transform: translate(-50%, 50%);
   margin: 0em 0em 0em;
   width: 100%;
@@ -482,12 +482,12 @@ div.quote, div.source {
 
 div.quote {
   font-size: 1.5em;
+  line-height:1.2;
   margin-bottom: -.05em;
 }
 
-div.source {
-  font-size: 1.1em;
-  margin-top: -0.75em;
+span.source {
+  font-size: 0.6em;
 }
 
 @media (min-width: 1200px) {
@@ -533,12 +533,18 @@ in a constant rotation.
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  margin: -4em 0 4em 0;
+  margin: -8em 0 6em 0;
+}
+
+@media (min-width: 600px) {
+  .fadeCarousel div.carouselList {
+  margin: -5em 0 3em 0;
+  }
 }
 
 @media (min-width: 1200px) {
   .fadeCarousel div.carouselList {
-  margin: 0 0 0 0;
+  margin: 2em 0 0 0;
   }
 }
 
