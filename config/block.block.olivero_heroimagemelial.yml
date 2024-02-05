@@ -1,0 +1,30 @@
+uuid: 294ca635-31c1-48f1-a7e7-711654f11ba4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e4e5a11b-1a05-497e-9a3a-c2924d6f75ea'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_heroimagemelial
+theme: olivero
+region: hero
+weight: -11
+provider: null
+plugin: 'block_content:e4e5a11b-1a05-497e-9a3a-c2924d6f75ea'
+settings:
+  id: 'block_content:e4e5a11b-1a05-497e-9a3a-c2924d6f75ea'
+  label: 'Hero Image: Melial'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/media-kit\r\n/media-kit/*"

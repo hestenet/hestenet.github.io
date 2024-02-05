@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "24e425fc-5621-40ad-a02d-cd1907874ab0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Melial-Web-Banner.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Melial-Web-Banner.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1645999
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-02-05T02:44:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-02-05T02:45:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

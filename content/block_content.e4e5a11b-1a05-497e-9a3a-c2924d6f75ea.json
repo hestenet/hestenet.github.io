@@ -1,0 +1,65 @@
+{
+    "uuid": [
+        {
+            "value": "e4e5a11b-1a05-497e-9a3a-c2924d6f75ea"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "basic",
+            "target_type": "block_content_type",
+            "target_uuid": "2518e74f-b8ec-4f67-9419-689582d1ca89"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-02-05T02:45:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "info": [
+        {
+            "value": "Hero Image: Melial"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-02-05T02:45:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "reusable": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"heroContainer\"><img class=\"heroBackground\" src=\"\/sites\/default\/files\/inline-images\/IMG_5212.JPG\" data-entity-uuid=\"b3763d2e-4c7a-4a1c-ae6f-6bdcc3519dbb\" data-entity-type=\"file\" alt=\"Photograph of a bog in Connemara, Ireland\" loading=\"eager\"><img class=\"heroForeground heroForegroundLeft heroForegroundLarger\" src=\"\/sites\/default\/files\/inline-images\/Melial-Web-Banner.png\" data-entity-uuid=\"24e425fc-5621-40ad-a02d-cd1907874ab0\" data-entity-type=\"file\" alt=\"Portrait of Melial - A woman with magic charms in her manzanita antlers, emerald eyes, and madrone bark skin.\" width=\"450\" loading=\"eager\"><\/div>",
+            "format": "full_html",
+            "summary": ""
+        }
+    ]
+}

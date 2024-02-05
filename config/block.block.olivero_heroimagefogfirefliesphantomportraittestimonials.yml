@@ -12,7 +12,7 @@ dependencies:
 id: olivero_heroimagefogfirefliesphantomportraittestimonials
 theme: olivero
 region: hero
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:ede86996-9f55-457b-8881-4c126f97a228'
 settings:
