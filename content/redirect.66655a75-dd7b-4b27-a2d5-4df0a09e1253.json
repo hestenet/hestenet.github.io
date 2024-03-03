@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "66655a75-dd7b-4b27-a2d5-4df0a09e1253"
+        }
+    ],
+    "hash": [
+        {
+            "value": "4FpVKeapVxlbNcklc0ootDpN_j_v5cPljRwE3XsrP8Q"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "buy-direct-author",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/node\/10",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "en"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T03:40:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

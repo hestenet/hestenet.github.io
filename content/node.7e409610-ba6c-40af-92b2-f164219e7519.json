@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "7e409610-ba6c-40af-92b2-f164219e7519"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "2fb016fa-b70a-4ad5-b233-92df166d35e0"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-03-03T03:40:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Buy Direct from the Author"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T03:33:37+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-03T03:40:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/shop",
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "body": [
+        {
+            "value": "<a href=\"#bookstores\"><img src=\"\/sites\/default\/files\/inline-images\/3d-cover-fog-and-fireflies.png\" data-align=\"right\" data-entity-uuid=\"5b52950a-b613-43f6-b995-68e2a4d814b4\" data-entity-type=\"file\" alt=\"Example of Fog &amp; Fireflies cover on eReader and Paperback. Young Ogma confronts a phantom made of fog.\" width=\"350\"><\/a><p>Thank you for your interest in Fog &amp; Fireflies!<\/p><h2 id=\"bookstores\">Partner Bookstores<\/h2><div class=\"logoGrid\"><div><a class=\"frame\" href=\"https:\/\/www.parallelworldsbookshop.com\/\" title=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Parallel Worlds in Portland, OR, USA.\"><img src=\"\/sites\/default\/files\/inline-images\/Parallel-Worlds-Books.jpeg\" data-entity-uuid=\"8470d8e2-68c0-47ae-90d5-ba92bd837933\" data-entity-type=\"file\" alt=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Parallel Worlds in Portland, OR, USA.\" width=\"380\" loading=\"lazy\"><\/a><div class=\"overlay overlayTopLeft\"><h3>Portland, OR<\/h3><\/div><\/div><div><a class=\"frame\" href=\"https:\/\/www.chaparralbooks.com\/\" title=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Chaparral Books in Portland, OR, USA.\"><img src=\"\/sites\/default\/files\/inline-images\/chaparral-books.png\" data-entity-uuid=\"75556691-8b9a-4661-9388-a9a08bb2fe19\" data-entity-type=\"file\" alt=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Chaparral Books in Portland, OR, USA.\" width=\"380\" loading=\"lazy\"><\/a><div class=\"overlay overlayTopLeft\"><h3>Portland, OR<\/h3><\/div><\/div><div><a class=\"frame\" href=\"https:\/\/bookshop.org\/p\/books\/fog-fireflies-t-h-lehnen\/21086339?ean=9798989861002\" title=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Bookshop.org and choose your local bookshop to support.\"><img src=\"\/sites\/default\/files\/inline-images\/bookshop-org_0.png\" data-entity-uuid=\"ba35f508-1e07-45cc-b442-42b249a170ed\" data-entity-type=\"file\" alt=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Bookshop.org and choose your local bookshop to support.\" width=\"380\" loading=\"lazy\"><\/a><\/div><div class=\"grayedOut\"><a class=\"frame\" href=\"#\" title=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Powell&apos;s\"><img src=\"\/sites\/default\/files\/inline-images\/Powell%27s_City_of_Books_%28logo%29.png\" data-entity-uuid=\"8e45527e-ad88-4588-838f-390ad43df7fe\" data-entity-type=\"file\" alt=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from Powell&apos;s\" width=\"380\" loading=\"lazy\"><\/a><div class=\"overlay comingSoon\"><h3>Coming Soon<\/h3><\/div><\/div><div class=\"grayedOut\"><a class=\"frame\" href=\"https:\/\/bookshop.org\/p\/books\/fog-fireflies-t-h-lehnen\/21086339?ean=9798989861002\" title=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from your local bookshop\"><img src=\"\/sites\/default\/files\/inline-images\/Your-Local-Bookshop.png\" data-entity-uuid=\"4b6031e2-4b0a-4cd0-8b00-49591e317069\" data-entity-type=\"file\" alt=\"Purchase Fog &amp; Fireflies by T.H. Lehnen from your local bookshop\" width=\"380\" loading=\"lazy\"><\/a><div class=\"overlay comingSoon\"><h3>Coming Soon<\/h3><\/div><\/div><\/div><h3 id=\"bookstores\">Interested in licensing your fan-art for commercial use?<\/h3><p>Contact us at <a href=\"mailto:info+fanart@aspenthornpress.com\">info+fanart@aspenthornpress.com<\/a><\/p>",
+            "format": "full_html",
+            "summary": "Purchase Fog & Fireflies directly from author T.H. Lehnen, as well as bookmarks, pins, t-shirts, and more. "
+        }
+    ]
+}

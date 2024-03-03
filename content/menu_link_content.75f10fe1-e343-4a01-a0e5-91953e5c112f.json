@@ -24,7 +24,7 @@
     "revision_log_message": [],
     "enabled": [
         {
-            "value": false
+            "value": true
         }
     ],
     "title": [
@@ -34,7 +34,7 @@
     ],
     "description": [
         {
-            "value": "Shop"
+            "value": "Buy books from Aspen & Thorn Press"
         }
     ],
     "menu_name": [
@@ -44,7 +44,7 @@
     ],
     "link": [
         {
-            "uri": "internal:\/",
+            "uri": "internal:\/shop",
             "title": "",
             "options": []
         }
@@ -61,7 +61,7 @@
     ],
     "weight": [
         {
-            "value": -47
+            "value": -49
         }
     ],
     "expanded": [
@@ -72,7 +72,7 @@
     "parent": [],
     "changed": [
         {
-            "value": "2024-01-08T05:41:49+00:00",
+            "value": "2024-03-03T03:43:51+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

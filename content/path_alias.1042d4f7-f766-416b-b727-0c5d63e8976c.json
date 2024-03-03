@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "1042d4f7-f766-416b-b727-0c5d63e8976c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/7e409610-ba6c-40af-92b2-f164219e7519"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/shop"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}
