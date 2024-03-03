@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "a6ffcb83-6d70-41d3-9b2a-fdac5935c4c0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "bookmarks.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/bookmarks.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3648805
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T04:06:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-03T04:07:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

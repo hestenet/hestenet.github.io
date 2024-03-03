@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "5865d4c6-5d0f-4b2f-adcf-c81612e3333b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "buttons.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/buttons.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 720220
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T04:14:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-03T04:17:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

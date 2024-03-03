@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "c8524340-0cc6-4757-9ffd-bf8ccd6738c5"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "phantom-t-shirt.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/phantom-t-shirt.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 303206
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T04:21:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-03T04:21:57+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
