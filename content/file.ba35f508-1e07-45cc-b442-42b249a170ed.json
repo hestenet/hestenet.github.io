@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "ba35f508-1e07-45cc-b442-42b249a170ed"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "bookshop-org.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/bookshop-org_0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 36349
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T03:23:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-03T03:24:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

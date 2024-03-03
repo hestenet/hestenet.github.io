@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "75556691-8b9a-4661-9388-a9a08bb2fe19"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "chaparral-books.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/chaparral-books.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 12794554
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-03T03:11:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-03T03:14:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

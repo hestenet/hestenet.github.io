@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "b34d9c10-51bf-4a8f-a7e0-0a8ce6662ee6"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "2560px-Mondadori.svg_.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/2560px-Mondadori.svg_.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 20608
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-02-17T23:12:13+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-02-17T23:13:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
