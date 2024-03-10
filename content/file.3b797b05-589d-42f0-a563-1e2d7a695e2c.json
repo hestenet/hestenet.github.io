@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "3b797b05-589d-42f0-a563-1e2d7a695e2c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "square+melial_nod_bookmark.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/square+melial_nod_bookmark.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3888781
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-10T20:45:42+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-10T20:46:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
