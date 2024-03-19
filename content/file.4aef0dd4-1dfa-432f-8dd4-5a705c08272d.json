@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "4aef0dd4-1dfa-432f-8dd4-5a705c08272d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Chaparral Books Promotion.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Chaparral Books Promotion.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 12710736
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-03-19T02:04:50+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-03-19T02:06:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
