@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "9478c345-013a-4ef2-b590-9e3ae3e5e7a9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "youtube-color-icon.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/youtube-color-icon.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 7018
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:32:23+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:34:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "95a91da3-db89-4ced-b597-43057f243e7b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "pinterest-round-color-icon.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/pinterest-round-color-icon.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 24576
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:39:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:44:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

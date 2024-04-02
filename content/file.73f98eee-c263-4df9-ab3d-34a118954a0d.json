@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "73f98eee-c263-4df9-ab3d-34a118954a0d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "ig-instagram-icon.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/ig-instagram-icon.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 105292
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:27:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:28:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

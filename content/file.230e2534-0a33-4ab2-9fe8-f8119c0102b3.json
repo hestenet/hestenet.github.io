@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "230e2534-0a33-4ab2-9fe8-f8119c0102b3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "goodreads-icon.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/goodreads-icon.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 22436
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:21:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:25:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

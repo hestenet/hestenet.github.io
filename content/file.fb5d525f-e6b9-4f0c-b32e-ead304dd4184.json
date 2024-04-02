@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "fb5d525f-e6b9-4f0c-b32e-ead304dd4184"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "twitter-square-color-icon.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/twitter-square-color-icon.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 13110
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:30:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:34:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

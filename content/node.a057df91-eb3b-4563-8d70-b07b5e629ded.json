@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "a057df91-eb3b-4563-8d70-b07b5e629ded"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "2fb016fa-b70a-4ad5-b233-92df166d35e0"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-04-01T23:52:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Follow"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:08:03+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:52:06+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/follow",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<h2>Social Media<\/h2><table><tbody><tr><td><a href=\"https:\/\/goodreads.com\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/goodreads-icon.png\" data-entity-uuid=\"230e2534-0a33-4ab2-9fe8-f8119c0102b3\" data-entity-type=\"file\" alt=\"goodreads.com\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/goodreads.com\/thlehnen\">Goodreads<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/instagram.com\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/ig-instagram-icon.png\" data-entity-uuid=\"73f98eee-c263-4df9-ab3d-34a118954a0d\" data-entity-type=\"file\" alt=\"instagram.com\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/instagram.com\/thlehnen\">Instagram<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/facebook.com\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/facebook-round-color-icon.png\" data-entity-uuid=\"ad875d2f-3690-4fdf-a2e5-334f77414a3b\" data-entity-type=\"file\" alt=\"facebook.com\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/facebook.com\/thlehnen\">Facebook<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/twitter.com\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/twitter-square-color-icon.png\" data-entity-uuid=\"fb5d525f-e6b9-4f0c-b32e-ead304dd4184\" data-entity-type=\"file\" alt=\"twitter.com\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/twitter.com\/thlehnen\">Twitter<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/www.tumblr.com\/blog\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/tumblr-square-icon.png\" data-entity-uuid=\"e2efcd5a-b620-4df2-a304-b234f00cda52\" data-entity-type=\"file\" alt=\"https:\/\/www.tumblr.com\/blog\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/www.tumblr.com\/blog\/thlehnen\">Tumblr<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/app.thestorygraph.com\/profile\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/storygraph-logo-no-text-white.png\" data-entity-uuid=\"6d9dee8c-a36d-4bba-97ba-3937098fd718\" data-entity-type=\"file\" alt=\"app.thestorygraph.com\/profile\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/app.thestorygraph.com\/profile\/thlehnen\">Storygraph<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/youtube.com\/@thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/youtube-color-icon.png\" data-entity-uuid=\"9478c345-013a-4ef2-b590-9e3ae3e5e7a9\" data-entity-type=\"file\" alt=\"youtube.com\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/youtube.com\/@thlehnen\">YouTube<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/bookbub.com\/profile\/t-h-lehnen\"><img src=\"\/sites\/default\/files\/inline-images\/bookbub_logo.jpg\" data-entity-uuid=\"6ade4ee2-4df9-4678-9201-f791e07c4f51\" data-entity-type=\"file\" alt=\"bookbub.com\/t-h-lehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/bookbub.com\/t-h-lehnen\">BookBub<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/pinterest.com\/fogandfireflies\"><img src=\"\/sites\/default\/files\/inline-images\/pinterest-round-color-icon.png\" data-entity-uuid=\"95a91da3-db89-4ced-b597-43057f243e7b\" data-entity-type=\"file\" alt=\"pinterest.com\/fogandfireflies\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/pinterest.com\/fogandfireflies\">Pinterest<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/linkedin.com\/in\/hestenet\"><img src=\"\/sites\/default\/files\/inline-images\/linkedin-app-icon.png\" data-entity-uuid=\"37d2345d-e9f8-416d-8e44-8deee8f55aed\" data-entity-type=\"file\" alt=\"linkedin.com\/hestenet\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/linkedin.com\/in\/hestenet\">LinkedIn<\/a><\/td><\/tr><tr><td><a href=\"https:\/\/patreon.com\/thlehnen\"><img src=\"\/sites\/default\/files\/inline-images\/Patreon_logo.png\" data-entity-uuid=\"4434ff95-1ca9-4534-b066-9c3af53a67b2\" data-entity-type=\"file\" alt=\"patreon.com\/thlehnen\" width=\"50\"><\/a><\/td><td><a href=\"https:\/\/patreon.com\/thlehnen\">Patreon<\/a><\/td><\/tr><\/tbody><\/table><p>You can also visit our <a href=\"\/media-kit\">media kit<\/a>.<\/p>",
+            "format": "full_html",
+            "summary": "Follow Aspen & Thorn Press on social media for more information about Fog & Fireflies by T.H. Lehnen or other upcoming releases. You can also find our media kit. "
+        }
+    ]
+}

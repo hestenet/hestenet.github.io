@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "17c0d335-96be-40fd-b094-afa3f8108780"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "storygraph-logo-no-text.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/storygraph-logo-no-text.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 32097
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-01T23:23:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-01T23:25:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
