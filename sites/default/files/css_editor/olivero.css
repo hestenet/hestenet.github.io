@@ -652,7 +652,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #a0d38d;
 }
 
-.text-content a.frame img {
+.text-content a.frame img, img.frame {
   border:5px solid;
 }
 
