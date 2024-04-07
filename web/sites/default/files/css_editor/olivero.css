@@ -567,6 +567,18 @@ in a constant rotation.
 /***************************/
 
 
+.node_title a {
+  color: var(--color--primary-60) !important;
+}
+
+.node_title a:hover{
+  color: var(--color--primary-80) !important;
+}
+
+.field--tags__item a {
+  color: #a0d38d;
+}
+
 .main-content {
   background-color: #111111;
 }
