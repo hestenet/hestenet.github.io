@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "912f7191-cdda-4586-9102-8b2a15eb4421"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "PXL_20240404_202259180.MP_.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-04\/PXL_20240404_202259180.MP_.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1116158
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-07T02:43:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-07T02:43:24+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

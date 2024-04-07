@@ -18,7 +18,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2024-04-07T01:01:25+00:00",
+            "value": "2024-04-07T02:43:24+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -53,7 +53,7 @@
     ],
     "changed": [
         {
-            "value": "2024-04-07T01:01:25+00:00",
+            "value": "2024-04-07T02:43:24+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -101,7 +101,16 @@
             "comment_count": 0
         }
     ],
-    "field_image": [],
+    "field_image": [
+        {
+            "alt": "Author T.H. Lehnen tabling at Chaparral Books PDX on April 4, 20224, with posters, bookmarks, buttons, and t-shirts, and firefly lanterns lighting the table.",
+            "title": "",
+            "width": 4032,
+            "height": 2268,
+            "target_type": "file",
+            "target_uuid": "912f7191-cdda-4586-9102-8b2a15eb4421"
+        }
+    ],
     "field_tags": [
         {
             "target_type": "taxonomy_term",
