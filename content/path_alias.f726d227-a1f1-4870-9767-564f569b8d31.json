@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "f726d227-a1f1-4870-9767-564f569b8d31"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/9864a747-899d-4b8e-834c-f41373a03a75"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/praise"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

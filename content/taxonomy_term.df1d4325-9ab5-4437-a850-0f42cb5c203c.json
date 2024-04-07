@@ -1,0 +1,72 @@
+{
+    "uuid": [
+        {
+            "value": "df1d4325-9ab5-4437-a850-0f42cb5c203c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tags",
+            "target_type": "taxonomy_vocabulary",
+            "target_uuid": "f33f4848-3691-4e51-9431-f575274859ba"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2024-04-07T00:53:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_user": [],
+    "revision_log_message": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "name": [
+        {
+            "value": "Events"
+        }
+    ],
+    "description": [],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "parent": [
+        {
+            "target_id": null
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-07T00:53:16+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ]
+}

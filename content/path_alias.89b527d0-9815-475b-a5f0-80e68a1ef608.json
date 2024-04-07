@@ -1,0 +1,27 @@
+{
+    "uuid": [
+        {
+            "value": "89b527d0-9815-475b-a5f0-80e68a1ef608"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "path": [
+        {
+            "value": "\/node\/9ab50e51-8f29-4e14-88b9-b88f6f41dde1"
+        }
+    ],
+    "alias": [
+        {
+            "value": "\/blog\/great-event-chaparral-books-pdx"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ]
+}

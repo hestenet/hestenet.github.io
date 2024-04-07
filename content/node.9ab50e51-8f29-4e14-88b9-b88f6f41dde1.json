@@ -1,0 +1,115 @@
+{
+    "uuid": [
+        {
+            "value": "9ab50e51-8f29-4e14-88b9-b88f6f41dde1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "3dd846e8-0003-41ed-9340-8c68d0afcf33"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-04-07T01:01:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "title": [
+        {
+            "value": "A great event at Chaparral Books PDX"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-07T00:47:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-07T01:01:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/blog\/great-event-chaparral-books-pdx",
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>The Fog &amp; Fireflies preview event was hosted by Chaparral Books in Portland, OR on April 4, 2024. It was a wonderful event in an excellent bookshop, and it was my great pleasure to chat with everyone who attended.<\/p><p>I'm so grateful to everyone who dropped by!<br>&nbsp;<\/p><p>-T.H. Lehnen<br><br>Here are some pictures from the event:&nbsp;<\/p><img class=\"frame\" src=\"\/sites\/default\/files\/inline-images\/PXL_20240405_021618663.MP_.jpg\" data-entity-uuid=\"c938e8e2-0949-4354-bc77-61b974068e69\" data-entity-type=\"file\" alt=\"Author T.H. Lehnen reading from Fog &amp; Firefles at a small lectern at Chaparral Books on April 4th, 2024.\" width=\"275\"><p>&nbsp;<\/p><img class=\"frame\" src=\"\/sites\/default\/files\/inline-images\/PXL_20240405_022543430.jpg\" data-entity-uuid=\"7d306fdf-9ce7-4e03-ba40-a95bde691be1\" data-entity-type=\"file\" alt=\"The audience listening to author T.H. Lehnen reading from Fog &amp; Fireflies at Chaparral Books, April 4, 2024.\" width=\"275\">",
+            "format": "full_html",
+            "summary": "The Fog & Fireflies preview event was hosted by Chaparral Books in Portland, OR on April 4, 2024. It was a wonderful event in an excellent bookshop, with several lucky readers getting the very first retail copies."
+        }
+    ],
+    "comment": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 0,
+            "last_comment_name": "",
+            "last_comment_uid": 0,
+            "comment_count": 0
+        }
+    ],
+    "field_image": [],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "df1d4325-9ab5-4437-a850-0f42cb5c203c"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ba13554f-2156-4dc2-be26-f8d868d3cfba"
+        }
+    ]
+}

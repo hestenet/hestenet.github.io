@@ -27,4 +27,4 @@ visibility:
   request_path:
     id: request_path
     negate: false
-    pages: "/books/audiobooks\r\n/books/audiobooks/*"
+    pages: "/books/audiobooks\r\n/books/audiobooks/*\r\n/follow\r\n/follow/*"

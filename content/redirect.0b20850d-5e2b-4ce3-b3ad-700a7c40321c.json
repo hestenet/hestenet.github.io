@@ -1,0 +1,52 @@
+{
+    "uuid": [
+        {
+            "value": "0b20850d-5e2b-4ce3-b3ad-700a7c40321c"
+        }
+    ],
+    "hash": [
+        {
+            "value": "V9I7K64dMnVxjUc8cCr7IWiAPX3QXd7i1sJ1BC33rVs"
+        }
+    ],
+    "type": [
+        {
+            "value": "redirect"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "redirect_source": [
+        {
+            "path": "great-event-chaparral-books-pdx",
+            "query": []
+        }
+    ],
+    "redirect_redirect": [
+        {
+            "uri": "internal:\/node\/14",
+            "title": null,
+            "options": []
+        }
+    ],
+    "language": [
+        {
+            "value": "en"
+        }
+    ],
+    "status_code": [
+        {
+            "value": 301
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-07T01:01:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

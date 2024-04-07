@@ -1,0 +1,94 @@
+{
+    "uuid": [
+        {
+            "value": "9864a747-899d-4b8e-834c-f41373a03a75"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page",
+            "target_type": "node_type",
+            "target_uuid": "2fb016fa-b70a-4ad5-b233-92df166d35e0"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-04-07T00:57:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Critical Praise"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-07T00:44:12+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-07T00:57:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/praise",
+            "langcode": "en",
+            "pathauto": 0
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>\u2605\u2605\u2605\u2605\u2605<br>\u201cMake no mistake, this is a great and triumphant tale. Dark and soulful; haunting and hopeful. Epic world building, beautiful prose, and the uncertainty of what moves and screams beyond walls of protection. It's the kind of book and author that makes a darning, masterful, and compelling bid for literary greatness!\u201d<br>\u2014Seattle Book Review<\/p><hr><p>\u2029\u2605\u2605\u2605\u2605<br>\u201cI recommend it to everyone who likes Studio Ghibli movies, and reading about found family, hope, and a compelling female hero.\u201d<br>\u2014Lianne Brouwer\u2029<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cDark atmosphere with Pan's Labyrinth vibes. [\u2026] The description is right: there is a noticeable similarity with the art of Hayao Miyazaki.\u201d<br>\u2029\u2014F\u00e9lszip\u00f3k\u00e1s \u0150smoly &nbsp;\u2029<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cI loved this book from the first page, and I won't be surprised if it is one of my favorite books of the year. It definitely lives up to all that it claims to be while also managing to surprise and delight in ways I was not expecting.\u201d<br>\u2014Caroline McClure, Librarian\u2029<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cI am almost at a loss on how to describe how wonderful this book was. Reading it made me feel like I fell through a wardrobe and was exploring something new and completely undiscovered.\u201d<br>\u2014Diane Tait\u2029<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cOgma is a perfect character for the reader to relate and root for. Envision Dorothy in a world of cruel mists summoning up her last bites of courage to save all her Oz companions.\u201d\u2029<br>\u2014Seattle Book Review &nbsp;<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cMaster storyteller T.H. Lehnen\u2019s debut novel [\u2026] Fog &amp; Fireflies is a truly unique and enjoyable piece of fantasy fiction.\u201d\u2029<br>\u2014San Francisco Book Review\u2029<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cLehnen takes world-building to a new level [\u2026] The world of Lehnen\u2019s creation is a dark, brooding character that taunts, invades, and can abduct the adults of the villages. The settings and environment are an essential character in the story.\"<br>\u2014Portland Book Review\u2029<\/p><hr><p>\u2605\u2605\u2605\u2605\u2605<br>\u201cThe novel overflows with creativity and offers some of the most unique world-building you'll find in a genre that can feel like everything has already been done. Lehnen is a masterful storyteller, and his realm of fear and fireflies practically glitters on the page.\u201d<br>\u2014Self-Publishing Review\u2029&nbsp;<\/p><hr><p>Read more or provide your own review at <a href=\"https:\/\/www.goodreads.com\/book\/show\/205103992-fog-fireflies\">Goodreads<\/a>.<\/p>",
+            "format": "full_html",
+            "summary": "Critical praise for Fog & Fireflies by T.H. Lehnen from professional publications and independent reviewers."
+        }
+    ]
+}

@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xml:base="https://aspenthornpress.com/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://aspenthornpress.com/">
   <channel>
     <title>Aspen &amp; Thorn Press - Publishers of Fog &amp; Fireflies, a young adult novel by T.H. Lehnen</title>
     <link>https://aspenthornpress.com/</link>
-    <description></description>
+    <description/>
     <language>en</language>
     
-    
+    <item>
+  <title>A great event at Chaparral Books PDX</title>
+  <link>https://aspenthornpress.com/blog/great-event-chaparral-books-pdx</link>
+  <description>
+&lt;span&gt;A great event at Chaparral Books PDX&lt;/span&gt;
+
+&lt;span&gt;&lt;span&gt;admin&lt;/span&gt;&lt;/span&gt;
+
+&lt;span&gt;&lt;time datetime="2024-04-07T00:47:27+00:00" title="Sunday, April 7, 2024 - 00:47"&gt;Sun, 04/07/2024 - 00:47&lt;/time&gt;&lt;/span&gt;
+</description>
+  <pubDate>Sun, 07 Apr 2024 00:47:27 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">14 at https://aspenthornpress.com</guid>
+    <comments>https://aspenthornpress.com/blog/great-event-chaparral-books-pdx#comments</comments>
+    </item>
+
   </channel>
 </rss>
