@@ -249,7 +249,12 @@ display:
           query_tags: {  }
       relationships: {  }
       header: {  }
-      footer: {  }
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          plugin_id: text
       display_extenders: {  }
     cache_metadata:
       max-age: -1
@@ -300,6 +305,9 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      defaults:
+        footer: false
+      footer: {  }
       display_extenders:
         metatag_display_extender:
           metatags: {  }
