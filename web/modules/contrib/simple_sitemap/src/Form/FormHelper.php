@@ -254,7 +254,7 @@ class FormHelper {
    */
   public function regenerateNowFormSubmit(array &$form, FormStateInterface $form_state) {
     if ($form_state->getValue('simple_sitemap_regenerate_now')) {
-      $this->generator->setVariants()->rebuildQueue()->generate();
+      $this->generator->setSitemaps()->rebuildQueue()->generate();
     }
   }
 
@@ -373,7 +373,7 @@ class FormHelper {
   /**
    * Validates the priority.
    *
-   * @param string|int $priority
+   * @param string $priority
    *   The priority value.
    *
    * @return bool

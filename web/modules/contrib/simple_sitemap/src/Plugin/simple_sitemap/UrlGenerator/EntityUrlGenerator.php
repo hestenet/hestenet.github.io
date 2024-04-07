@@ -138,7 +138,7 @@ class EntityUrlGenerator extends EntityUrlGeneratorBase {
   public function getDataSets(): array {
     $data_sets = [];
     $sitemap_entity_types = $this->entityHelper->getSupportedEntityTypes();
-    $all_bundle_settings = $this->entitiesManager->setVariants($this->sitemap->id())->getAllBundleSettings();
+    $all_bundle_settings = $this->entitiesManager->setSitemaps($this->sitemap)->getAllBundleSettings();
     if (isset($all_bundle_settings[$this->sitemap->id()])) {
       foreach ($all_bundle_settings[$this->sitemap->id()] as $entity_type_name => $bundles) {
         if (!isset($sitemap_entity_types[$entity_type_name])) {
@@ -162,6 +162,8 @@ class EntityUrlGenerator extends EntityUrlGeneratorBase {
             if (!empty($keys['bundle'])) {
               $query->condition($keys['bundle'], $bundle_name);
             }
+
+            // @todo Remove the below and add hooks for greater flexibility.
             if (!empty($keys['published'])) {
               $query->condition($keys['published'], 1);
             }
@@ -221,6 +223,7 @@ class EntityUrlGenerator extends EntityUrlGeneratorBase {
    * {@inheritdoc}
    */
   protected function processDataSet($data_set): array {
+    /** @var \Drupal\Core\Entity\ContentEntityInterface $entity */
     foreach ($this->entityTypeManager->getStorage($data_set['entity_type'])->loadMultiple((array) $data_set['id']) as $entity) {
       try {
         $paths[] = $this->processEntity($entity);
@@ -245,10 +248,11 @@ class EntityUrlGenerator extends EntityUrlGeneratorBase {
    * @throws \Drupal\Component\Plugin\Exception\InvalidPluginDefinitionException
    * @throws \Drupal\Component\Plugin\Exception\PluginNotFoundException
    * @throws \Drupal\Core\Entity\EntityMalformedException
+   * @throws \Drupal\simple_sitemap\Exception\SkipElementException
    */
   protected function processEntity(ContentEntityInterface $entity): array {
     $entity_settings = $this->entitiesManager
-      ->setVariants($this->sitemap->id())
+      ->setSitemaps($this->sitemap)
       ->getEntityInstanceSettings($entity->getEntityTypeId(), $entity->id());
 
     if (empty($entity_settings[$this->sitemap->id()]['index'])) {

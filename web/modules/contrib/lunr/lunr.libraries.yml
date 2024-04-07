@@ -6,9 +6,9 @@ index.form:
     - lunr/lunr
     - core/jquery
     - core/drupal
+    - core/once
     - core/drupal.message
     - core/drupalSettings
-    - core/jquery.once
 
 search:
   version: VERSION
@@ -22,7 +22,7 @@ search:
     - core/jquery
     - core/drupal
     - core/drupalSettings
-    - core/jquery.once
+    - core/once
 
 lunr:
   version: 2.3.5

@@ -2,6 +2,7 @@
 
 namespace Drupal\simple_sitemap\Plugin\simple_sitemap\UrlGenerator;
 
+use Drupal\Core\Entity\ContentEntityInterface;
 use Drupal\Core\Url;
 use Drupal\Component\Utility\UrlHelper;
 use Drupal\simple_sitemap\Entity\EntityHelper;
@@ -126,7 +127,7 @@ class CustomUrlGenerator extends EntityUrlGeneratorBase {
   public function getDataSets(): array {
     $this->includeImages = $this->settings->get('custom_links_include_images', FALSE);
 
-    $custom_link_settings = $this->customLinks->setVariants($this->sitemap->id())->get();
+    $custom_link_settings = $this->customLinks->setSitemaps($this->sitemap)->get();
     $custom_link_settings = $custom_link_settings ? reset($custom_link_settings) : [];
 
     return array_values($custom_link_settings);
@@ -158,7 +159,7 @@ class CustomUrlGenerator extends EntityUrlGeneratorBase {
         : NULL,
       'priority' => $data_set['priority'] ?? NULL,
       'changefreq' => !empty($data_set['changefreq']) ? $data_set['changefreq'] : NULL,
-      'images' => $this->includeImages && !empty($entity)
+      'images' => $this->includeImages && !empty($entity) && $entity instanceof ContentEntityInterface
         ? $this->getEntityImageData($entity)
         : [],
       'meta' => [

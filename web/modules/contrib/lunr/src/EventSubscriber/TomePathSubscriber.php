@@ -4,6 +4,7 @@ namespace Drupal\lunr\EventSubscriber;
 
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\File\FileSystemInterface;
+use Drupal\Core\File\FileUrlGenerator;
 use Drupal\tome_static\Event\CollectPathsEvent;
 use Drupal\tome_static\Event\TomeStaticEvents;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
@@ -28,16 +29,25 @@ class TomePathSubscriber implements EventSubscriberInterface {
   protected $fileSystem;
 
   /**
+   * The file url generator.
+   * @var \Drupal\Core\File\FileUrlGenerator
+   */
+  protected $fileUrlGenerator;
+
+  /**
    * Constructs the EntityPathSubscriber object.
    *
    * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager
    *   The entity type manager.
    * @param \Drupal\Core\File\FileSystemInterface $file_system
    *   The file system.
+   * @param \Drupal\Core\File\FileUrlGenerator $file_url_generator
+   *   The file url generator.
    */
-  public function __construct(EntityTypeManagerInterface $entity_type_manager, FileSystemInterface $file_system) {
+  public function __construct(EntityTypeManagerInterface $entity_type_manager, FileSystemInterface $file_system, FileUrlGenerator $file_url_generator) {
     $this->lunrSearchStorage = $entity_type_manager->getStorage('lunr_search');
     $this->fileSystem = $file_system;
+    $this->fileUrlGenerator = $file_url_generator;
   }
 
   /**
@@ -54,7 +64,7 @@ class TomePathSubscriber implements EventSubscriberInterface {
         continue;
       }
       foreach (array_keys($this->fileSystem->scanDirectory($directory, '/.*/')) as $filename) {
-        $event->addPath(file_create_url($filename), ['language_processed' => 'language_processed']);
+        $event->addPath($this->fileUrlGenerator->generateAbsoluteString($filename), ['language_processed' => 'language_processed']);
       }
     }
     $event->addPath(\Drupal::service('extension.list.module')->getPath('lunr') . '/js/search.worker.js', ['language_processed' => 'language_processed']);

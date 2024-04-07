@@ -43,7 +43,8 @@ class StaticPreviewCommand extends CommandBase {
   protected function configure() {
     $this->setName('tome:preview')
       ->setDescription('Preview your static site.')
-      ->addOption('port', NULL, InputOption::VALUE_OPTIONAL, 'The port to run the server on.', 8889);
+      ->addOption('port', NULL, InputOption::VALUE_OPTIONAL, 'The port to run the server on.', 8889)
+      ->addOption('open', NULL, InputOption::VALUE_OPTIONAL, 'If you want a browser to auto-open after server starts.', 1);
   }
 
   /**
@@ -56,7 +57,11 @@ class StaticPreviewCommand extends CommandBase {
     }
     $options = $input->getOptions();
     $url = '127.0.0.1:' . $options['port'];
-    $this->startBrowser('http://' . $url . base_path(), 2);
+    if ($options['open']) {
+      $this->startBrowser('http://' . $url . base_path(), 2);
+    } else {
+      $this->io->success("Static site server running at http://" . $url . base_path());
+    }
     $this->runCommand(['php', '-S', $url], $this->static->getStaticDirectory(), NULL);
 
     return 0;

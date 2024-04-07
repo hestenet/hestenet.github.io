@@ -184,6 +184,12 @@ class StaticGenerator implements StaticGeneratorInterface {
           $invoke_paths = array_merge($invoke_paths, $this->getHtmlAssets($content, $path), $event->getInvokePaths());
           $invoke_paths = array_diff($invoke_paths, $event->getExcludePaths());
         }
+        if (strpos($response->headers->get('Content-Type'), 'text/css') === 0) {
+          $invoke_paths = array_merge($invoke_paths, $this->getCssAssets($content, $path));
+        }
+        if (strpos($response->headers->get('Content-Type'), 'text/javascript') === 0) {
+          $invoke_paths = array_merge($invoke_paths, $this->getJavascriptModules($content, $path));
+        }
         file_put_contents($destination, $content);
       }
       $this->eventDispatcher->dispatch(new FileSavedEvent($destination), TomeStaticEvents::FILE_SAVED);
@@ -221,12 +227,13 @@ class StaticGenerator implements StaticGeneratorInterface {
 
       $sanitized_path = $this->sanitizePath($path);
       if ($this->copyPath($sanitized_path, $destination)) {
-        if (pathinfo($destination, PATHINFO_EXTENSION) === 'css') {
-          $css_assets = $this->getCssAssets(file_get_contents($destination), $sanitized_path);
+        $destination_noparams = preg_replace("/\?.*/", "", $destination);
+        if (pathinfo($destination_noparams, PATHINFO_EXTENSION) === 'css') {
+          $css_assets = $this->getCssAssets(file_get_contents($destination_noparams), $sanitized_path);
           $invoke_paths = array_merge($invoke_paths, $this->exportPaths($css_assets));
         }
-        if (pathinfo($destination, PATHINFO_EXTENSION) === 'js') {
-          $js_modules = $this->getJavascriptModules(file_get_contents($destination), $sanitized_path);
+        if (pathinfo($destination_noparams, PATHINFO_EXTENSION) === 'js') {
+          $js_modules = $this->getJavascriptModules(file_get_contents($destination_noparams), $sanitized_path);
           $invoke_paths = array_merge($invoke_paths, $this->exportPaths($js_modules));
         }
       }

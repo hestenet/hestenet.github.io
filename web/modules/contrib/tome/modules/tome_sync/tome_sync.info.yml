@@ -10,7 +10,7 @@ dependencies:
   - drupal:user
   - tome:tome_base
 
-# Information added by Drupal.org packaging script on 2023-04-05
-version: '8.x-1.11'
+# Information added by Drupal.org packaging script on 2023-12-03
+version: '8.x-1.12'
 project: 'tome'
-datestamp: 1680663805
+datestamp: 1701628907

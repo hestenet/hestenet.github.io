@@ -110,6 +110,7 @@ class EntitiesForm extends SimpleSitemapFormBase {
     }
     natcasesort($entity_types);
 
+    /** @var string|\Drupal\Core\StringTranslation\TranslatableMarkup $label */
     foreach ($entity_types as $entity_type_id => $label) {
       $is_enabled = $this->entityManager->entityTypeIsEnabled($entity_type_id);
 
@@ -186,7 +187,7 @@ class EntitiesForm extends SimpleSitemapFormBase {
     if ($indexed_bundles === NULL) {
       $indexed_bundles = [];
 
-      foreach ($this->entityManager->setVariants()->getAllBundleSettings() as $variant => $entity_types) {
+      foreach ($this->entityManager->setSitemaps()->getAllBundleSettings() as $variant => $entity_types) {
         $sitemap_label = SimpleSitemap::load($variant)->label();
 
         foreach ($entity_types as $entity_type_id => $bundles) {

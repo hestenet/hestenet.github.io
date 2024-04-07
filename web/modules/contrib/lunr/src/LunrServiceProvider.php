@@ -21,7 +21,8 @@ class LunrServiceProvider implements ServiceProviderInterface {
       $container->register('lunr.tome_path_subscriber', TomePathSubscriber::class)
         ->addTag('event_subscriber')
         ->addArgument(new Reference('entity_type.manager'))
-        ->addArgument(new Reference('file_system'));
+        ->addArgument(new Reference('file_system'))
+        ->addArgument(new Reference('file_url_generator'));
     }
   }
 
