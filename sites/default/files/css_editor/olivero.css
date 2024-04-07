@@ -656,6 +656,10 @@ h1, h2, h3, h4, h5, h6 {
   border:5px solid;
 }
 
+img.frame {
+  margin:5px;
+}
+
 .social-bar {
   background-color: var(--color--gray-10);
 }
