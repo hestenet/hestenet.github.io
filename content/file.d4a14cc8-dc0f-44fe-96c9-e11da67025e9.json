@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "d4a14cc8-dc0f-44fe-96c9-e11da67025e9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "rose-city-event-promo.jpg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2024-04\/rose-city-event-promo.jpg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 446078
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-11T14:04:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-11T14:08:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

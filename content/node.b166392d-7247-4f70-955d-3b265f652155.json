@@ -1,0 +1,124 @@
+{
+    "uuid": [
+        {
+            "value": "b166392d-7247-4f70-955d-3b265f652155"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type",
+            "target_uuid": "3dd846e8-0003-41ed-9340-8c68d0afcf33"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2024-04-11T14:08:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "revision_log": [],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "title": [
+        {
+            "value": "Fog & Fireflies releases *today* - April 11, 2024"
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-11T13:59:34+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-11T14:08:21+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "path": [
+        {
+            "alias": "\/fog-fireflies-releases-today-april-11-2024",
+            "langcode": "en",
+            "pathauto": 1
+        }
+    ],
+    "body": [
+        {
+            "value": "<div class=\"xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs x126k92a\"><h3><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">This is it! Fog &amp; Fireflies releases today!<\/span><\/h3><\/div><div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x126k92a\"><div style=\"text-align:start;\" dir=\"auto\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">Portland locals - Join me at <\/span><a class=\"x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv x1fey0fg xo1l8bm\" href=\"https:\/\/www.facebook.com\/RoseCityBookPub?__cft__[0]=AZWe_eZy0dgBHRhslJ93b9ik9R446RweITs3KLwL8IfDngcXtQoZOng60k1PWdRSzRIqXXTyGuCSa5tJHMH1DWzPb8Bm8Q44pdwYWRok5n9aEkLdOa-gq9cxyq2s2jIrW-55Mfv3DM4SaskUV0WU-6oSpQzppZ6nWY9iArTeC0Hcvl4G1-tfcTLEWk5505Zw6Jk&amp;__tn__=-]K-R\" role=\"link\" tabindex=\"0\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h xt0psk2\" dir=\"auto\">Rose City Book Pub<\/span><\/a><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\"> for the release party. Tabling from 12, reading at 5:30.<\/span><\/div><div style=\"text-align:start;\" dir=\"auto\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">Live painting inspired by the book from <\/span><a href=\"https:\/\/www.instagram.com\/luffbri\/\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">@luffbri<\/span><\/a><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\"> (Insta).<\/span><\/div><h4><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">Can't join me in Portland for the celebration?<\/span><\/h4><ul><li><div style=\"text-align:start;\" dir=\"auto\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">You can find the book online just about wherever books are sold, listed on: <\/span><a class=\"x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz xt0b8zv x1fey0fg\" href=\"https:\/\/l.facebook.com\/l.php?u=http%3A%2F%2Faspenthornpress.com%2F%3Ffbclid%3DIwAR38X9zVKaELdhCcmbmsbqPAP_YHbkrakYJXUsH_W8SF7bJ-YCu1hUrh29M_aem_AZqVe_tOgK7p9Vgj5hH4rELeCT_MVPlyJEK3GBmbTT0-uSVwXkSPwVQU0T9KIzXtVuzOtCWJCKL9IViaz-A-_udE&amp;h=AT0SGjhDpvccNk_o3uJtO4MSj0rT5Tn1-RErSmLK4nwwoAXRYI6WQ5quDTP4dAB8wIxihuXK5yd6cjsiA9zlP3_Z97otzPD_2b0ev7hLNOojl5CKPEz70bWyjzH1vdSQP4oseg&amp;__tn__=-UK-R&amp;c[0]=AT1d8vE6k_Atrd6VFogHkseJWzwbaLQoPemjRs4Xit-LmgrEh82lclceihZz3xY7Q-JIPiZM86ACNzmg5QihcTBtPSpLLuZsk9y4N-05UhSw7FocrOYI8bwWJZGAK--rvV3vb8cGyugWH7HpW0zbQLRPpixzYl6HidzKQQtdJ09KxxOYkAfaPbF_k27Wv_1Jrb6-DzlfdzxR7X1RqQ\" rel=\"nofollow noreferrer\" role=\"link\" tabindex=\"0\" target=\"_blank\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">aspenthornpress.com<\/span><\/a><\/div><div style=\"text-align:start;\" dir=\"auto\">&nbsp;<\/div><\/li><\/ul><div style=\"text-align:start;\" dir=\"auto\"><span class=\"x193iq5w xeuugli x13faqbe x1vvkbs xlh3980 xvmahel x1n0sxbx x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen xo1l8bm xzsf02u x1yc453h\" dir=\"auto\">I'm so grateful and humbled by the wonderful response to early reviewers and all the encouragement for this release. Thank you all!<\/span><\/div><\/div>",
+            "format": "full_html",
+            "summary": "This is it! Fog & Fireflies releases today!\r\n\r\nPortland locals - Join me at Rose City Book Pub for the release party. Tabling from 12, reading at 5:30.\r\nLive painting inspired by the book from @luffbri (Insta).\r\n\r\nCan't join me in Portland for the celebration?\r\n\r\nYou can find the book online just about wherever books are sold, listed on: aspenthornpress.com\r\n\r\nI'm so grateful and humbled by the wonderful response to early reviewers and all the encouragement for this release. Thank you all!"
+        }
+    ],
+    "comment": [
+        {
+            "status": 1,
+            "cid": 0,
+            "last_comment_timestamp": 0,
+            "last_comment_name": "",
+            "last_comment_uid": 0,
+            "comment_count": 0
+        }
+    ],
+    "field_image": [
+        {
+            "alt": "Fog & Fireflies has released today! Join me at Rose City Book Pub if you are local in Portland, or find a copy anywhere books are sold online!",
+            "title": "",
+            "width": 1000,
+            "height": 1000,
+            "target_type": "file",
+            "target_uuid": "d4a14cc8-dc0f-44fe-96c9-e11da67025e9"
+        }
+    ],
+    "field_tags": [
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "df1d4325-9ab5-4437-a850-0f42cb5c203c"
+        },
+        {
+            "target_type": "taxonomy_term",
+            "target_uuid": "ba13554f-2156-4dc2-be26-f8d868d3cfba"
+        }
+    ]
+}
