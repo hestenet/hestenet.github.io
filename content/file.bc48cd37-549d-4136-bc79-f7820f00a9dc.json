@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "bc48cd37-549d-4136-bc79-f7820f00a9dc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Bookstore Promo B&N Eugene.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Bookstore Promo B&N Eugene.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 2439409
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-17T22:41:59+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-17T22:43:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
