@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://aspenthornpress.com/">
+<rss version="2.0" xml:base="https://aspenthornpress.com/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Aspen &amp; Thorn Press - Publishers of Fog &amp; Fireflies, a young adult novel by T.H. Lehnen</title>
     <link>https://aspenthornpress.com/</link>
-    <description/>
+    <description></description>
     <language>en</language>
     
     <item>
   <title>Fog &amp; Fireflies releases *today* - April 11, 2024</title>
   <link>https://aspenthornpress.com/fog-fireflies-releases-today-april-11-2024</link>
   <description>
-&lt;span&gt;Fog &amp; Fireflies releases *today* - April 11, 2024&lt;/span&gt;
+&lt;span&gt;Fog &amp;amp; Fireflies releases *today* - April 11, 2024&lt;/span&gt;
 
 &lt;span&gt;&lt;span&gt;admin&lt;/span&gt;&lt;/span&gt;
 
-&lt;span&gt;&lt;time datetime="2024-04-11T13:59:34+00:00" title="Thursday, April 11, 2024 - 13:59"&gt;Thu, 04/11/2024 - 13:59&lt;/time&gt;&lt;/span&gt;
+&lt;span&gt;&lt;time datetime=&quot;2024-04-11T13:59:34+00:00&quot; title=&quot;Thursday, April 11, 2024 - 13:59&quot;&gt;Thu, 04/11/2024 - 13:59&lt;/time&gt;
+&lt;/span&gt;
 </description>
   <pubDate>Thu, 11 Apr 2024 13:59:34 +0000</pubDate>
     <dc:creator>admin</dc:creator>
@@ -28,7 +29,8 @@
 
 &lt;span&gt;&lt;span&gt;admin&lt;/span&gt;&lt;/span&gt;
 
-&lt;span&gt;&lt;time datetime="2024-04-07T00:47:27+00:00" title="Sunday, April 7, 2024 - 00:47"&gt;Sun, 04/07/2024 - 00:47&lt;/time&gt;&lt;/span&gt;
+&lt;span&gt;&lt;time datetime=&quot;2024-04-07T00:47:27+00:00&quot; title=&quot;Sunday, April 7, 2024 - 00:47&quot;&gt;Sun, 04/07/2024 - 00:47&lt;/time&gt;
+&lt;/span&gt;
 </description>
   <pubDate>Sun, 07 Apr 2024 00:47:27 +0000</pubDate>
     <dc:creator>admin</dc:creator>

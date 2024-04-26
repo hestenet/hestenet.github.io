@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "f707dd60-a784-4216-b072-930704de0df0"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "vault-books-and-brew-castle-rock-partner.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/vault-books-and-brew-castle-rock-partner.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 447773
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-26T18:30:40+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-26T18:33:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

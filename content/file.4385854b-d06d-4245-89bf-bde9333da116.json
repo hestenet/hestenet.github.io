@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "4385854b-d06d-4245-89bf-bde9333da116"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Bookstore Promo Bookmark Medford.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Bookstore Promo Bookmark Medford.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 3606162
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-26T17:56:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-26T17:57:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

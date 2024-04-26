@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "dbd4ed73-9c9c-47d9-a92f-bc1f0528c018"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "bookmark-oregon-medford-partner.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/bookmark-oregon-medford-partner.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 511506
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-26T18:30:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-26T18:33:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

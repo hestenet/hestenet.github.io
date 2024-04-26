@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "6c19145d-20ed-4314-b59f-7b1a56a6115b"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "rose-city-books-partner.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/rose-city-books-partner.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 488518
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2024-04-26T18:30:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2024-04-26T18:33:33+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
