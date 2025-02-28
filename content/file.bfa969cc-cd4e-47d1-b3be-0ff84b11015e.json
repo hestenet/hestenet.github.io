@@ -1,0 +1,55 @@
+{
+    "uuid": [
+        {
+            "value": "bfa969cc-cd4e-47d1-b3be-0ff84b11015e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "uid": [
+        {
+            "target_type": "user",
+            "target_uuid": "30237f82-3052-4f3a-bbcc-17a2332e772d"
+        }
+    ],
+    "filename": [
+        {
+            "value": "Libro.fm_.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/inline-images\/Libro.fm_.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 17272
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2025-02-28T21:11:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2025-02-28T21:12:46+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}
